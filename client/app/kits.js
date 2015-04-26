@@ -381,7 +381,8 @@
       name: 'Bee7',
       description: '',
       favicon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABuElEQVQokX2SPUsrURCGnxOUXRUrjUGLtIL2Wi0kQVQsFUQiGitJoxYBrcTOws7ejyqV+ANcFbSxt1EQLRIEJR+ysk1CzMwtdr0h92reamYOz+F9hzGqSmc1mxQKxGL09QFoZ11cSCIhiYQkk3p3p6qdADk5kbU1LZdVVY6OZHZWRf4DPE/v7/XyUo6PZXpaa7VwXiiI42il0tXy6rqaz/P6yvg4IyPc3pqdHSwreNSzM6JRBgZQVfV9Sadld1efnkIzp6eyvBz+/fIiS0syN6ePj2EGyWbl/LzlyvclldLr67B9exPH0VIp6CJ4Hg8PZn4+NFavay7H4CCpVDiJxbAsSqWgi2BZNJuUywDPz5rJ8PVFf38rmzH09lKpfAM9PSwu6saGbm/r6qpZX6dWo1rFdduYej0ouwCzucnYmL6/m1wO4POTyUk9ODCqzMwANBrYdgsAmJoyQVEs4vtma0vjcd3fJ5/HcQCGhtqBvxoeJhKhWDSZDMmkui43N9g2o6PfGf5RdzcLC3p4SLVKPG4mJvA8VlYwoQPz47Xq3h5XV9g2jQbptMlmW/l/Pe+PDzyPaLRtxfAH4N5Be3i6H2wAAAAASUVORK5CYII=',
-      url: 'http://bee7.com'
+      url: 'http://bee7.com',
+      //platforms: ['android', 'unity'],
     },
     {
       name: 'NinjaMetrics',
