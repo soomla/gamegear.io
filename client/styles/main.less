@@ -106,6 +106,36 @@ body {
   background-color: #f5f5f5;
 }
 
+#filter-bar {
+
+  background: #fff;
+  border-bottom: 1px solid @hr-border;
+  padding-bottom: 10px;
+
+
+  &.affix {
+    left: 50%;
+    z-index: 1;
+
+    //
+    // Center the filter bar when it's fixed in all resolutions
+    //
+
+    @media (max-width: @screen-xs-max) {
+      left: auto;
+    }
+    @media (min-width: @screen-sm-min) {
+      margin-left: -(@container-sm / 2);
+    }
+    @media (min-width: @screen-md-min) {
+      margin-left: -(@container-md / 2);
+    }
+    @media (min-width: @screen-lg-min) {
+      margin-left: -(@container-lg / 2);
+    }
+  }
+  .box-shadow(0 4px 4px -2px rgba(0, 0, 0, 0.1));
+}
 
 ////////////////////////   Single Kit Design   ////////////////////////
 
