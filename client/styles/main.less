@@ -52,11 +52,37 @@
 }
 
 
+//
+// Utilities
+//
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+
+.bottom5 { margin-bottom:5px; }
+.bottom7 { margin-bottom:7px; }
+.bottom10 { margin-bottom:10px; }
+.bottom15 { margin-bottom:15px; }
+.bottom17 { margin-bottom:17px; }
+.bottom30 { margin-bottom:30px; }
+
+
+//
+// Override Bootstrap variables
+//
+
+@navbar-inverse-bg: #006181;
 
 
 ///////////////////////   General Page Layout   ///////////////////////
 
-@footerHeight: 100px;
+@footerHeight:                100px;
+@tooltip-bg:                  @gray-light;
+@tooltip-arrow-color:         @tooltip-bg;
 
 html {
   min-height: 100%;
@@ -133,4 +159,46 @@ body {
       .rotate(90deg);
     }
   }
+}
+
+.website-data, .github-data, .crunchbase-data {
+
+  font-size: 0.8em;
+
+  .fa {
+    color: @gray;
+  }
+}
+
+//
+// Create a custom download button
+//
+
+.btn-download {
+  color: @gray-light;
+  border-color: @gray-light;
+  border-width: 3px;
+
+  .transition(all 0.1s ease-in-out);
+
+
+  &:hover {
+    border-color: @gray-light !important;
+    background-color: @gray-light !important;
+    color: #fff;
+    .box-shadow(none);
+  }
+
+  &:active {
+    .scale(0.95);
+  }
+
+  &,
+  &:active,
+  &.active,
+  &[disabled],
+  fieldset[disabled] & {
+    .box-shadow(none);
+  }
+
 }

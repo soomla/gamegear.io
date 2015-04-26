@@ -47,7 +47,7 @@
 
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -91,9 +91,9 @@
       </div>
       <div id="content" class="container">
         <div class="row">
-          <div class="col-lg-2"></div>
-          <div class="col-lg-5">Name</div>
-          <div class="col-lg-5">Description</div>
+          <div class="col-sm-5 col-sm-offset-1">Provider</div>
+          <div class="col-sm-5">Supported Platforms</div>
+          <div class="col-sm-1 text-center"></div>
         </div>
       </div>
     </div>
@@ -158,18 +158,24 @@
               <span class="label label-default">{{this}}</span>
               {{/each}}
             </div>
-            <div class="github-data">
+          </div>
+          <div class="col-sm-6">
+            <div class="hq bottom5 top15">Founded: {{founded}}</div>
+            <div class="hq bottom15">Headquarters: {{hq}}</div>
+            <div class="website-data bottom5">
+              <i class="fa fa-home"></i>
+              <a href="{{url}}">Website</a>
+            </div>
+            <div class="github-data bottom5">
               <i class="fa fa-github"></i>
-              <a href="{{github}}"> Github</a>
+              <a href="{{github}}">Github</a>
             </div>
             <div class="crunchbase-data">
               <img src="http://www.google.com/s2/favicons?domain=crunchbase.com">
-              <a href="{{crunchbase}}"> Crunchbase</a>
+              <a href="{{crunchbase}}">Crunchbase</a>
             </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="hq">Founded: {{founded}}</div>
-            <div class="hq">Headquarters: {{hq}}</div>
+            <a class="btn btn-default btn-download" href="#" role="button">Download {{name}} SDKs</a>
+
           </div>
         </div>
       </div>
@@ -198,11 +204,16 @@
 
           $('#filter').keyup(function () {
 
-            var rex = new RegExp($(this).val(), 'i');
-            $('.row-searchable').hide();
-            $('.row-searchable').filter(function () {
-              return rex.test($(this).text());
-            }).show();
+            var pattern = $(this).val();
+            if (pattern == '') {
+              $('.row-searchable').show().removeClass('expanded');
+            } else {
+              var rex = new RegExp(pattern, 'i');
+              $('.row-searchable').hide();
+              $('.row-searchable').filter(function () {
+                return rex.test($(this).text());
+              }).show().addClass('expanded');
+            }
 
           });
 
