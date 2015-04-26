@@ -190,18 +190,43 @@
       var template = Handlebars.compile(source);
       $(function () {
 
-        var rows = '';
+        var search = {};
+        var rows = [];
+
         _.each(window.data.kits, function(kit) {
 
+          // Prepare search key based on kit metadata
+          // TODO: Remove all ifs once all kits have all properties
+          var key = kit.name + ' ' + kit.description;
+          if (kit.tags) key += ' ' + kit.tags.join(' ');
+          if (kit.founded) key += ' ' + kit.founded;
+          if (kit.platforms) {
+            key += ' ' + kit.platforms.join(' ');
+            _.each(kit.platforms, function(platform) {
+              var platformAliases = window.data.platformAliases[platform];
+              if (platformAliases) {
+                key += ' ' + platformAliases.join(' ');
+              }
+            });
+          }
+
+          // Convert platforms to their Base64 image
           kit.platforms =
             _.chain(kit.platforms).map(function(el) {
             return [el, window.data.platforms[el]];
           }).zipObject().value();
 
-          rows += template(kit);
+          var item = $(template(kit))[0];
+          rows.push(item);
+
+          //
+          // Cache the item with the key built above
+          // for search purposes later
+          //
+          search[key] = item;
         });
 
-        $('#content').append(rows);
+        $.fn.append.apply($('#content'), rows);
 
 
         (function ($) {
@@ -214,9 +239,16 @@
             } else {
               var rex = new RegExp(pattern, 'i');
               $('.row-searchable').hide();
-              $('.row-searchable').filter(function () {
-                return rex.test($(this).text());
-              }).show().addClass('expanded');
+
+              var rows = _.filter(search, function(value, key) {
+                return rex.test(key);
+              });
+              $(rows).show().addClass('expanded');
+
+//              $('.row-searchable').filter(function () {
+//              rows.filter(function () {
+//                return rex.test($(this).text());
+//              }).show().addClass('expanded');
             }
 
           });

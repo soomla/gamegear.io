@@ -9,6 +9,13 @@
     wp8: 'data:image/png;base64,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'
   };
 
+  var platformAliases = {
+    ios: ['iphone', 'ipad'],
+    android: ['google play'],
+    unity: [],
+    cocos2dx: ['cocos2d'],
+    wp8: ['windows phone']
+  };
 
   var kits = [
     {
@@ -414,15 +421,21 @@
   ];
 
 
+  var data = {
+    kits           : kits,
+    platforms      : platforms,
+    platformAliases: platformAliases
+  };
+
   if ( typeof module === "object" && module && typeof module.exports === "object" ) {
     // Expose jQuery as module.exports in loaders that implement the Node
     // module pattern (including browserify). Do not create the global, since
     // the user will be storing it themselves locally, and globals are frowned
     // upon in the Node module world.
-    module.exports = {kits: kits, platforms: platforms};
+    module.exports = data;
   } else {
     // Otherwise expose jQuery to the global object as usual
-    window.data = {kits: kits, platforms: platforms};
+    window.data = data;
 
     // Register as a named AMD module, since jQuery can be concatenated with other
     // files that may use define, but not via a proper concatenation script that
