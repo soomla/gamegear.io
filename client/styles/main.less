@@ -94,7 +94,7 @@ body {
 }
 
 #wrap {
-  padding-top: 60px;
+  padding-top: @navbar-height + 1;
   padding-bottom: @footerHeight;
 }
 
@@ -110,6 +110,7 @@ body {
 
   background: #fff;
   border-bottom: 1px solid @hr-border;
+  padding-top: 20px;
   padding-bottom: 10px;
 
 
@@ -165,6 +166,7 @@ body {
 }
 
 .icon-expand {
+  color: @gray-light;
   font-size: @font-size-base;
   .transition(0.1s all ease-in-out);
 }
