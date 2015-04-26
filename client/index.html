@@ -85,7 +85,7 @@
         <div class="row bottom30">
           <div class="input-group">
             <span class="input-group-addon">Search</span>
-            <input id="filter" type="text" class="form-control" placeholder="'Flurry', 'Unity', 'advertising'...">
+            <input id="filter" type="text" class="form-control" placeholder="'Flurry', 'Unity', 'video ads'...">
           </div>
         </div>
         <div class="row">
@@ -197,7 +197,7 @@
 
           // Prepare search key based on kit metadata
           // TODO: Remove all ifs once all kits have all properties
-          var key = kit.name + ' ' + kit.description;
+          var key = kit.name;
           if (kit.tags) key += ' ' + kit.tags.join(' ');
           if (kit.founded) key += ' ' + kit.founded;
           if (kit.platforms) {
@@ -233,9 +233,13 @@
 
           $('#filter').keyup(function () {
 
+            // Always clear forced odd/even styles
+            $('.row-searchable').removeClass('force-odd force-even');
+
+
             var pattern = $(this).val();
             if (pattern == '') {
-              $('.row-searchable').show().removeClass('expanded');
+              $('.row-searchable').show().removeClass('expanded force-odd force-even');
             } else {
               var rex = new RegExp(pattern, 'i');
               $('.row-searchable').hide();
@@ -243,7 +247,12 @@
               var rows = _.filter(search, function(value, key) {
                 return rex.test(key);
               });
-              $(rows).show().addClass('expanded');
+
+              $(rows).each(function(i, row) {
+
+                // Note that index is zero based => first row is 'odd'
+                $(row).addClass(i % 2 === 0 ? 'force-odd' : 'force-even');
+              }).show().addClass('expanded');
 
 //              $('.row-searchable').filter(function () {
 //              rows.filter(function () {

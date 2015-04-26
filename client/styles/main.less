@@ -148,6 +148,14 @@ body {
   &:nth-of-type(odd) {
     background-color: @table-bg-accent;
   }
+
+  &.force-odd {
+    background-color: @table-bg-accent !important;
+  }
+
+  &.force-even {
+    background-color: transparent !important;
+  }
 }
 
 .description {
