@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]><html class="lt-ie9 ng-app="Indiekit" no-js" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" ng-app="Indiekit" class="no-js"><!--<![endif]-->
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>Indiekit</title>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- build:css(client) styles/global.css -->
+      <!-- bower:css -->
+      <link rel="stylesheet" href="/bower_components/normalize.css/normalize.css" />
+      <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+      <!-- endbower -->
+    <!-- endbuild -->
+
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- build:js(client) app/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+
+    <!-- HTML5 and consolelog shims for IE8 support -->
+    <!-- build:js(client) app/lt-ie9.js -->
+    <!--[if lt IE 9]>
+    <script src="/bower_components/consolelog/consolelog.js"></script>
+    <script src="/bower_components/html5shiv/dist/html5shiv-printshiv.js"></script>
+    <![endif]-->
+    <!-- endbuild -->
+  </head>
+
+
+  <body>
+    <!--[if lte IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+
+
+
+
+
+
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">IndieKit</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <!--<ul class="nav navbar-nav">-->
+            <!--<li class="active"><a href="#">Home</a></li>-->
+            <!--<li><a href="#about">About</a></li>-->
+            <!--<li><a href="#contact">Contact</a></li>-->
+            <!--<li class="dropdown">-->
+              <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>-->
+              <!--<ul class="dropdown-menu">-->
+                <!--<li><a href="#">Action</a></li>-->
+                <!--<li><a href="#">Another action</a></li>-->
+                <!--<li><a href="#">Something else here</a></li>-->
+                <!--<li class="divider"></li>-->
+                <!--<li class="dropdown-header">Nav header</li>-->
+                <!--<li><a href="#">Separated link</a></li>-->
+                <!--<li><a href="#">One more separated link</a></li>-->
+              <!--</ul>-->
+            <!--</li>-->
+          <!--</ul>-->
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <!-- Begin page content -->
+    <div id="wrap">
+      <div class="container">
+        <div class="row">
+          <div class="input-group">
+            <span class="input-group-addon">Filter</span>
+            <input id="filter" type="text" class="form-control" placeholder="Type here...">
+          </div>
+        </div>
+      </div>
+      <div id="content" class="container">
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5">Name</div>
+          <div class="col-lg-5">Description</div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+      </div>
+    </footer>
+
+
+    <!-- Application loads here -->
+    <!--<div id="app-wrapper" ng-view></div>-->
+
+
+
+
+
+    <!-- build:js(client) app/global.js -->
+      <!-- bower:js -->
+      <script src="/bower_components/jquery/dist/jquery.js"></script>
+      <script src="/bower_components/angular/angular.js"></script>
+      <script src="/bower_components/angular-route/angular-route.js"></script>
+      <script src="/bower_components/json3/lib/json3.js"></script>
+      <script src="/bower_components/lodash/lodash.js"></script>
+      <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+      <script src="/bower_components/handlebars/handlebars.js"></script>
+      <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js(client) app/main.js -->
+    <script src="/app/main.js"></script>
+    <!-- [injector:js] -->
+    <script src="/app/home/home.controller.js"></script>
+    <script src="/app/home/home.js"></script>
+    <script src="/app/kits.js"></script>
+    <script src="/app/tools.js"></script>
+    <!-- [endinjector] -->
+    <!-- endbuild -->
+
+    <script id="kit-template" type="text/x-handlebars-template">
+      <div class="row row-kit row-searchable">
+        <div class="row row-title">
+          <div class="col-xs-1 text-center">
+            <img src="{{favicon}}">
+          </div>
+          <div class="col-xs-5">{{name}}</div>
+          <div class="col-xs-5">
+            {{#each platforms}}
+            <img src="{{this}}" title="{{@key}}" class="icon-platform">
+            {{/each}}
+          </div>
+          <div class="col-xs-1 text-center">
+            <span class="icon-expand glyphicon glyphicon-triangle-right"></span>
+          </div>
+        </div>
+        <div class="row row-details">
+          <div class="col-sm-5 col-sm-offset-1">
+            <div class="description">{{description}}</div>
+            <div class="labels">
+              {{#each tags}}
+              <span class="label label-default">{{this}}</span>
+              {{/each}}
+            </div>
+            <div class="github-data">
+              <i class="fa fa-github"></i>
+              <a href="{{github}}"> Github</a>
+            </div>
+            <div class="crunchbase-data">
+              <img src="http://www.google.com/s2/favicons?domain=crunchbase.com">
+              <a href="{{crunchbase}}"> Crunchbase</a>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="hq">Founded: {{founded}}</div>
+            <div class="hq">Headquarters: {{hq}}</div>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <script>
+      var source   = $("#kit-template").html();
+      var template = Handlebars.compile(source);
+      $(function () {
+
+        var rows = '';
+        _.each(window.data.kits, function(kit) {
+
+          kit.platforms =
+            _.chain(kit.platforms).map(function(el) {
+            return [el, window.data.platforms[el]];
+          }).zipObject().value();
+
+          rows += template(kit);
+        });
+
+        $('#content').append(rows);
+
+
+        (function ($) {
+
+          $('#filter').keyup(function () {
+
+            var rex = new RegExp($(this).val(), 'i');
+            $('.row-searchable').hide();
+            $('.row-searchable').filter(function () {
+              return rex.test($(this).text());
+            }).show();
+
+          });
+
+
+          $('.row-kit').on('click', function(event) {
+            $(this).toggleClass('expanded');
+          });
+
+
+
+/*
+
+          // Read a page's GET URL variables and return them as an associative array.
+          // Source: http://jquery-howto.blogspot.com/2009/09/get-url-parameters-values-with-jquery.html
+          var params = function () {
+            var vars = [], hash;
+            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            for(var i = 0; i < hashes.length; i++) {
+              hash = hashes[i].split('=');
+              vars.push(hash[0]);
+              vars[hash[0]] = hash[1];
+            }
+            return vars;
+          }();
+          var user = params.user,
+              repo = params.repo,
+              type = params.type,
+              count = params.count,
+              size = params.size,
+              v = params.v,
+              head = document.getElementsByTagName('head')[0],
+              button = document.getElementById('gh-btn'),
+              mainButton = document.getElementById('github-btn'),
+              text = document.getElementById('gh-text'),
+              counter = document.getElementById('gh-count');
+          // Add commas to numbers
+          function addCommas(n) {
+            return String(n).replace(/(\d)(?=(\d{3})+$)/g, '$1,')
+          }
+          function jsonp(path, cbName) {
+            var el = document.createElement('script');
+            el.src = path + '?callback='+ (cbName ? cbName : 'callback');
+            head.insertBefore(el, head.firstChild);
+          }
+          function callback(obj) {
+            switch (type) {
+              case 'watch':
+                if (v == '2') {
+                  counter.innerHTML = addCommas(obj.data.subscribers_count);
+                } else {
+                  counter.innerHTML = addCommas(obj.data.stargazers_count);
+                }
+                break;
+              case 'star':
+                counter.innerHTML = addCommas(obj.data.stargazers_count);
+                break;
+              case 'fork':
+                counter.innerHTML = addCommas(obj.data.network_count);
+                break;
+              case 'follow':
+                counter.innerHTML = addCommas(obj.data.followers);
+                break;
+            }
+            // Show the count if asked
+            if (count == 'true' && counter.innerHTML !== 'undefined') {
+              counter.style.display = 'block';
+            }
+          }
+          // Set href to be URL for repo
+          button.href = 'https://github.com/' + user + '/' + repo + '/';
+          // Add the class, change the text label, set count link href
+          switch (type) {
+            case 'watch':
+              if (v == '2') {
+                mainButton.className += ' github-watchers';
+                text.innerHTML = 'Watch';
+                counter.href = 'https://github.com/' + user + '/' + repo + '/watchers';
+              } else {
+                mainButton.className += ' github-stargazers';
+                text.innerHTML = 'Star';
+                counter.href = 'https://github.com/' + user + '/' + repo + '/stargazers';
+              }
+              break;
+            case 'star':
+              mainButton.className += ' github-stargazers';
+              text.innerHTML = 'Star';
+              counter.href = 'https://github.com/' + user + '/' + repo + '/stargazers';
+              break;
+            case 'fork':
+              mainButton.className += ' github-forks';
+              text.innerHTML = 'Fork';
+              button.href = 'https://github.com/' + user + '/' + repo + '/fork';
+              counter.href = 'https://github.com/' + user + '/' + repo + '/network';
+              break;
+            case 'follow':
+              mainButton.className += ' github-me';
+              text.innerHTML = 'Follow @' + user;
+              button.href = 'https://github.com/' + user;
+              counter.href = 'https://github.com/' + user + '/followers';
+              break;
+          }
+          // Change the size
+          if (size == 'large') {
+            mainButton.className += ' github-btn-large';
+          }
+          if (type == 'follow') {
+            jsonp('https://api.github.com/users/' + user);
+          } else {
+            jsonp('https://api.github.com/repos/' + user + '/' + repo);
+          }
+*/
+
+
+
+
+
+          // Initialize Bootstrap tooltips
+          $('.icon-platform').tooltip();
+
+
+
+
+
+        }(jQuery));
+
+      });
+    </script>
+  </body>
+</html>

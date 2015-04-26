@@ -1,0 +1,136 @@
+// Main Stylesheet
+
+// Box sizing partial styles:
+// Apply a natural box layout model to all elements
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+// Injects all bower_component files automatically
+// bower:less
+@import '../bower_components/bootstrap/less/bootstrap.less';
+// endbower
+
+// Injects all import files automatically (ex. _mypartial)
+// [injector]
+@import '../app/home/home.less';
+// [endinjector]
+
+.links a {
+  color: white;
+  margin-right: 5px;
+  margin-top: 20px;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #ed7c6c;
+  display: inline-block;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  font-size: 100%;
+  padding: .5em 1em;
+  text-decoration: none;
+}
+
+
+
+// Styling on warning for users on IE7 or below
+.browsehappy {
+  text-align: center;
+  margin: 0;
+  background: #fff8e2;
+  color: #000;
+  padding: 0.5em 0;
+}
+
+
+
+
+///////////////////////   General Page Layout   ///////////////////////
+
+@footerHeight: 100px;
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: @footerHeight;
+}
+
+#wrap {
+  padding-top: 60px;
+  padding-bottom: @footerHeight;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: @footerHeight;
+  background-color: #f5f5f5;
+}
+
+
+////////////////////////   Single Kit Design   ////////////////////////
+
+#content .row-kit {
+
+  padding: 9px 14px;
+  border-bottom: 1px solid @table-border-color;
+
+  &:nth-of-type(odd) {
+    background-color: @table-bg-accent;
+  }
+}
+
+.description {
+  .small;
+  color: @text-muted;
+  margin-bottom: 10px;
+}
+
+.labels {
+  margin-bottom: 10px;
+}
+
+.icon-platform {
+  max-height: @line-height-computed;
+  margin: 0 2px;
+}
+
+.icon-expand {
+  font-size: @font-size-base;
+  .transition(0.1s all ease-in-out);
+}
+
+.row-title {
+  cursor: pointer;
+}
+
+.row-details {
+  display: none;
+}
+
+.row-kit {
+
+  &.expanded {
+
+    .row-details {
+      .show;
+    }
+
+    .icon-expand {
+      .rotate(90deg);
+    }
+  }
+}
