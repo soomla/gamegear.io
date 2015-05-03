@@ -34,7 +34,8 @@
       name: 'SOOMLA',
       description: '',
       favicon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACC0lEQVQokX2SPWgTYRjH//e+711yHwlJLk2sFUNQRM1ga/3AmqmIOjhYrmjmDm4OBt0cRBwzKLjo4lApWHQQRDsILYotRCIuEVFRKsWERC9N73JJk/twSJU01f6m/5/neeD54mQtix5czwPHHd27u6TXV8o/icBjM6TP247Tbq7fvqRNjB1q1gxsgQoHT2zyjK2vlH+53tLHb5VVwyf6+woYAMKoYVqorsJzYbWSR1LXtFP5T8uX3xZNfQ08BThEQ4GA5NoOA9A2rZ1q6NzZk8Rxw7J45eKZgYB8bF9CDcgvC0VJ8rdt50XhQ6VSY6IPspbFaOb69DNvW27MPMdoRtaypNXu8HH1QnoEQObe49zcYm/HubnFibuPAEyODfM71Fa7wxzHFRQpGVcBTKVHoorUWzB+IJkaigFIxCJMlpqmxSijHaPxpVwdTu46ndrTt5PDicGu+FyqdowG5Rnx88yu6DMLha0r72X29Tu7ovt5xgDwcXV6Pq+IgkCp43m6Xs+MHwcwO58PhYOU4wghD18VWCyycQdBEcvV2p2nC9Gg0mm20vuTlBAAS8WvP2p1XhJLet1YM5VQ0HMcTtayDdMaHIgsP7jJM/rPfp68eT95NScPxbHxS7YblPz/ywbgAeC4riYAwMFx3W0m5hmF53U1A+CTRd20zt+6Twjx/gT+wij5Xq3x0XDX/ga6RNskfYuBqQAAAABJRU5ErkJggg==',      tags: ['virtual currency', 'virtual economy', 'social', 'game design', 'analytics'],
-      url: 'http://soom.la'
+      url: 'http://soom.la',
+      platforms: ['ios', 'android', 'unity', 'cocos2dx', 'wp8']
     },
     {
       name: 'GameAnalytics',
@@ -394,7 +395,20 @@
     {
       name: 'NinjaMetrics',
       description: '',
-      favicon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACjElEQVQokT1SO0xTYRT+/t7bB1ShFqX0wXNxMTGRMMhAVEIQ0WjwkeDsoCYObi6GzcRV3TRxIAwao6bWaIgiEeShAkp4BEpKqQgBCrHYltv73/8chwue4bzyfeecnHyipbmJiACAwQAzY8/bgXcLO2N9c2NDEQkhiIiIAFaKbIxSiplJEYRQSjGTspSmOwiApmkMCCFsqM0HBDOEw2E3iRhCaG/eREPhSDw+N/5zBqrAxHs0m7O7x/bMLP5fuLa6NDI8PD72fWhk9EPfIACvCy63R3c6hXAQkZRmJlsQbe3nbl6/1nDsaCAUBiSUApEljemZ2eRiYj6eSCRTv5ZSDC47UNJ8ohH+YAQoAtynWlrfxV6yzJCRNrZ/y+zKj2+fuLCqtpPyz4LcmjM2pnKrE47sjhmuCYVrIpMzs21nr9QeOf74aY+UBV0DyOrovJFcSinLzOX+Gjt5YyePryMDAPwVEcBbVFbhD1bC7QN89+91TY/1pVMT/khd7MUTY+3n5uLQZmIATNnhwb7TZ9pHvnzsunun4Xgj9pcDLvsTVzsv9Ua7Ac+rnofZ5dH0widRyKVdut7/eeBPZvvC+VYyjfX1dGIxuZBIPn/d+zb2ESW+w5WH5qanhnq7q0OHhNrZIrJ0TYxNTFZHAsVFbiYlwA5Bbt0Rfd9/u+tBideTL1jxmaUH92/p0djbqkhFKBSsP3aETFNKg5hJWVJJskQ+n1+cn409e9TSVB9PpDTBolhH3gIArxMXL3ecbGoMBsrCFQdLS/Z5XFrpfq8QSkkpTQNMbElRVx0mIqWUUiqX+5vJmtgzF1Ae8Hm93kiwnJgFsLyyJmqrQkRk68RObAnZUyzLYmZLmgwwQ3c6/wGGFKgkOgS0DQAAAABJRU5ErkJggg==',      url: 'http://www.ninjametrics.com/'
+      favicon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACjElEQVQokT1SO0xTYRT+/t7bB1ShFqX0wXNxMTGRMMhAVEIQ0WjwkeDsoCYObi6GzcRV3TRxIAwao6bWaIgiEeShAkp4BEpKqQgBCrHYltv73/8chwue4bzyfeecnHyipbmJiACAwQAzY8/bgXcLO2N9c2NDEQkhiIiIAFaKbIxSiplJEYRQSjGTspSmOwiApmkMCCFsqM0HBDOEw2E3iRhCaG/eREPhSDw+N/5zBqrAxHs0m7O7x/bMLP5fuLa6NDI8PD72fWhk9EPfIACvCy63R3c6hXAQkZRmJlsQbe3nbl6/1nDsaCAUBiSUApEljemZ2eRiYj6eSCRTv5ZSDC47UNJ8ohH+YAQoAtynWlrfxV6yzJCRNrZ/y+zKj2+fuLCqtpPyz4LcmjM2pnKrE47sjhmuCYVrIpMzs21nr9QeOf74aY+UBV0DyOrovJFcSinLzOX+Gjt5YyePryMDAPwVEcBbVFbhD1bC7QN89+91TY/1pVMT/khd7MUTY+3n5uLQZmIATNnhwb7TZ9pHvnzsunun4Xgj9pcDLvsTVzsv9Ua7Ac+rnofZ5dH0widRyKVdut7/eeBPZvvC+VYyjfX1dGIxuZBIPn/d+zb2ESW+w5WH5qanhnq7q0OHhNrZIrJ0TYxNTFZHAsVFbiYlwA5Bbt0Rfd9/u+tBideTL1jxmaUH92/p0djbqkhFKBSsP3aETFNKg5hJWVJJskQ+n1+cn409e9TSVB9PpDTBolhH3gIArxMXL3ecbGoMBsrCFQdLS/Z5XFrpfq8QSkkpTQNMbElRVx0mIqWUUiqX+5vJmtgzF1Ae8Hm93kiwnJgFsLyyJmqrQkRk68RObAnZUyzLYmZLmgwwQ3c6/wGGFKgkOgS0DQAAAABJRU5ErkJggg==',      url: 'http://www.ninjametrics.com/',
+      url: 'http://www.ninjametrics.com'
+    },
+    {
+      name: 'LeadBolt',
+      description: '',
+      favicon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAmdJREFUOI2Vk1FIk2EUht9tmrrEopWakJpGkGFRYGUZ+RsNzNiCGGYpuFYrzN1ElnYRFFYWNRuBeSUbhbC8iOw3vahkVFotFbVf6yIx0bRooOCmbG5vNzU2m1AHDnzf+c77wPlejowkIobfD0yPo/ZbGr64gXhF8CXjXg5G/lzkkdVLhgZAcmjhfwBHfHPu3QC6/xGgABb8kMsBBJAz+qbtVHTc8moAYTMvBVC2d7Qeh/t7ViAASHbz26gY5RyASgAHQhujFivNZvOFtjaxVqmQjU00vCh93zvwWO6d42T/68MTn/o0m0vObQkTkAymyWRqFASBA30ftJz+CfMQYXKy6KyTl3ZU3g7UDxEdUwzTBA8ul0stCAJJppOE3mB4ZCjMa+2cpEzroPVKPw9ZLhqrKXUmhgKCI+j1enN2dnYjgNHCg0WT0b5ZT0lZ+Y3mMVxNVeL+5cyZd/u7Bp96VmUqqrPyr/31iR6PJ91isZy3Wq1nOD8b3fDEkfl8o+GJLICuXc47W+EaSczNV9f19fSoI7pAUgHA/crhEDJS1jyrHwam5qHUZ6Dd9rD5rj91W9rePbmDPp8vPiJALpd7AWyou3W96fP4j7LtK7Hi2Dp8ZW+rzrcsIU4BOEVR3BcbG+uKaKNKpXLqdDprS0tLXkraerGpPHc6IS5meMYn23S6ouIkAEiSZKyqqipdysYMQRBot9tPkIQkSZqampqbJNeSRHFx8Uu1Wu0KdSDMRpIQRbFUEAQajcYHJFW/6zs1Gs3HgoKCBZLJiwGyCOuco9Vqm7xe72oAAZJRSUlJ3Tab7SiA+cXNvwBqS1ORxbKzaQAAAABJRU5ErkJggg==',      url: 'http://www.ninjametrics.com/',
+      url: 'http://www.leadbolt.com'
+    },
+    {
+      name: 'Inneractive',
+      description: '',
+      favicon: '',
+      url: 'http://inner-active.com/'
     },
     {
       name: 'Supersonic',
