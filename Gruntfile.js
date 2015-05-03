@@ -26,9 +26,7 @@ module.exports = function(grunt) {
     // translate useminPrepare to use the 'grunt-usemin' plugin
     useminPrepare: 'grunt-usemin',
     // translate swig to use the 'grunt-wobble-swig' plugin
-    swig: 'grunt-swig-templates',
-    // translate ngtemplates to use the 'grunt-angular-templates' plugin
-    ngtemplates: 'grunt-angular-templates'
+    swig: 'grunt-swig-templates'
   });
 
   // Load the include-all library in order to require all of our grunt

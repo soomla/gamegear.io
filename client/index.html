@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!--[if lte IE 8]><html class="lt-ie9 ng-app="Indiekit" no-js" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en" ng-app="Indiekit" class="no-js"><!--<![endif]-->
+<!--[if lte IE 8]><html class="lt-ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" class="no-js"><!--<![endif]-->
   <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
@@ -120,18 +120,9 @@
     </footer>
 
 
-    <!-- Application loads here -->
-    <!--<div id="app-wrapper" ng-view></div>-->
-
-
-
-
-
     <!-- build:js(client) app/global.js -->
       <!-- bower:js -->
       <script src="/bower_components/jquery/dist/jquery.js"></script>
-      <script src="/bower_components/angular/angular.js"></script>
-      <script src="/bower_components/angular-route/angular-route.js"></script>
       <script src="/bower_components/json3/lib/json3.js"></script>
       <script src="/bower_components/lodash/lodash.js"></script>
       <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
@@ -142,10 +133,7 @@
     <!-- build:js(client) app/main.js -->
     <script src="/app/main.js"></script>
     <!-- [injector:js] -->
-    <script src="/app/home/home.controller.js"></script>
-    <script src="/app/home/home.js"></script>
     <script src="/app/kits.js"></script>
-    <script src="/app/tools.js"></script>
     <!-- [endinjector] -->
     <!-- endbuild -->
 
