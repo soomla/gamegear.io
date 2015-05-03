@@ -76,11 +76,12 @@
 //
 
 @navbar-inverse-bg: #006181;
+@white: #fff;
 
 
 ///////////////////////   General Page Layout   ///////////////////////
 
-@footerHeight:                100px;
+@footerHeight:                250px;
 @tooltip-bg:                  @gray-light;
 @tooltip-arrow-color:         @tooltip-bg;
 
@@ -103,12 +104,57 @@ body {
   bottom: 0;
   width: 100%;
   height: @footerHeight;
-  background-color: #f5f5f5;
+  padding-top: 40px;
+  color: @white;
+  #gradient > .directional(#555, #333, -45deg);
+  text-align: center;
+
+
+  //
+  // Social media buttons
+  //
+
+  .social {
+    margin-bottom: 20px;
+  }
+
+  .social a {
+    border: 2px solid @white;
+    margin: 0 8px;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    .transition(all 0.1s ease-in-out);
+
+    i {
+      color: @white;
+      width: 1em;
+    }
+
+    &:hover {
+      background-color: @white;
+
+      i {
+        color: #555;
+      }
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: .75em;
+  vertical-align: -15%;
 }
 
 #filter-bar {
 
-  background: #fff;
+  background: @white;
   border-bottom: 1px solid @hr-border;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -225,7 +271,7 @@ body {
   &:hover {
     border-color: @gray-light !important;
     background-color: @gray-light !important;
-    color: #fff;
+    color: @white;
     .box-shadow(none);
   }
 
