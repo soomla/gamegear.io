@@ -21,7 +21,8 @@ var taskConfig = function(grunt) {
         exclude: [
           'bower_components/html5shiv/',
           'bower_components/consolelog/',
-          'bower_components/modernizr/'
+          'bower_components/modernizr/',
+          '/bower_components/github-fork-ribbon-css/gh-fork-ribbon.ie.css'
         ],
         overrides: {
         }
