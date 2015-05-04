@@ -435,6 +435,22 @@
   ];
 
 
+  //
+  // Notes:
+  //
+  // Appsflyer: Install tracking and attribution
+  // Kochava: Install tracking and attribution
+  // Adjust: Install tracking and attribution
+  // AD-X: Install tracking and attribution
+  // Apsalar: Install tracking and attribution
+  // TalkingData: Install tracking and attribution.  Chinese market
+  // Fyber: Formerly Sponsorpay
+  // Upsight: Playhaven merged with Kontagent
+  // TUNE: Formerly HasOffers.  Has several products: HasOffers, MAT (Mobile App Tracking)
+  // mobileCore: Part of Iron Source
+  // Bee7: platforms: ['android', 'unity'],
+
+
   var data = {
     kits           : kits,
     platforms      : platforms,
