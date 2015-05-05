@@ -269,7 +269,9 @@
 
         (function ($) {
 
-          $('#filter').keyup(function () {
+          var $filter = $('#filter');
+
+          $filter.keyup(function (event) {
 
             // Always clear forced odd/even styles
             $('.row-searchable').removeClass('force-odd force-even');
@@ -298,6 +300,15 @@
 //              }).show().addClass('expanded');
             }
 
+            //
+            // On small screen mobile devices:
+            // If the enter key was pressed, defocus from the input.
+            // This is for the keyboard to retract so the user can see
+            // the filtered results in the page
+            //
+            if (Modernizr.mq('only all and (max-width: 480px)')) {
+              if (event.which === 13) $filter.blur();
+            }
           });
 
 
