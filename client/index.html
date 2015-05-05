@@ -53,11 +53,6 @@
     </div>
 
 
-
-
-
-
-
     <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -311,55 +306,51 @@
         $.fn.append.apply($('#content'), rows);
 
 
-        (function ($) {
+        var $filter = $('#filter');
 
-          var $filter = $('#filter');
+        $filter.keyup(function (event) {
 
-          $filter.keyup(function (event) {
-
-            // Always clear forced odd/even styles
-            $('.row-searchable').removeClass('force-odd force-even');
+          // Always clear forced odd/even styles
+          $('.row-searchable').removeClass('force-odd force-even');
 
 
-            var pattern = $(this).val();
-            if (pattern == '') {
-              $('.row-searchable').show().removeClass('expanded force-odd force-even');
-            } else {
-              var rex = new RegExp(pattern, 'i');
-              $('.row-searchable').hide();
+          var pattern = $(this).val();
+          if (pattern == '') {
+            $('.row-searchable').show().removeClass('expanded force-odd force-even');
+          } else {
+            var rex = new RegExp(pattern, 'i');
+            $('.row-searchable').hide();
 
-              var rows = _.filter(search, function(value, key) {
-                return rex.test(key);
-              });
+            var rows = _.filter(search, function(value, key) {
+              return rex.test(key);
+            });
 
-              $(rows).each(function(i, row) {
+            $(rows).each(function(i, row) {
 
-                // Note that index is zero based => first row is 'odd'
-                $(row).addClass(i % 2 === 0 ? 'force-odd' : 'force-even');
-              }).show().addClass('expanded');
-            }
+              // Note that index is zero based => first row is 'odd'
+              $(row).addClass(i % 2 === 0 ? 'force-odd' : 'force-even');
+            }).show().addClass('expanded');
+          }
 
-            //
-            // On small screen mobile devices:
-            // If the enter key was pressed, defocus from the input.
-            // This is for the keyboard to retract so the user can see
-            // the filtered results in the page
-            //
-            if (Modernizr.mq('only all and (max-width: 480px)')) {
-              if (event.which === 13) $filter.blur();
-            }
-          });
-
-
-          $('#content').on('click', '.row-title', function(event) {
-            $(this).parent().toggleClass('expanded');
-          });
+          //
+          // On small screen mobile devices:
+          // If the enter key was pressed, defocus from the input.
+          // This is for the keyboard to retract so the user can see
+          // the filtered results in the page
+          //
+          if (Modernizr.mq('only all and (max-width: 480px)')) {
+            if (event.which === 13) $filter.blur();
+          }
+        });
 
 
-          // Initialize Bootstrap tooltips
-          $('.icon-platform').tooltip();
+        $('#content').on('click', '.row-title', function(event) {
+          $(this).parent().toggleClass('expanded');
+        });
 
-        }(jQuery));
+
+        // Initialize Bootstrap tooltips
+        $('.icon-platform').tooltip();
 
       });
     </script>
