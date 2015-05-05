@@ -49,7 +49,7 @@
       url: "https://www.google.com/admob",
       github: "https://github.com/googleads/googleads-mobile-plugins",
       crunchbase: "https://www.crunchbase.com/organization/admob",
-      downloads: "https://developers.google.com/mobile-ads-sdk/download",
+      download: "https://developers.google.com/mobile-ads-sdk/download",
       platforms: ['ios', 'android', 'webos', 'flashlite', 'wp8'],
       tags: ['mobile ads', 'monetization'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAfhJREFUOI2Vkz1oU1EUx3/nvXvfS15jqnVwcHHwA4UqdNAWKoomBcGhWNGpk8XFxUEUcRaFqKtTEQyC7urgUBoQtNRNFCsIbSF0qI3WNk1y38d1SJDmQ8S7HDic/4/zP+ceyRfsODAdm+oA//Fcr68CXJF8wa71EtfCVowttQgyGtJK8Nx2iOolXqvDzTFNmAi5QcXeXcL7rxGlzxEvP8Z/ILGpDjid4g0DhYse2oGHbxocv1elXEkQgeJ81NYBQBdgM7Tkj2oWVhJ2eMK+jFAsGU4cUMQ9ZtEFkFYc3u/yy1gcgcWKpR6Bls7qHoCsJ0zPGHLHNOODitWGZXJUc+NpjZ2pboLqTAQaHpcMc99iRg+6fLmc4c7zOnNLMVm/G9DVAUBKCfPLMbdfGwCunvVwXCFKumvlzN1Nuz1RqVkuDWmGD7ksf7cEynJhxCOxcP5BFROCI38BVEO4ntOcPKwYe7RFVgtRYhFXmLkV8Gkp5tqzOv3brLRZqIaWiRGPVx9CAiUEGrK+IAkUZw3pf83Ac2ChnDB52iebgtUty3rDsm4s54Y0T2YNgWqHtFmwFmoJ3J/wOXVEUf5hWfmZECfw4q3h3WJCoDuG2HlM1sKGsdRiUALKaX6utBZ0x85cr6/iAFOt02wSpel7TyDsTgv9vpD1e4uBqd8JecJJIf0F1wAAAABJRU5ErkJggg=="
@@ -61,7 +61,7 @@
       hq: "San Francisco",
       url: "https://www.appannie.com/",
       crunchbase: "https://www.crunchbase.com/organization/app-annie",
-      downloads: "https://www.appannie.com/tours/store-intelligence/",
+      download: "https://www.appannie.com/tours/store-intelligence/",
       platforms: ['ios', 'android', 'amazon'],
       tags: ['intelligence', 'analytics', 'data'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAxVJREFUOI09k89P23Ucxl+fH99+21JK2/FLfg0QSbaJZroYHFEXE40Z8aqn/QXKQROzi3MHvRpj4sE/wAsXLwuJGrMYYxYnRgMq2i5Y2AYMoVJoS9vvt5/P2wNzr/vzHJ68HiXX0fW7l16vefnEpZsTuakqNhBEAEBpobOTw+32gAAKRGTFKK51j9xcUhtXLl7O2HDpQDqo/ABheEi+t4wJQbzC/ZM9CXsFike0nOOw3Zw3V5+ZXDyKjh9ThUGGFz6iXTmm/vc23eemUT1zJF68itIGd38dxAMak2ty5JvEkX7e1uL2jNOGzOgkOtVFdu4V1HMvYQZGMMMTxMvfoTLdmJEJOuslTF8bM1KhX3sONtNjOlloooKQ5NgU8d4Wyckz0Kjhy0UApFpBFfpR2UHMqQPs2D5Yj1JQON1AJ7MR+XFFdm4emx9AvMMGIW73PgD68bNAAhWUMUM1MP5kzIfofzcy2LRD1cvUvvgU1n4lePYFgouv4vcfQL1Bu/g1DJ/CjJwBUfzf4GtJrDhFpZwh4y0pvUPrmy8JgwTRV4uY/iGioXG2bn5P35V36Zk+i+rfwN+7hds5wFeymIWnRj/oVlrbzRK6EJJ8823cnRJ+u0yttEqtskPy9BTihPb6KumX38L2nif+aQXi2NtcEJIUwW1tYcZfQ+cG8fUb2LnL5KfPkY2a6CDEt445Lv2Oqx+iM+NgEkADnTQGRFDZHOaJGeK1Zcz5C9jZS6hUF7anF5vvx0cRgThoCNGdZYLZNyAIsY/WzBawT14Aa/EimK4u2sWfUZk+UtMzKNchMTxBYnSCjo+J9tdAefSJ8ArdO0B0XOPex++hjaWz9wCT7yU1PUPzlx+QagWpVqgtfk701wrt29/S2ldYUHfFxZOtyi5pEVobReqrPwLQ+OM2KbcIxT+J9vZIJBI4ESIRrNbE4n+zWvuFo9gttWpV7GaJTnWf7c+uIUDaWKwJMIFHh+bkUA8d6HhP23feV3IdXSzNzouWD0E9zclj6bIBKWNxXjCBYBMeFQdEseDEl5sufmd88taN/wCtxV0SmMYZZwAAAABJRU5ErkJggg=="
@@ -73,7 +73,7 @@
       hq: "Beijing",
       url: "http://appflood.com/",
       crunchbase: "https://www.crunchbase.com/organization/papayamobile",
-      downloads: "http://appflood.com/a/knowledgebase",
+      download: "http://appflood.com/a/knowledgebase",
       platforms: ['ios', 'android'],
       tags: ['mobile', 'games', 'social', 'programmatic', 'ads', 'banner ads', 'game ads', 'video ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABxElEQVQokX1Sz0tUURT+zr33vatv3rOiBM2mJqmF1EKF1hW0iWqVf0m1ClqUblq0alcG0abAINq4SWyrEgkhRJPgOEyjOFbQzJ33a+47LQYGnVG/5Xe+j3POdw7thPbRamOuFDdSFoQDkTF8h6bO6elJXz382nizHt0t6PO+ZIC5W00EAjYa9vV61GKouVI0VdAzk/4pLQD06NHu+jvOBPC+FKlmiwu+HO4XffKQgQAAksRoIEPLShANOKSIFqrJym6qBO7k9dgx1WWwDAYkkdICZZM9+FJf3ErKxlrGh814esK/cdrdawgc8iQxoLSkj+WoFnGSMQBJWKqlr36GY8fViCfa6nrK85V4cTtxBRQBv5pZu3B9yL027L740VzZTcvGtg2ft5PZYrhcSzeNPeEKtTeW+5e90UB+qsZnc/JCIC3j3Ub0bM2s/ml1Etu33FYzuzig7l3KXTmpPEWzxXDmm6kY2xFwl+HpmrGMq0NONcyefw9fFsO/SdZ9lsG3O7VoHzviiXrK/9LeG2KwTyjbw3cy6IVliH55WPUAaAFxO68Dh476CgAAAb5Dt/JaPZnwCZivJKZ11HvnFN084z4e9/8D2IG7lvzaKDwAAAAASUVORK5CYII="
@@ -98,7 +98,7 @@
       url: "https://www.applovin.com/",
       github: "https://github.com/AppLovin",
       crunchbase: "https://www.crunchbase.com/organization/applovin",
-      downloads: "https://applovin.com/developers",
+      download: "https://applovin.com/developers",
       platforms: ['ios', 'android'],
       tags: ['ads', 'analytics', 'ad targeting'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAAB2ElEQVQokZVSS2hTQRS9dz4vLxNraWypBkUk2li1EbsRVLpRhFLBD6JWXalQBEFBodnqRnRTtSCC6EpEBDU7cZVFFPyAVMRujE2oGkhVgmkzfXnzZsaFv9CnFu/y3Hvu59yDIpOF/wn2R1QqDQAupySUCiMgpbre331jYI3nazMvQWpzZuOy2y8mjz54PbqtywvmUkIrEbw/PjWyJ33MU9fyE0BwvpUaemRXz+l7Y4fujp3dsQ5m1b8I0toNba4KTGE2AEbflqu7k3Fp7N8n1NWlfb1777yMRFiUk6Hsm+GBHpjxm0so33LgR3tjB5OLHISHxapGCKwFSuJG9y1vy5Vr/Ocx7Jc4UGsc37q672p+f6ojsTCCgJWZxsXn73NDm87nizLmCEYAAEUmK5U5lV6cXtHewslEZbpS8z7VfWNtxwKns8VdGo9xh41/qJ57UhIuY8rCSsESrdEjN5+NHuwdzhXAoYAIAGAt+Pry9tTJR69OrE8c7mq/VaoShlCoq1VLWi/sXFuamgaHCkoEQUFQUAIR9rT45Up/9+ZU5+OPXxkiikzWAHi+Tsb4OxkIHv69TXBS9jVQIhDYd2mjDp30TbgaAATFz8a6jJBmlRCAzzXB72j2zzcznK+3yBKdxQAAAABJRU5ErkJggg=="
@@ -111,7 +111,7 @@
       url: "http://www.appoxee.com/",
       github: "https://github.com/AppoxeeMobile",
       crunchbase: "https://www.crunchbase.com/organization/appoxee",
-      downloads: "https://appoxee-wiki.atlassian.net/wiki/display/MIC/Appoxee+iOS+SDK+Integration",
+      download: "https://appoxee-wiki.atlassian.net/wiki/display/MIC/Appoxee+iOS+SDK+Integration",
       platforms: ['ios', 'android'],
       tags: ['ads', 'mobile ads', 'video ads', 'analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAAAwklEQVQokWP8cmYBAymAhYGB4de+WiJVszk1syDzecKWMQsqMvz78//3NwYGRkZWTgYmlj/PL3zdlIliAxwwi6gzcQoy/P/PwMzCwMDA8PcPAyMjE68kupPg4PPyEEYGxv+/PvEl7v3/58enRV5M7Pz/vr/DqeHf+/sQxv9/vxn+/vr/7e3fb2/RvMGEw3uMOMRxasAJhowGRkYmBkZmrFIsWEX//fzIiMMs7Bp+39jCyClIgobvR3qwijMwMDCSmrwB+sQ6nnQuMJUAAAAASUVORK5CYII="
@@ -124,7 +124,7 @@
       url: "http://appsfire.com/",
       github: "https://github.com/appsfire",
       crunchbase: "https://www.crunchbase.com/organization/appsfire",
-      downloads: "http://docs.appsfire.com/sdk/ios/integration-reference/Introduction",
+      download: "http://docs.appsfire.com/sdk/ios/integration-reference/Introduction",
       platforms: ['ios', 'android'],
       tags: ['advertising', 'banner ads', 'video ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAwlJREFUOI11k2tIk3EUxp//+zrd1tbcVtHU0rLILmAXyWtWREaE0RDntjRjhpGJ3ctuhEFQREWZ1RZSUdoQtD5EHyoqi8ruZBeysaRWw0rbprVXt72dPkg2BZ9vh/P8nnM+nMMwRNXtNOHW4S2Hujo70/v8QhxjAC+RdKm12ldxU+ZW27YWXQ33s/AiZ/Mee89HZ4FKF1ufo19vc2UkNM8NAM47mPT49u7SLvenigh19MfyYyenGVRs8OSM/OLW+Sstjgc+GrrUgLJ6CMtKt19OzTWEUijMl7Nmg32eucShxfBwuJZWVFozDUUdAMDafTSxYJXRWVFjZ4Vx/WstLFp7N0ql+K6LSWpve9a8jnGcn4+I4BeWlCdXLZ7tBoDM/GLXzISY0/yHTo9NOzr+5YGCBU0AkG2ytPi93kzB650OxrvkCnmbr+tbeigYkIuCv1eXmFRprDzyNt604N7TKzequG6fLz0lz2QFgPlGS4vQ3Z1K9AdEhG+f3xt5fgTGJMy4yBgQCoXg+9Gx+HZ9zfNeVfKLQKBPxQV6/bHRyZPvZ5ssD/09/fCACPja3mrmGGMa3fg7ITEYCQAiY+LRGOaOVCrdHADwMiDYK0wdBIeFeDqcKWpd7AcSRR6MQanWNDEAHBhxEonkJ/cV4zbV1qslUqlvKC+RyT7NzjJcdr5sWSuVK7o5jkNhVc3ejfQbQUHQclEqTeuTC8fXGzQM26vrosNDIqTSn1cuXEoQR+a+SJw1Z7/H7cqIUsgdlnjWNummfIooijJuRc7yE29eP9n0iB5BH8uw+mR/SKRM7ik8X6cdq2CoaWLXIJE/C5GIpJR55QDQVF9uSxylbQAAZBtXv1tSts3+b3Kdl3DKO/xRlZxrNKfpTdT6z2N1E1JzDcH8zVVnyHF9+BMkJ/adazSn6VfSDpt96aBeGhEy8oo6sgzFrnXWuvyDJAz0dtEvnPXQ9EWWsuY0vZl21F4agAe9FFlLkecYs/P7Z1dZMNCnkSmVX4hAAUHQ0h9Rqho1uuG07XjJRPYf+wsRMkb3a7brwQAAAABJRU5ErkJggg=="
@@ -149,7 +149,7 @@
       url: "https://apsalar.com",
       github: "https://github.com/apsalar",
       crunchbase: "https://www.crunchbase.com/organization/apsalar",
-      downloads: "https://apsalar.com/app/login?action=register",
+      download: "https://apsalar.com/app/login?action=register",
       platforms: ['ios', 'android'],
       tags: ['data', 'analytics', 'attribution', 'mobile app', 'tracking'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAPNJREFUOI1jYKAn+Bih/P9/rKoAshgTKQbwsTIt+PT73/v/saoKZBnw6fe/BD5WpgOffv+7/z9W1YAcFxz49PufA5Q+/z9W1YCFGI1l1WUFHz98FPj0do8DHyvThE+//xVA6fMENQeHBc83MTP5b2Jm8v/89fMO6PJ4vRAcFjz/4YOHCfjU4DQAppmZmfkDOzv7A5IMQNa8/9h+Ry5uLuINwNDMyHUBnxdQYgHZzywsLB/8Pf37XT1cGT59/GRA0AD0APv586fCz58/FfDZDjcA2dn5xfmJmtqaH5AVFWYX9n/58gWrK1iI8bOrh+sHbJqpAgCGcoDhliuZgwAAAABJRU5ErkJggg=="
@@ -162,7 +162,7 @@
       url: "http://bee7.com/",
       github: "https://github.com/bee7",
       crunchbase: "https://www.crunchbase.com/organization/bee7-limited",
-      downloads: "http://bee7.com/integrate/bee7-downloads/",
+      download: "http://bee7.com/integrate/bee7-downloads/",
       platforms: ['unity', 'android'],
       tags: ['games', 'monetization', 'acquisition', 'mobile'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABuElEQVQokX2SPUsrURCGnxOUXRUrjUGLtIL2Wi0kQVQsFUQiGitJoxYBrcTOws7ejyqV+ANcFbSxt1EQLRIEJR+ysk1CzMwtdr0h92reamYOz+F9hzGqSmc1mxQKxGL09QFoZ11cSCIhiYQkk3p3p6qdADk5kbU1LZdVVY6OZHZWRf4DPE/v7/XyUo6PZXpaa7VwXiiI42il0tXy6rqaz/P6yvg4IyPc3pqdHSwreNSzM6JRBgZQVfV9Sadld1efnkIzp6eyvBz+/fIiS0syN6ePj2EGyWbl/LzlyvclldLr67B9exPH0VIp6CJ4Hg8PZn4+NFavay7H4CCpVDiJxbAsSqWgi2BZNJuUywDPz5rJ8PVFf38rmzH09lKpfAM9PSwu6saGbm/r6qpZX6dWo1rFdduYej0ouwCzucnYmL6/m1wO4POTyUk9ODCqzMwANBrYdgsAmJoyQVEs4vtma0vjcd3fJ5/HcQCGhtqBvxoeJhKhWDSZDMmkui43N9g2o6PfGf5RdzcLC3p4SLVKPG4mJvA8VlYwoQPz47Xq3h5XV9g2jQbptMlmW/l/Pe+PDzyPaLRtxfAH4N5Be3i6H2wAAAAASUVORK5CYII="
@@ -186,7 +186,7 @@
       url: "http://www.chartboost.com",
       github: "http://github.com/chartboost",
       crunchbase: "https://www.crunchbase.com/organization/chartboost",
-      downloads: "https://answers.chartboost.com/hc/en-us/sections/200229069-Downloads",
+      download: "https://answers.chartboost.com/hc/en-us/sections/200229069-Downloads",
       platforms: ['ios', 'android', 'unity', 'cocos2dx', 'wp8'],
       tags: ['advertising', 'banner ads', 'video ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAc9JREFUOI2Vkj9oU1EYxX/ffa+v4aXqEpxEKoho3Bpo87pIERxEnSp2EKFQF7eiRMThranESRTUOjgJOoi420FJUhMUwWehg4t/6KKEmLYx7717HRLbaE0b73i++zv3O4cL/3GKX+6NG+Orbk36AW8H6aFGffecoC4pFR29Mvb6w++ZvRPsVzNuo+68FeQgQBxbJ4D+DZKRc54O3N5ZxrrnagvR/XqQdozh2qZiarYV+n0buD/2zAgyDGAMEUrOXR6tLHff6VlioZpJ6dBZAkm1FX0x55XnfYPaVfIOaTuq5UYrKz070C3nJrIBX8955fl80RtXZW5pkRFiu7H4+f6Rf0aYW/QmEbnQgf3VbDl/o5TNifASZKSz/FALTm7ZoFD0DmvNA4PRiMyurQ/eSZa9uyAzf+cVI3v/MChUM6k45LlAJKJPr64nXriJn49ATfZI2tww8KsZN245zxBW9IA6LnGs3URrQVDZXj0BXxWAv3As4YYDD4Ena01ngjDOirbeCbIdDEaW7cfBWedj/dMZlJ7VWiWSg62noE5tC9L+F2Gs3qsgnY4ktl5hrKsKCRDZEQZAzJuJA9NNe6qW3f9teN8UyHcg3xcMGNEVKPELtsai8iC06xMAAAAASUVORK5CYII="
@@ -211,7 +211,7 @@
       url: "http://www.cocos2d-x.org/",
       github: "https://github.com/cocos2d/cocos2d-x",
       crunchbase: "https://www.crunchbase.com/product/cocos2d-x",
-      downloads: "http://www.cocos2d-x.org/download",
+      download: "http://www.cocos2d-x.org/download",
       platforms: ['ios', 'android', 'wp8', 'mac', 'windows'],
       tags: ['game development'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAvNJREFUOI1dkctrXGUYxn/vd86cc+Y+IU1sjE1EJSaiARcFLUSNWpcWKeJCbLeCLrsQRClIceEfoNR6AREFRTBkoYgExEXaSqmQZpLWXM2kTZtMJpk5p+fMnO/7XCRe4gvv6uF5eC4yXLVn5FbtnOkkLogFEBF0s4H2ArxsDqs1B8+Kyvip7e1/W4Z/Xr0rygQY+y8uQpKmHHnvNL+deofB4VFsOzmoIQK4sUo37wQmbh/AOhkP94evOXniBOfsEn9MTyGe/z8TFtOOAlfvtMBYbDZA5QJMLo/+9gJTb75C75FBTKfD8vkPuXD1IgOPP4FN4gMiTumpl89iLBiDRbhx+VeunHqOwaFhqtUqKEU3Qmu9ypWZG5SGHgWz14nVGqV3W+x9SKMR8q5ewbgea2trFAoFtNZ0dXczWipz6NI3tOt3QNQ/DtTf5GR5gc2vPuL5p8eYmJhkvVajtlZjdnYWRLEzP89LY89Sn7mMKLVfIrim2QJrieOI8d2rJO1XeWRkhHp9m9WVFbK5LGErxIhgNrco9vVg98lgcXWzhdWWRjvi2PhxFhcX+HFyAj/IMn78BXSaMvn9d0xPX+To6Cj+4Qf/EwFc3Qqx2pJxFOs3N9AafpqaohnFlCoVSuUKn33xJQD39R0m3moQNLZwiiXAokwrRO828RPN74u3iaKQZhRzz/lPuD5/nYVr1+j5+FMAIit0Pv+AtLGLiZO9Gb3+o2dtqlFas9zs8FB2l2Iuz9xajbHeHgrFIjPVObo2blGpFNgcew1/YAQ6HWy7jRSffMMizl4k18f/c4pnHuuj51APC0vLRPFdPBFC02HO7aP84uuII6hcgIg9KIC1aJMSLf3C/f42kgkwjkOcttnpepjysZM4uTyS9VDZLKIsLuKGCHmswcbbEG4QBFlWogTbTFCOIZOv4BlFUr1Epn8It7sXOhpcN3Rl4N4zZvXm+2JNRYIyTtCFA2T2dxLHQXwP8X2U72ESTVqvo/KFHel+4K2/AAWoasXk7RPQAAAAAElFTkSuQmCC"
@@ -224,7 +224,7 @@
       url: "https://count.ly/",
       github: "https://github.com/Countly",
       crunchbase: "https://www.crunchbase.com/organization/countly",
-      downloads: "http://resources.count.ly/v1.0/docs/downloading-sdks",
+      download: "http://resources.count.ly/v1.0/docs/downloading-sdks",
       platforms: ['ios', 'android', 'wp8', 'blackberry'],
       tags: ['mobile', 'marketing', 'analytics', 'enterprise'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAwFJREFUOI1Nk01oXGUUhp/v3u/emTuTzE1mkkkbJ0VsbI1CixkVKrXFydKVFCyRQiutC9GNXQhFXUgt6FYrRYq4FDfVgsUipCRZtCBm04UFkXYSYyY/TTJ37vTO/ZvvczED5sDh/HDe98A5vAJgdunNuY5IT2itpdYAGmLQsQIA20DYopcLMIRIHS0Xf6j+NCPemJ+Zq4de7d9tjzhMCaMEJYA/W7DT7oGKA/B8AQtBNmNhZEwqJZdnsu4dcezGK8m9+3/LMS+PSrugdG+RKYhJEAgkElMbIGDdW2V85GnWBlscOzKZyieqI98rzfLiqWmUUghAaxBCsNPYRkqJWx4iTVIun/qM9898QPXMy9z77S6/d+9KqZXCdVz2OWP4no8AbCeDaZoou4tlWZRzZS6cPM+Va1cYfraINCSu46K6CsMwDEayJQ6XDzF//Q5vV2dx2lkmiwcZH9jPgaEJNu9vUJ2exrZtvnznC0q6yIhTwjANDGEKhjIuY5kxvr52FYCK+xSVQoVyrsyoM8pLz1U5d/YcmZbNxYsfcnj/IQp2AWEIZKwSHJnDtQsATE1NMZwbZsh2KdiD2NJm8uAkR6eOstccM0usEmSQRCQyIVYxlmHRWG0Qq4RIRURphDY0KSlLfyyxsrzC8ZPHGR0ZJemmdLoRRkCMH/lsdrb4Zf4WTb/JzVs32exssd3ZoRk3ub1wm0sfXWJtu0HttRqP4238yCcgxmgZMbvBLvXWMg8ePuDy1c97tbfMenudVW+N/MQAn3z7KYEMCPyAurfMbqeJb8TIsBvQDD3qzTrjr1YQQgCaR806jztbyNQiCmPSKOHnb27w+ls16q06rdAjyHeQ7HRZWF9g49cNlFL/X0kI2r6PaZg4+RwCeOHsEb7/6jvaxSc8Ch6CmSLEx3aiw1iyD8gDdk8wCOCfPtlET189t8BLoAEia6dSh+kiK9T4C8gCmT7YAn7sE5wGkj5BlEDYm9UH0sWeRt8Vc/icQCMRe57d7UdzT08DgpRBFrmuZ/4DQQNEdMJUffAAAAAASUVORK5CYII="
@@ -236,7 +236,7 @@
       hq: "Edinburgh",
       url: "www.deltadna.com",
       crunchbase: "https://www.crunchbase.com/organization/deltadna",
-      downloads: "http://www.deltadna.com/sdk/",
+      download: "http://www.deltadna.com/sdk/",
       platforms: ['ios', 'android', 'unity'],
       tags: ['analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACiElEQVQ4EaVTzU8TURCf2tJuS7tQtlRb6UKBIkQwkRRSEzkQgyEc6lkOKgcOph78Y+CgjXjDs2i44FXY9AMTlQRUELZapVlouy3d7kKtb0Zr0MSLTvL2zb75eL838xtTvV6H/xELBptMJojeXLCXyobnyog4YhzXYvmCFi6qVSfaeRdXdrfaU1areV5KykmX06rcvzumjY/1ggkR3Jh+bNf1mr8v1D5bLuvR3qDgFbvbBJYIrE1mCIoCrKxsHuzK+Rzvsi29+6DEbTZz9unijEYI8ObBgXOzlcrx9OAlXyDYKUCzwwrDQx1wVDGg089Dt+gR3mxmhcUnaWeoxwMbm/vzDFzmDEKMMNhquRqduT1KwXiGt0vre6iSeAUHNDE0d26NBtAXY9BACQyjFusKuL2Ry+IPb/Y9ZglwuVscdHaknUChqLF/O4jn3V5dP4mhgRJgwSYm+gV0Oi3XrvYB30yvhGa7BS70eGFHPoTJyQHhMK+F0ZesRVVznvXw5Ixv7/C10moEo6OZXbWvlFAF9FVZDOqEABUMRIkMd8GnLwVWg9/RkJF9sA4oDfYQAuzzjqzwvnaRUFxn/X2ZlmGLXAE7AL52B4xHgqAUqrC1nSNuoJkQtLkdqReszz/9aRvq90NOKdOS1nch8TpL555WDp49f3uAMXhACRjD5j4ykuCtf5PP7Fm1b0DIsl/VHGezzP1KwOiZQobFF9YyjSRYQETRENSlVzI8iK9mWlzckpSSCQHVALmN9Az1euDho9Xo8vKGd2rqooA8yBcrwHgCqYR0kMkWci08t/R+W4ljDCanWTg9TJGwGNaNk3vYZ7VUdeKsYJGFNkfSzjXNrSX20s4/h6kB81/271ghG17l+rPTAAAAAElFTkSuQmCC"
@@ -259,7 +259,7 @@
       url: "https://www.fiksu.com/",
       github: "https://github.com/fiksu",
       crunchbase: "https://www.crunchbase.com/organization/fiksu",
-      downloads: "https://www.fiksu.com/get-started",
+      download: "https://www.fiksu.com/get-started",
       platforms: ['ios', 'android'],
       tags: ['mobile', 'marketing', 'data', 'bigdata', 'ads', 'advertising'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAARVJREFUOI2V079Kw2AUBfBfTOKgVkHRvoW4t7sv4eCgUKqTPoN0c3QpCiKouOhecBIXJ9HZUSwiViodLCUOjRBKaeIZ73fPuef++YKkXp1HDavoITEZAWbxgGaEbQywi+8c8h8WUt5mhDXsoxMc3RViJ/XqB87QiPCDr/QBytjCXKadIM1p4iONdTCIxhQoY6/bHyxmg6U4fMN1RgCME8iSbvCIMHXwPpozUQBXuBidTdpqIYEdrCf1aoQWTv/loNsfVFCBUhz2/i1QisMT3CPG07icvBZauJw0g6kcgVyMc9DGYSkOZ/BcRGAaS3hNrbZxUKD4MqaCpF6tYQXH+DQ82zwsGZ77S2S4mg00DH9lEYS4xfkvLylGOX/MWc4AAAAASUVORK5CYII="
@@ -272,7 +272,7 @@
       url: "http://www.flurry.com/",
       github: "https://github.com/flurry",
       crunchbase: "https://www.crunchbase.com/organization/flurry",
-      downloads: "https://developer.yahoo.com/flurry/",
+      download: "https://developer.yahoo.com/flurry/",
       platforms: ['ios', 'android', 'wp8', 'blackberry', 'HTML5', 'JavaME'],
       tags: ['analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAAC0klEQVQokT2SPUvzUACFb3LThrbWLkFJJC0VnWyHRAVBxYIWjUHsooKgoJPg4uDoDxBEBwuC6KxSwYpDcehgBD8QlwbsoLT4kYaIESlJtLZJr0Nf3u3h8EznHIzneQzDEEI4jv/+/v78/Pj9frfbDSGsVCqGYZAk6fV6HcdpaAQAoGGbpskwTCKRiMViLMtCCBVFub6+Pjk5KRQKzc3NCCEMwyBN0xBCy7JEUUwmk7FYzOPx5PN5VVXD4XB/f//k5KRhGLlczu12I4Qgy7KGYQiCsLm5adv2xsbG0dFRrVbTdT2VSt3c3HAcJ4qiruv39/cejwdSFMUwzPb2NoRwaWmJ47iVlZVarYYQEkURx/GdnZ2BgYF4PC5JkqZpMBAIzM/PDw0Nra+vR6PR8fHxxcXFYrHo9/sVRenr66Mo6uDgQBAEhFA2mwUcx8mybJrmwsJCuVxOJBIcx6XTacuyEEKqqlYqleXl5dfXV03T4vE4TpJkW1tbLpeLRqPFYlGW5ZGRkdHRUYIgbNtuaWkhSbKjo+Pu7q61tZVlWRwA8H+Her3ucrkmJiY8Hk8jdxynAfV6vQF4tVpVVTUSiciy3N7eTtN0Pp8HABAEASEkCAIAUCgUenp6Pj8/FUXBDcO4uroKBAI0TWez2b29vbOzs93d3cfHx1KphOP4+fk5ACAcDkuS9PLyAiKRiCAIlmWVy+XZ2dl0Oq1p2vHx8eXlpaqqmUxmbm7u7e0NITQzM9PV1QVDodD7+/vX19fY2Njg4ODh4eHFxQVFUbqun56ePj09ra2tsSy7tbWVyWSampownudxHP/+/p6enl5dXfX5fKVS6fb2FiHU29sbCoVs204mk/v7+16vFwCA8TyPEIIQmqbZ2dk5NTU1PDzMMAwA4OPjQ5KkVCr18PDQsAEAWHd397++cNyyrGq1GgwGg8EghmGKojw/P7tcLp/P5zhO461/CP5mAYtR610AAAAASUVORK5CYII="
@@ -285,7 +285,7 @@
       url: "https://fortumo.com/",
       github: "https://github.com/fortumo",
       crunchbase: "https://www.crunchbase.com/organization/fortumo",
-      downloads: "https://fortumo.com/in-app-payments-javadoc/android-8.0/index.html",
+      download: "https://fortumo.com/in-app-payments-javadoc/android-8.0/index.html",
       platforms: ['android', 'wp8'],
       tags: ['mobile payments', 'mobile', 'virtual economy', 'transactions', 'monetization'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAlFJREFUOI2lkk1IVGEUhp/v3jvXKadRZ0yzJEvJlNII2kWJizZRIkESCC0SXIQQSRtXZW2iHzcRtSpokYtw0zIkpRaFgqaYqVFBYfgzjD/jOHPvnfudFpVSaUi9cFbnvO85cB74T6n1GnK9tQLfayccPo6v+ynd36DqGmO/zxlrmh/cPkfQHpL8wgY2hUJiZ9Uy8Lx6QxdIR9sOfHdYh3MjaEEphUovTxPIriYxF0ORx+JsBjeTUDcf65UAudwcQKsAGaeYcO4QOZGgiEbFZyZZjJ8ma8tRgsFmsrOjeJ7Hwtw4xXsuKgBpqW9ga9ElrEAFVqAT257QiflbhuP14nt3MFSjRApPYWeBAEqBaFQqOabk2oU63OQTHSmwRYDlJczEYgem9RQtlUx+Ou+HwlXfN2VAmWAYYAUwROIWC7EbOpRr82EMFhcwfS9GMGeavHCUop2SeT9UZcRnUYYBIohSIAKiwQ7OGkx9ydf9L9Bv32DOzY0Sym1jaaEmM9jXRTKRZe0qPyNOCnHSiJMGJwVuGkOLQ174qpKmk42MDtSxu2yc6PZRJoav+KnkXjFMlK8x9x2sJxQU3o20YgWr8d1ZDGOQ7Oh91dndu/qF9pZt9L967U9PlijLQhTgZzBzIt3q2egxOVurKKnIIzaTUve6Uj991goAfS+b/MnPJZgW4vo/KFEw9dUAUI96BHri65M4MRLA1+C6q7W0BAWFy2sR+GdA5YEplU6D66A8D1IpTK0dDh1++LeAXyRHSu9K+eaklNnzUh39KDWlJzZs/ld9A705BAhn6CRYAAAAAElFTkSuQmCC"
@@ -298,7 +298,7 @@
       url: "http://www.fyber.com/company.html",
       github: "https://github.com/SponsorPay",
       crunchbase: "https://www.crunchbase.com/organization/sponsorpay",
-      downloads: "http://developer.fyber.com/content/",
+      download: "http://developer.fyber.com/content/",
       platforms: ['ios', 'android', 'unity'],
       tags: ['mobile ads', 'ad revenue', 'optimization', 'advertising', 'mobile', 'monetization'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAQJJREFUOI2lUztuwkAQfbNwgVQpQLIQUpYmKdLQYMsnoHKD7DtwFcIZHFFAxQUCFg0VBY1NAUQmh0gRD1Us44wXS3nV6knvM7uzBAFhFLPEB06PytwNUSU0GeWHorht6VfXol1R9JGy93VK5mUTKoulmlJLImLf1qpZVW3kDf+MM1ssKXB6FEYxMzMBgMrTH3THJC6i3dVjAHjfHH7yBsEznaVEycBt0TSM4jfOMqVMSXXQlMjZYkkjb8jlUaRGYoN7dyA2WG3Zcvv0eS8RANYXHqfHBKRUpn6f7vKdnOumpsdkAgD+4Knx70USV9nS+sV+pH1RaFxlycQE8TPVMZLGuwJZ+HikXjcfLAAAAABJRU5ErkJggg=="
@@ -311,7 +311,7 @@
       url: "http://www.gameanalytics.com/",
       github: "https://github.com/GameAnalytics",
       crunchbase: "https://www.crunchbase.com/organization/gameanalytics",
-      downloads: "https://go.gameanalytics.com/signup",
+      download: "https://go.gameanalytics.com/signup",
       platforms: ['ios', 'unity3'],
       tags: ['virtual economy', 'analytics', 'data visualisation'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAipJREFUOI2NkrFLG2EYxp/vPqme5vAcQnIuOZXGwVakUhAHbejgWmg6+RcUHZIlGQSvc3GJgSLtYDN2sluG0B5FKRZKvcKVIoJWcrQRCxoCibZNni45iHqCL/zg4/1+z8vLxydwtXQAjwDMAjDbvQ8AHABvA/wL9QzACQAGoarqLwAPgoI6APu64GWWlpaWLw9Yv2nYp9lsZvzwdJBgGEbDP4dCob9B9yQnIIRYF0LQJ5/P75G0Sdqe572bm5s7Jmmvrq66nZ4QgltbW5uQUlaklJRScnFxsUzSHhoactu9A8uylkm+jEQipu/5WJZ1oCiKAp9UKvUbwFfP88baPbPZbD4xDONhpVLp6u3t/dbpl0olvUtK2dP5mufn566UEq7rOiMjI6cAelZWVu4AeC6EKEkpx3xXSokLGziO09Pd3f1TURSMj49PLCwsfI5EIm8URcHa2trdarX6vtMfHh4+w8DAwKamadQ0jfF4vEHyMcn7+/v7OyQ3p6amPmmaxkQicUIyGQ6HPd/f2Nj4LkZHR58eHR298NdSVfWPruuvBgcHz+r1+u3d3d3ZVqvVDwDpdHo7l8tFW62W2dfX98/zvG1Bst80zb1arRYO/NzXVCaT+ZHNZl0BACSnY7GY3Wg0bt0kPDk5eVosFh0ABQUAhBAfDw8Pk9FotN75SEEkk8lKsVh0AThCiNcXJpO8VygUvszMzNQMw2An8/Pzx+Vyeaf9S7MkQwDwH8e+GTmD1K/KAAAAAElFTkSuQmCC"
@@ -335,7 +335,7 @@
       url: "http://www.heyzap.com",
       github: "https://github.com/Heyzap",
       crunchbase: "https://www.crunchbase.com/organization/heyzap",
-      downloads: "https://developers.heyzap.com/docs/android_sdk_setup_and_requirements",
+      download: "https://developers.heyzap.com/docs/android_sdk_setup_and_requirements",
       platforms: ['ios', 'android', 'adobeAIR', 'unity', 'cocos2dx', 'marmalade'],
       tags: ['analytics', 'monetization', 'mobile ads', 'advertising', 'banner ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAZiS0dEAP8A/wD/oL2nkwAAAh1JREFUOI19k81LVGEUh5/z3lfveO/oaA0UFiIEiVNZiwjNTRBBCwna9BeEQcvatGtnbawgMxQKirbRpl37kKQM+6CIyNRRSI00Z+bOzL33tBjGRkc9u/eF53c+fucIQO/o9DBwRUR8VNk1RFDVHDA2cbXnuvSOTA9bz78WFfPsBCtCqAZHYgwKIjiuR5jP3bEYBmvhUA1lDEV1KKkBiWkza/Q0zbMWtTJXTmNUiYp5MAxaEUlW4Rg4nJjhSGKersQPDjV95oA7Tdr+BIH+T29qylJEJGmrsCIERDzrGgABFEohqLaDgbGFIVajFC2muEnEbswGBW1kLDtEtrSft4VOsqHHZOYMuTDF3aULtJlS3Xxs7cOTkNHlizgoK7HL444hGmzAyNwtGrEI9QJm64cvZSwxx90ZzrY94nfxIA9WzuNvk72ugmosxQlG2kdB4P7iTRpwyCvEKjRvEaoTKKvDae8rp1LPmS2c5OXfDOeS7+hOZEk3znF78TKuxDsL/IpdnrTfgxg63I9MHuuvuALc+P4UxVAxfBuBkjpcapkgk3zFfHCU2eAE3wrdTOU76fGneLHax16nsCmh9D38oP8XSUjbPyyEPqtREgdBRRhofs37fIZA3YrdG7RgVXW9uo0GZTlsxQX2OQEKeKbISriHXNyElWgTrKrrhphxx/VAKo0atCaL4JsCX4LOOthxPYgZF9j9nBWpK7v2nP8BZADmfaPKk3sAAAAASUVORK5CYII="
@@ -348,7 +348,7 @@
       url: "http://www.inmobi.com/",
       github: "https://github.com/InMobi",
       crunchbase: "https://www.crunchbase.com/organization/inmobi",
-      downloads: "http://www.inmobi.com/products/sdk/",
+      download: "http://www.inmobi.com/products/sdk/",
       platforms: ['ios', 'android'],
       tags: ['advertising', 'mobile ads', 'monetization', 'analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAYNJREFUOI3Fkr1LW3EUhp/zu/cmNjQuV4hfhHTs5iJSCtG2IUPQxY4ddXB217+jf0RFKIjoYj+Cg0UoHQQFv26r5MMa0ZiYe5scB1FMDbFQwWc7cN73HN5z4LGR28X0ptLxhxE1WIDe7jOGk9WfrK+EgKQ0G8zuKBdlPgTV0ttmXTORaPRsPuesbwQ08HnDmGADBBWW/LN8OuLGPIV9lEYrAzU4Y734G6teip74Hh81Yc9saWe1juuFYiuFEq+zL6SV9ob3nkJP/BO/D4Zx+ybtQo3TzaPz57ZlWdnkk/aJAVNxgUWtApDbfWm2y7ySWiViOeHaveq/EVFjQ7390u0xyNUlFP13n+uQVcU0DJ8BglIxmlnTgXvFywpaHwSg+1lWANJruuAXDjNiLEJu7CvcOaMRcGzI/yhz5Hl7E3Qn9glICEDqm+Ioc7Xj4niroSLCxdOuL1vnhIv5X0O4/YvYZEhL8yunsortMNLQm1c2RtjOldn9XmGUMD5Flnn3P7E/NJcTqI/RzDOOpAAAAABJRU5ErkJggg=="
@@ -361,7 +361,7 @@
       url: "http://inner-active.com/",
       github: "https://github.com/inneractive",
       crunchbase: "https://www.crunchbase.com/organization/inneractive",
-      downloads: "https://inneractive.jira.com/wiki/display/DevWiki/Android+SDK+guidelines",
+      download: "https://inneractive.jira.com/wiki/display/DevWiki/Android+SDK+guidelines",
       platforms: ['android'],
       tags: ['advertising', 'banner ads', 'video ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAATBJREFUOI2lUz1LA0EQfXMXTokWChoTFQPiDzgrK2FTpRausLSwslDRTiGgrRBJBH+AlaWlhRBBQSz0rKzWQiQQUDDYaA5kLMIea3bPIPfK9zG8ZWeImZEKagAHUnAgD/v55eTuu551dPFInmzW/UpipfvCNn/w14jOZWzGul/hrDvYXr3bGVXBpKHEzNhYWLMa8h0XrYHvpCxqt8dkbQAAKy9ZAMD1xBAAQHqvVp/TS8x8unFYx1w0Dgdk8L8a2II6ZqMxMBhP3pvZIN9x/wwrUE8L4wn/RQYAauWDEi7O/RA3fRcp9qtGzAwiAherIoyaDSXMe1NL9Lx1BgBX4rQRth+F0tYf9gnobqLxjTlnuDXd3Cvo3OLlcgnoLphRJ76FYlUYogUcSF/PUuprTIsf0Rxq1C8DIZoAAAAASUVORK5CYII="
@@ -374,7 +374,7 @@
       url: "https://www.kamcord.com",
       github: "https://github.com/kamcord",
       crunchbase: "https://www.crunchbase.com/organization/kamcord",
-      downloads: "https://www.kamcord.com/developers/",
+      download: "https://www.kamcord.com/developers/",
       platforms: ['ios', 'android'],
       tags: ['game development'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAZJJREFUOI3Fkj9oVEEQxn8zO3vv7oTELhCSgxRGQTAKsbG1EOxSCLEVG0uFJFhooYVVCisbWxtBMGAKK1FE0cKkiviviaKNTZC7XF7e27F4L0rA4lmIH3yww+w3uzPzwf+GACz46riit4tdplxDEiIuCthv1nHCUCKJICKxkCVfmfny8v16mSc8CU5ACLgEQIFQUarzXl5ixvipkw8s7w/uFju7eBl/TJ0+8ahAtHpB9v3A69gxBFOhtbYsvVvMP7lZnrmz4Nf844W/6f2qr5299O3VB+t/3RII5OwMm4qv+wvePn6+WgwzLOUJ63Z/DbQJEuX5fKtPcsdCFpGQEZrrKXAphjnuhlo7SmvkAIbfa1wBoRhso1kLG5s99Ong5OErN+RoY3mHlDmB7sREqo20sjj8vn1MQkzVniOugWqFYR/bo6Pp89PXcyl0R8Zmj7+xRX94f/PZxrnqgv7RSF4bSQgkV1QzQtYitrOLFgflkd7M9IaqeWUURbC6wB4NVEEijlF2Ou/ALi9Lb7P53P4VfgKXVYg+rLV7FgAAAABJRU5ErkJggg=="
@@ -387,7 +387,7 @@
       url: "http://en.kii.com/",
       github: "https://github.com/KiiPlatform",
       crunchbase: "https://www.crunchbase.com/organization/kii",
-      downloads: "http://en.kii.com/login-developers/",
+      download: "http://en.kii.com/login-developers/",
       platforms: ['ios', 'android', 'unity', 'javascript'],
       tags: ['iot', 'paas', 'cloud', 'mobile', 'software', 'games', 'cross-platform'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAWlJREFUOI3VkbFqVGEQhb8z/92b1s7SQgvBC2IpgpWNnZUPkJWARvAhbBRBtI63MGCVKiBoZaOVYFDcJVj6AFooEXL3v3MsNmyRZuucbs7Ad84wcOYl9x3AQ3ABfdF09smvO6hsYyZYL8AQfsTIS23N8c6V2wRoOn8n73TQylQD7Gs6u+O+60GbNMAiBfpK6CqZ+0tfv5Cg5uWgGKqpI2CO3XcgbQ41YeE93ZsD/k4a0DfCvzFHpP8h/2hOXXSE/X6oSdvGSPruif8WcYg5wAb7MQCOyQowpmkKF4fqm1oaz5fpQBtPPeQFwUccfwk9WS7yIFbZAuBn27CwAXRrVWz08ZiAGICF0zgNRF0BQgJjrD0Ehmvuuxvr3hin5g3E/baIRTWYZ+sBoyBECQBvaDr7A8xKCIqu+1V3HmhKAPYE3EhCEtiloQRk7koW1ocT8IMS3iIR8jlGdoUvIX0mmYPfIEA+XNfwDOg/AZCnO4UtwssAAAAASUVORK5CYII="
@@ -400,7 +400,7 @@
       url: "http://www.kiip.me/",
       github: "https://github.com/kiip",
       crunchbase: "https://www.crunchbase.com/organization/kiip",
-      downloads: "http://docs.kiip.me/en/downloads/",
+      download: "http://docs.kiip.me/en/downloads/",
       platforms: ['ios', 'android', 'unity'],
       tags: ['mobile ads', 'advertising', 'games', 'virtual economy'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABNUlEQVQokWP8qsiADLju/WdgYPimxMiAA7D8xSaKVRCm4T82DdgEoRr+YBPFKgjTgM0wrIIQwPT7PwMyggAIm9HQUuzCW4kH/wVXHPjDzgkRZPmFzZhfDAycVk6iczYycfO8OnX0TIyP6u/vTBAn/cZmO7uLn8TUFUwcnK9OHT0e6aH6+8tfWNAxXpRBUar3+D8DA8P/378YWdlenjp6JNpb+cdHJmRPY7Xh79+/LKwM/3/9kv/z/e9/lGhh+s3AgIwgYHtC0J8f3yVsHJVnrv7DzIysgOnXfwZkBDXm0M5tSaF/f/8SdPNT6J2PrAB7sHIw/P+3f9vmxNC/v3+Jh8QqNk6AK2DcIYHi+kv/WBgYGPSY/jAwMHz6z/jwP/N/BgYRxn9SjP8gChi3oGogCLCnVjwAAKzqp1tGgqXEAAAAAElFTkSuQmCC"
@@ -413,7 +413,7 @@
       url: "http://www.kinvey.com/",
       github: "https://github.com/Kinvey",
       crunchbase: "https://www.crunchbase.com/organization/kinvey",
-      downloads: "http://devcenter.kinvey.com/",
+      download: "http://devcenter.kinvey.com/",
       platforms: ['ios', 'android', 'java', 'HTML5', 'Angular.js', 'Backbone.js', 'Ember.js', 'Phonegap', 'Titanium', 'Node.js', 'Xamarin'],
       tags: ['finance', 'enterprise', 'software'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAiJJREFUOI2lk01IFGEcxn/vOzP7Mbuzg1GXjIpKKyMKDaUi+joYiAV9UER58BREXQzBQxRBlyikQ9E3RtRGkIUpGYWb0MdCRnYyDCusFPTUzrrOzuzMdogWlkUIe66/93n4vw//v0gfWvXDcn2DWcjQpKWOZXLlszEDWK4fk4YmU7MNMDSZUmeCIqyh1+9FWbEehMAZ7MN++qjkXVGAVrkMvBzuyLc/5tVbsLsuk8+kCTU0o1XWMN11ldzX78UB6qJyos1n8J0sCEnYc7F7O5h6HC9MIyJlKHMXoh9oRQZCpDtOw9g4qlJdq0b3nMB9102mJw6KRG9sQt/XgjPUhLZ4KdHjV3Be3CT15BgioKI3HCR69CI8PK+KycFELjeVUqwLrUV/C27aTqBuB/nJUYSiYt1qLy6w5RxqJOZJETaFPzFaUo47NACOjVpRS/r+pRLuT4wiwqaQ/nDSC1TXI81IAUozgnm2G2/kA/bLOGbbdeScWBEPVNfjDyc91eu8ZvtOVjNPxckm7uBPZwht2IX75gHTiR7ymSyKbmCevIvTf4+8lyO49TDOQA+y+7Ytxvev/GW5fiy4cTOBqjrUdY3kPr3Cam8DILBmLaJsHvl0imDNNlA0nI/9ZF/3Y2gyVQgo7ELFEkI7j4BjA3mUBVXYvTewE89KejA0mZIl5X3+gvP+OUKPQSiK+7YTO9lXYv4rMbx7eX5G+g9S5+vqz/85599YFc04iS9ruwAAAABJRU5ErkJggg=="
@@ -437,7 +437,7 @@
       hq: "Los Angeles",
       url: "http://www.leadbolt.com/",
       crunchbase: "https://www.crunchbase.com/organization/leadbolt",
-      downloads: "http://www.leadbolt.com/blog/category/sdk-release/",
+      download: "http://www.leadbolt.com/blog/category/sdk-release/",
       platforms: ['ios', 'android', 'unity'],
       tags: ['ads', 'mobile ads', 'advertising', 'monetization', 'marketing'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAmdJREFUOI2Vk1FIk2EUht9tmrrEopWakJpGkGFRYGUZ+RsNzNiCGGYpuFYrzN1ElnYRFFYWNRuBeSUbhbC8iOw3vahkVFotFbVf6yIx0bRooOCmbG5vNzU2m1AHDnzf+c77wPlejowkIobfD0yPo/ZbGr64gXhF8CXjXg5G/lzkkdVLhgZAcmjhfwBHfHPu3QC6/xGgABb8kMsBBJAz+qbtVHTc8moAYTMvBVC2d7Qeh/t7ViAASHbz26gY5RyASgAHQhujFivNZvOFtjaxVqmQjU00vCh93zvwWO6d42T/68MTn/o0m0vObQkTkAymyWRqFASBA30ftJz+CfMQYXKy6KyTl3ZU3g7UDxEdUwzTBA8ul0stCAJJppOE3mB4ZCjMa+2cpEzroPVKPw9ZLhqrKXUmhgKCI+j1enN2dnYjgNHCg0WT0b5ZT0lZ+Y3mMVxNVeL+5cyZd/u7Bp96VmUqqrPyr/31iR6PJ91isZy3Wq1nOD8b3fDEkfl8o+GJLICuXc47W+EaSczNV9f19fSoI7pAUgHA/crhEDJS1jyrHwam5qHUZ6Dd9rD5rj91W9rePbmDPp8vPiJALpd7AWyou3W96fP4j7LtK7Hi2Dp8ZW+rzrcsIU4BOEVR3BcbG+uKaKNKpXLqdDprS0tLXkraerGpPHc6IS5meMYn23S6ouIkAEiSZKyqqipdysYMQRBot9tPkIQkSZqampqbJNeSRHFx8Uu1Wu0KdSDMRpIQRbFUEAQajcYHJFW/6zs1Gs3HgoKCBZLJiwGyCOuco9Vqm7xe72oAAZJRSUlJ3Tab7SiA+cXNvwBqS1ORxbKzaQAAAABJRU5ErkJggg=="
@@ -450,7 +450,7 @@
       url: "https://www.mobilecore.com/",
       github: "https://github.com/mobilecore",
       crunchbase: "https://www.crunchbase.com/product/mobilecore",
-      downloads: "https://www.mobilecore.com/sdk/",
+      download: "https://www.mobilecore.com/sdk/",
       platforms: ['phonegap', 'B4A', 'unity', 'adobe', 'corona'],
       tags: ['ads', 'display ads', 'banner ads', 'monetization'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAk1JREFUOI2Fk89LVEEAxz/vvXnvbe6mKdtuWiBEYXgoiKKDQSJ68qhtHcRtty4ZERpYFyGhoi516ZrrCh1yyYOHCkUvQfQPmEEH8ZCmuS6t6+6+H/O2w7bKYtr3MjDzne98v9+ZgQMQjYz3xCPJ2YM4yn4LsavJOcM41CGlQ6nk4Xmlx4lU/8h/BeKR8TugvFJVgee5OzQhDFzXWlIUp/v121uL/xSIR5ILujBbHdcGSnvtKiqapuM61vhYKhqrEohHJjxVVRXPk3s2uo7Hds5ByhK6rlJXH0BKeyqRivaICkkXppLN5hBCwXE8TFPDsiSapnDuQhMDQx34/QYb6zmej86ytlIsAqgVgULeYeB+G23tJxl+1MmJ5noejnYRDPm5N9yF328wP7tIMBRgYPAKmfUCAGJXwOVyewtHQ7W0tDZyrLGOxuNH6OzexDA1AEYHZ1i+myabsTnc4KPKQQUfphcA+Pzpezm/u9tJMSc5f7GZ02fC2JasdlAp3TDKp+l6eRRCJbOZp76hhsT0dVrPNuEz17EKstpBMOzn11qO3JbFz5Usmxt5Vn/8Jvvb4unIe5aX0pxqCfPt6yovnswRDJtUXePtvqnSZjqD6VMpFlwMU8O2JIapoQmFwraLlCWEUKmt8yM9593YZH/vToRifqurJiDe6MIICd0ux/lbHkCg1kBRFITwYduF+UQq2lvloIJYJPlMaPqD8vvfLVBoBo5rpz28vmQq9rEyf9Bn+mLovkvSc1EUBVfaLxOTN4b24+8ncu1mZGLmIM4f8izi4ODarBUAAAAASUVORK5CYII="
@@ -463,7 +463,7 @@
       url: "http://www.mopub.com/",
       github: "https://github.com/mopub",
       crunchbase: "https://www.crunchbase.com/organization/mopub",
-      downloads: "http://www.mopub.com/resources/",
+      download: "http://www.mopub.com/resources/",
       platforms: ['ios', 'android', 'unity', 'tornado'],
       tags: ['mobile', 'ads', 'monetization', 'analytics', 'mobile ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAP9JREFUOI3djrFKw1AARc8zz0DERk0RpXsXBz9AEMzm4GfYyUXs1LGrk1sXHf2OLg6l0MFNyCyoFGqaJo/G9/JcYkkLDo72TJc7nHvh3yN+QrNvj4FbE4/PrNFSBodD4AbIgDs9eT8FkHsHT0AnCsVgIWj27ZFJpwOrktqS3fWUkJtfRTb1l2alm8vd/ZMoFCNZVl2rkhpCWFlvPAJvhZq1ijTesbnyhOspxw8eAEd/flyicxfoAhcSwKTxOYCsN3pRKK7KVy9FGt8DOH7QjkLRK/u5Hr9em2QSAmwAWDXbLp+MKkefK3m42tt5trUQVCgqWVey4RdWBX9mDQRrwDd8uV2rVH3gQgAAAABJRU5ErkJggg=="
@@ -476,7 +476,7 @@
       url: "http://nativex.com/",
       github: "https://github.com/nativex",
       crunchbase: "https://www.crunchbase.com/organization/nativex",
-      downloads: "http://nativex.com/monetize/nativexsdk/",
+      download: "http://nativex.com/monetize/nativexsdk/",
       platforms: ['ios', 'android', 'unity'],
       tags: ['mobile', 'ads', 'analytics', 'advertising', 'games', 'video ads', 'banner ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAolJREFUOI110V9ozXEYx/H38/39OefYZtuxbGNnmxkTpoTynyhFLtyhlJUiuaRd7FL+xI0iuSEpuRC1MtailFxRxBmRHNqNZYZz9uec3/n9vt+vi82ZWXsuv5/v8+rpeQQANq680v/6guPKHmsNF3e14MZBFPz6qDh6f5DUyjGMFkRAeba3ujHfecCnX7W0tLQvahpNP71eu8efEyGOcPjaIMOfFCaC1KaQxeuyGC0AWAuep3efWb8iDW3tTk1t/Q3l2aXvemK07QioqIlILgzI5+P0P45z6NJ3yudprJkAXN/wpi/Jq/tzqG+WlLS2LbcA1kzwnX2fiYouRluu7m/kVG+GwqjH3/LiIed3tuK4gihQfwNRUMgpnt2qxU9olAsn7g4QjE01O57h/dMk+WEHmewsAQCJasvD05X8/uZPooK1U7nrax5fqaJsvim9TQMAqhZZus/V4Sc0/NOsXEvmZSVD7z2Uw+yA41iGvzgMfY2XxgTw4xF9l5NUpMy0/zOAMBCWbBpjXiqYWCygHMvnF5UMPPdRLrMDJoLqhSEbDuaIilORG9O8ejCXsgbL/zUN0EVhzb4Rkg1B6e4AYcFh57EhcgMyOxAVhMbVBZZtG0FHU64XM1gjJBsCNhwZI8zLTMBasMaypeMnXozS6WLlId1n6vDjmmDcYWvH8IwplIjqCbKK7UezlFVpYmV6InAN754k6b05l4G35YhATXOe5XsL6BBEBBF61KcP0tW0NmTZ1hyV9RFGCyYSglHFneM1NDdrnt+uwk9oiuMumw9lyf9wUKLQxUKXgnT6ZM/HVfEK26smpxNl6D67gEQduDHL23sJsoMe1gpNq0cIc+bR+GjYnslk0n8ABt/9esSmVlIAAAAASUVORK5CYII="
@@ -489,7 +489,7 @@
       url: "https://www.nextpeer.com/",
       github: "https://github.com/Nextpeer",
       crunchbase: "https://www.crunchbase.com/organization/nextpeer",
-      downloads: "https://developers.nextpeer.com/login?p=%2Fdownload",
+      download: "https://developers.nextpeer.com/login?p=%2Fdownload",
       platforms: ['ios', 'android', 'unity', 'cocos2dx'],
       tags: ['social integration'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAARZJREFUOI3d0j8vg1EUBvDf2z8Gg9AmYhELk0TSRWK0+AQ2g0VIiE3SRadOTWz4AAaTxGQSG5OlH4BFmCQtrWgkVTX0vvJ60y/AWW7ufc55znmec/nzESUv/UoJ8iiijU5UrQ/Dx/GCz0wKjLCFaxxjKrwnYxlXWIJMCpzBDmaxjhoKKZJn3KIJuRTBCuYS8tbwjnK/UuphFyPYQ+uHIHQYwyqy+AokWWyghwbKofAcraha/zXBNBbwEUYvBj/y2A45GdzgMS7KJfQ94QhdHIbuWWyGU5jkDO14O7GJ8zjABWpRtd7BG/Zxin7Iu8Nl0rSYoIBFTMZA6NAMuk9wb7DahyRBFCTkMIFXdId8nlEDkxtp/B/EN0YaS/KMlo5TAAAAAElFTkSuQmCC"
@@ -502,7 +502,7 @@
       url: "http://www.ninjametrics.com/",
       github: "https://github.com/ninjaframework",
       crunchbase: "https://www.crunchbase.com/organization/ninjametrics",
-      downloads: "https://developer.ninjametrics.com/IntegrationExamples/Android",
+      download: "https://developer.ninjametrics.com/IntegrationExamples/Android",
       platforms: ['ios', 'android', 'unity'],
       tags: ['games', 'mobile', 'monetization', 'analytics', 'data', 'bigdata'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACjElEQVQokT1SO0xTYRT+/t7bB1ShFqX0wXNxMTGRMMhAVEIQ0WjwkeDsoCYObi6GzcRV3TRxIAwao6bWaIgiEeShAkp4BEpKqQgBCrHYltv73/8chwue4bzyfeecnHyipbmJiACAwQAzY8/bgXcLO2N9c2NDEQkhiIiIAFaKbIxSiplJEYRQSjGTspSmOwiApmkMCCFsqM0HBDOEw2E3iRhCaG/eREPhSDw+N/5zBqrAxHs0m7O7x/bMLP5fuLa6NDI8PD72fWhk9EPfIACvCy63R3c6hXAQkZRmJlsQbe3nbl6/1nDsaCAUBiSUApEljemZ2eRiYj6eSCRTv5ZSDC47UNJ8ohH+YAQoAtynWlrfxV6yzJCRNrZ/y+zKj2+fuLCqtpPyz4LcmjM2pnKrE47sjhmuCYVrIpMzs21nr9QeOf74aY+UBV0DyOrovJFcSinLzOX+Gjt5YyePryMDAPwVEcBbVFbhD1bC7QN89+91TY/1pVMT/khd7MUTY+3n5uLQZmIATNnhwb7TZ9pHvnzsunun4Xgj9pcDLvsTVzsv9Ua7Ac+rnofZ5dH0widRyKVdut7/eeBPZvvC+VYyjfX1dGIxuZBIPn/d+zb2ESW+w5WH5qanhnq7q0OHhNrZIrJ0TYxNTFZHAsVFbiYlwA5Bbt0Rfd9/u+tBideTL1jxmaUH92/p0djbqkhFKBSsP3aETFNKg5hJWVJJskQ+n1+cn409e9TSVB9PpDTBolhH3gIArxMXL3ecbGoMBsrCFQdLS/Z5XFrpfq8QSkkpTQNMbElRVx0mIqWUUiqX+5vJmtgzF1Ae8Hm93kiwnJgFsLyyJmqrQkRk68RObAnZUyzLYmZLmgwwQ3c6/wGGFKgkOgS0DQAAAABJRU5ErkJggg=="
@@ -515,7 +515,7 @@
       url: "https://www.parse.com/",
       github: "https://github.com/ParsePlatform",
       crunchbase: "https://www.crunchbase.com/organization/parse",
-      downloads: "https://parse.com/docs/downloads",
+      download: "https://parse.com/docs/downloads",
       platforms: ['ios', 'android', 'wp8', 'unity', 'xamarin', 'react'],
       tags: ['mobile', 'enterprise', 'apps', 'development'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAh1BMVEUsgvykwvxUovxEkvzU5vw0ivxksvxMmvz09vxEivxcqvxEgvysyvxUlvzc7vxcmvxElvyEsvxEjvw0hvxcpvw8jvxUnvz8/vxkrvykzvzs8vycuvw0gvykxvxcovxMkvzc6vw8ivxUmvz0+vxMivxkqvxEhvzk8vxkmvxMlvxMjvyszvycvvwGxgYbAAAAlElEQVQYlV3I7RKCIBRF0ZNl5QeNIUNlgInoCPr+zxeXfuW6MLPnoNpB1f4fZuLSJXAuuGJWSqFw1Ag8hGIbb123cGr0EddvKD621DQwXh96P5wWHxvMMtbUWz7kjyM1bOT19fYZ754aMrqsurGNpZRpkGstM2liGAkjjJAvnZlIxAdBTCZK8YOJlGX8qSY8d3DeDV/krRiUfsOgEwAAAABJRU5ErkJggg=="
@@ -528,7 +528,7 @@
       url: "https://www.paymentwall.com/en/",
       github: "https://github.com/paymentwall",
       crunchbase: "https://www.crunchbase.com/organization/paymentwall",
-      downloads: "https://www.paymentwall.com/en/products",
+      download: "https://www.paymentwall.com/en/products",
       tags: ['virtual economy', 'transactions', 'finance', 'mobile'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAZ9JREFUOI3Fk79LW3EUxT/v+33v5SWNGmMtNEgFzaKDgzwyBCcrXVsc+gd0Ck6dxMG5Q0fp5NBBipNIlwqCs4iDiHQr6VBrqkkNL1Hjy/vx/XYo9QemoFjoXe+5h3PuudfQWhvco8R9hv8JgfnXzsbjN9h9BQDC+g5PK7OdYEbHHXyULslH24QNQIPVC351gufR5u0UNFUxOj68NKh+YFoUgRsE1xWsd78kNThDoLPocIBa+RXoiIfDSwi7gm385PzbIs8ayzcJVo0Uyb49VDCEakMiA0GzBDrA7nlP2wORAOl8p1UbZVqfXrfgM0Tz+EmkAAMEVSUEL4BAxVWlQECA4CQnkuSB3d8KPlkjpPPv0DJNxBhe+S2t8zX6cwtY2RxoCL0qtYMZUs4Umfw8ks+IuMlZ+bWJSsxydjRJeAJWCh44Lpa/gojH8b+YaA12NkeP8LEcl2DfIWy5WF2gEnMm9dOJWP3x0UAKXKAUq6NLe/pQSEkJvMIFVteRkqJJmw8S8leSqQBbEtJcCZKIDcCTMHCBjPja+ZDuUP//mX4BnvqdIjEI9MUAAAAASUVORK5CYII="
     },
@@ -551,7 +551,7 @@
       url: "https://www.exitgames.com/en/PUN",
       github: "https://github.com/exitgames",
       crunchbase: "https://www.crunchbase.com/organization/exit-games",
-      downloads: "https://www.exitgames.com/en/PUN/Download",
+      download: "https://www.exitgames.com/en/PUN/Download",
       platforms: ['unity'],
       tags: ['games'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACM0lEQVQokYWSzUuUURTGn3PvmXlHxy90nCQ0RCTMooEwW9gsbFELsUVQtMh14GhU5qKVf0DrggoiaBXZwqJcBUlbjRDMNg0EStnoIDav8/Hee04LbSNFZ33Ow8Pv/Cicm6h8uI+Y4r8TUSKbo607ZAIG4IxnsaoCgMjs7SgRJCJiABqRSsQ2BvWeSK1CI6eNbRRukhEPJSLUYFTFRsZDQACMh4pTVyPZUc5carm5kjw3IxU1Cvi/9GREFPRfQEuX3y7EjwyaxrSmjwIQgnUQOnhAu29uJYZn/MYyd2elmI9WZsP393R3i0hJACGjKhbGw4MAsOWm8Nmo7Rzg7qxp7TFBSn9umiRQRTwJ2zmAhi4+NmLSx6WwWn01bm+3L0DKDWOzsAkp5qkpTYFVVOOZy5zqCUYfcN+Iae+P5qf4xBWKJ+30ALj3THD6uoqrvL5h6tPckfHFfCJzjaz1X9/J+hL3jdrDp0xHBgSmdMq09UoxLzvrfPJq6fFFABKQW3pZPzQWOzsNX629nfJri7Y7i3KBwrmJxPBd+f65NJ9rnlwpPTlf+7JgYwIg3nyobnzRrc5VXkxQDBAQgaOPT6Pl53BlAuAi1LUaETVEolLaKD8clHCbAsACgAKMsCQUGlXflNojLcawqidEDij82Mda+4NVGTBwAJe3fj0a0u01jqtTEEGNITn4bBZHhokJjpS+fVKGhTKR/4eyJpHNiVMfgRSIKZEKwWMvWJTVx6D77iKRzf0GZLYKeH4tozMAAAAASUVORK5CYII="
@@ -564,7 +564,7 @@
       url: "https://www.playfab.com/",
       github: "https://github.com/PlayFab",
       crunchbase: "https://www.crunchbase.com/organization/playfab-inc",
-      downloads: "https://playfab.com/sdks",
+      download: "https://playfab.com/sdks",
       platforms: ['ios', 'unity', 'javascript', 'xamarin', 'cocos2dx'],
       tags: ['game development'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAftJREFUOI2Vk89LlHEQh5/vu/vuu+vKlpQYUmqwmbCdykII8dIlFDp08BKRFdGPrQ516FaEkR3qIPgHBEFEXYIiwkOHTqZiRGEEZYGXSGvVbd333X3fT4fWbXXbpIGBgZl5Zhg+gySzjqPARyMDh3SWhzrHfY0M9Cv/E0nGSDL828RF53w+7w0jwIdolq8Mz2yhqY3wus3vx2DJO21scA7cOEyy8xmz00ma2gAMf1250j9MopPM6ATL+vy2MmckmfCqacDEPIRhQ0Es7N1czogw8Ok1uMvQ3lluWgEoEMRGuenlCmncbD3xjRkiZkgduoUhcMNEnQdHvrFAgWtjzezcJ8BYK6TYKGe8xcwVQjLEG55SzNWRXRp6md1zEINfKlsGcpVHsgCNz4HnkUYwuD2SUh99g8n4fgJxdZ4LGIqRAi7991q4PplkW8fvA5YA2Bbge60Yy+9p5AtATyMTBAEvXBKAb3ygZRfs2A11CVO5QSkK+VhBqPsVT25P09U9znPsEHcTTAG2AAKftbZaBxK4P3ovv6EXC4g2zB9t99K4zLpFnGhQrAEQIBnsWP5UczS11eGYG5Dp2sQd6ovQc+l4FMVpTVUBkMTUnOBxYZFHWffd9zVCqhbXKuFVSdlTOaz8kZr/8ueIgR9CgVWrsJaFy3zb+YjtxP4X8Atq4B9ZS2fStQAAAABJRU5ErkJggg=="
@@ -576,7 +576,7 @@
       hq: "Encinitas",
       url: "https://prime31.com/",
       github: "https://github.com/prime31",
-      downloads: "https://prime31.com/plugins",
+      download: "https://prime31.com/plugins",
       platforms: ['ios', 'android', 'mac', 'wp8', 'unity'],
       tags: ['mobile', 'developer'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAGhJREFUOI21U0EOgDAIK8bP+P/H+Bx2UeNqxzBoT4PSriEbUIQBcKqx970L28GTRg8n4UtBDABYJ0mMaufe3UANR+YhORJwX+7gETPCaIkepJga2BcJ0vj9HSjuPJsi38LlZ8oIC5f2aFSkGA7cTRTbAAAAAElFTkSuQmCC"
@@ -589,7 +589,7 @@
       url: "https://www.revmobmobileadnetwork.com/",
       github: "https://github.com/RevMob",
       crunchbase: "https://www.crunchbase.com/organization/revmob",
-      downloads: "http://sdk.revmobmobileadnetwork.com/ios.html",
+      download: "http://sdk.revmobmobileadnetwork.com/ios.html",
       platforms: ['ios', 'android', 'unity', 'adobeAIR', 'corona', 'marmalade', 'gideros', 'cocos2dx', 'cocos2d-iphone', 'cordova', 'titanium', 'amazon', 'buzztouch', 'shiva3d', 'kivy', 'rubymotion'],
       tags: ['advertising', 'banner ads', 'mobile ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAg5JREFUOI2tkj1oE2EYx//Pe+/lktwFcrnahJpSrEUHHUqho1XEUnFxEVz9wK9BQoZCQQSLizhltSA4Oegi4iDdWsGxi9QMEqG1EBKpGXLXu+vd+74OIZiPRhf/0/vx/H/v8/55gP8t897G08TNTTW51WxPva/d+Fc9dRdOefNq28VajMS49A5QfDwHkAHst76m3m5f+1ZZrB4JOH3r5cQOm34XadY84gBQEiIQqvhollQoAM7BdANo/lrfPV9cogEAq51YeCZsZx6hC0gxulVGuADwwXOmJMUyZ4NNFwUzk1IJCSgAxECmCWr7VevV1tndc8eXNoB4EMBBpCAlJEhDYRxaNpBsrwkKogO9uX/3++WTr/8WIuvbSQnoOtjsGfZj7phV/xxcHGWcWq+v9QOkhJbQY5kbYyppAgAO7eJta3W7MmT+WK/QTOEOADCppM4Ygdk5IawsBwhQqlMZevCTTslarT7vNavJfEl6ncB52qAPsWlej/R0gqIQnQR7FLrwk/aytfLFy18ZMyMnX1JeG5TqdMm8lZk34UPHSPmtFxpPQGn60H9V6CKwMk9cz1xG6B4doleeuB8+SJMRup9gpP+YAXCNxcq20agK+HuRIE7DAKAz1365sJBpVBd7zSLrcEgJTQd+1pjm7xzGXcjgZPa9bFRaSpgZQMm+OxED+VMcjUuMRgK6kFHqGn8Dp+LIB4M+3M4AAAAASUVORK5CYII="
@@ -602,7 +602,7 @@
       url: "www.sooml.la",
       github: "https://github.com/soomla",
       crunchbase: "https://www.crunchbase.com/organization/soomla",
-      downloads: "https://doorman.soom.la/login",
+      download: "https://doorman.soom.la/login",
       platforms: ['ios', 'android', 'unity', 'cocos2dx'],
       tags: ['virtual economy'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACC0lEQVQokX2SPWgTYRjH//e+711yHwlJLk2sFUNQRM1ga/3AmqmIOjhYrmjmDm4OBt0cRBwzKLjo4lApWHQQRDsILYotRCIuEVFRKsWERC9N73JJk/twSJU01f6m/5/neeD54mQtix5czwPHHd27u6TXV8o/icBjM6TP247Tbq7fvqRNjB1q1gxsgQoHT2zyjK2vlH+53tLHb5VVwyf6+woYAMKoYVqorsJzYbWSR1LXtFP5T8uX3xZNfQ08BThEQ4GA5NoOA9A2rZ1q6NzZk8Rxw7J45eKZgYB8bF9CDcgvC0VJ8rdt50XhQ6VSY6IPspbFaOb69DNvW27MPMdoRtaypNXu8HH1QnoEQObe49zcYm/HubnFibuPAEyODfM71Fa7wxzHFRQpGVcBTKVHoorUWzB+IJkaigFIxCJMlpqmxSijHaPxpVwdTu46ndrTt5PDicGu+FyqdowG5Rnx88yu6DMLha0r72X29Tu7ovt5xgDwcXV6Pq+IgkCp43m6Xs+MHwcwO58PhYOU4wghD18VWCyycQdBEcvV2p2nC9Gg0mm20vuTlBAAS8WvP2p1XhJLet1YM5VQ0HMcTtayDdMaHIgsP7jJM/rPfp68eT95NScPxbHxS7YblPz/ywbgAeC4riYAwMFx3W0m5hmF53U1A+CTRd20zt+6Twjx/gT+wij5Xq3x0XDX/ga6RNskfYuBqQAAAABJRU5ErkJggg=="
@@ -626,7 +626,7 @@
       hq: "San Francisco",
       url: "http://www.superrewards.com/",
       crunchbase: "https://www.crunchbase.com/organization/super-rewards",
-      downloads: "http://docs.superrewards.com/",
+      download: "http://docs.superrewards.com/",
       platforms: ['ios', 'android', 'unity'],
       tags: ['virtual economy', 'monetization'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAj1JREFUOI2Fk89KG1EUh787o5j+BUEjLoKLRFwZ6DOEbGJsHiBxUd9BQayCKHFXfIJ04WRoNyOCiJBFVChuXNguxKZCF3HRTBAXs5hr7szcLmwCrTE9y3PP+Tjnd+4PBkS5XK6Uy+XKoBrx1MPW1pZ1e3tbBBgbG7NWV1cX+tWZ/ZKbm5u77Xa7JKVEKYWUMp3P51P1en3vv4CNjQ3Ldd2SlBKtNVprgiBASpmem5ubPj4+dp4ErK+vW67rFn3fJwzDHkBrjeo8TJLL5aZPTk6cR4C1tbXdVqtV8n0fz/OYnJzk7u6OKNCIIY0ONSroQVKnp6d7PRFXVlasVqtVvL+/x/d9dnZ2SCQSDyt9eM+PRA1TPUM3XxFdjDLyfJiJiYnq9vZ2SSwvL1dc130npQRACIFt29RqNc6+nHHV/spw5hfh1SjRt9cgQKOJxWLE4/GP5tTUVCEIgjfdnT3P4+bmhkwmw/zbeRo/v9N6cYWqjxOFmkhHPV08z7swbNteVEpVATqdDrOzsywtLXF+fg7AeDyONiJCHRCGAWEYAqCUqtq2vWgCXF5eOjMzMynDMNLNZhPXdUmlUtTrdT5ZnxkxXtJpmmihMQyDKIosx3EWeiJ2o1AoWEDR932UUpimSWwkhg5BDIFpmgDV/f39Urfn0VfO5/MWUOyO2rv3n+aDg4PSX/l/AY1Gw0kmkykg3RXWMAy01tbh4eEjP/T1wvX19V4ymZwWQqSFEADW0dFRXzMNjGw2W8lmswPt/BsrPDDproYbPQAAAABJRU5ErkJggg=="
@@ -639,7 +639,7 @@
       url: "https://www.supersonic.com/",
       github: "https://github.com/SupersonicAds",
       crunchbase: "https://www.crunchbase.com/organization/supersonicads",
-      downloads: "http://developers.supersonicads.com/hc/en-us/articles/201113271-Download-Android-SDK",
+      download: "http://developers.supersonicads.com/hc/en-us/articles/201113271-Download-Android-SDK",
       platforms: ['ios', 'android'],
       tags: ['advertising', 'monetization', 'mobile'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAcdJREFUOI2dkl9IU3EUgL/fvZctvXOEMBMsqTAzq8daUAgrhAoicFZWrhwSRUQQiO0hCiToD0EvQRQEYtRLD1H6EEUg9lBR25peQ18rQe7mmHebMNj154NgyO5get7On+875+EIKaMuCuptpOyxrHwDFYTXq88gxCBue0DIfOyelVuIVAKWiDzV94VciJtWNu9bl6BGT2prgXPZHMav34x+HKNp53Y6uzt8WiXQRHySr2Pfif9IkE6lqav3ca3/CgCOgkw6w3jM4Oe3GInoOClzbqWnqio3B/rw1HjKC8zZJO/ejDBlTJf0zoZP07K7eSVXnATNrTt48OQu/oP7VtV37W3hVCi4quZ4QSI6wdDzV0wZ02xubODfnxmqqjZwPXIVTVPLC6SUPH74lM/vPwFw5mInBw7t58alfi5c7qZx65aSZf8F8zmKz95iDY9SEJJwuIvzvV0kzRRHjgU4ETzudCxi3hiRi8NfWHz5Ab1Q5G9PO5Pb6gi0twFg2zZ20cbldjkL5ppaJYqCcrINJXQUNtU6DpYLIYcemZZ/j4+NnjWBsPzKCsHDL9YDA6CIQY1qecer6i4k5ywrX1/RZq8+i+A1bvvWEpnon7mT+ZlkAAAAAElFTkSuQmCC"
@@ -652,7 +652,7 @@
       url: "https://www.swrve.com/",
       github: "https://github.com/Swrve",
       crunchbase: "https://www.crunchbase.com/organization/swrve-new-media",
-      downloads: "http://docs.swrve.com/developer-documentation/37926233/",
+      download: "http://docs.swrve.com/developer-documentation/37926233/",
       platforms: ['ios', 'android', 'unity'],
       tags: ['marketing', 'analytics', 'mobile', 'advertising', 'social media'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAiRJREFUOI2lkV1oknEUxp+/76vvTNtSWx+zVbY2t2HiZiMERYm6GGV1kyBCFAlBF+smGBHRjRThVXSxq+gu2lyxWbGGQavRqKCtaDD7nBiZXdQY8+v1VU8X5XDxRsHO1Z//+Z2H5zkHWGWxfwGLebLyHNaLJaT0a1j8v5UvPP64q6XL9dTYZqtsbe8mY5tNatjRHV0g2lLLcXLDQ0OkGwj5HikqJasgqJhSpYQgqBQcJDPPa1ti9+7cqrIKOYHxuYFDlWLB9Csk903faIygggIANNRrCrWsrEAyHm+tvjduMw1PPRj0Xbw22bPZ5jrh9Rw5XcvycgLNOy0fPr+bBgCkE/MBb/Bcyu9kYQCzTTevrmBXXIGIOMZYmYg0VmfvpFTIdFV7nFJ42xkMHYsEHS9kI4hEDrf36Gubx3uXAeU9gbED9YZNI9V+WRLNU+G+21+IDHKuMf5k5sYGk4U6djtpv78vVP3vvz7R2+nY96nd7iSj2UaLRTou68Dtsk0oeR5EQGLuZX/gbPgUAO7KSc+YztD0cNlJBdtld0BEyjPnL8VGoyNutSAAAHhBMyvUCamlhR8uhQLqpUwGr6ZnfI0aFqnOLV+BMSa9/07+4Wh0VA30AEBJzFpKYtai+O2TE9TPk3Hcl40AAK0G9jX15tleta75ci4vpnLZHHLZHDKZbJ5xaweTB2OH7XaWk43wZ6XTtE6vR4cE1FERCa2Wzf+NXVX9BEXcwhiuUGgUAAAAAElFTkSuQmCC"
@@ -677,7 +677,7 @@
       url: "http://home.tapjoy.com",
       github: "https://github.com/Tapjoy",
       crunchbase: "https://www.crunchbase.com/organization/tapjoy",
-      downloads: "http://home.tapjoy.com/tech/product-overview/tapjoy-sdks/sdk",
+      download: "http://home.tapjoy.com/tech/product-overview/tapjoy-sdks/sdk",
       platforms: ['ios', 'android', 'adobeAIR'],
       tags: ['analytics', 'monetization'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABiUlEQVQokZWSPUtbcRTGf+f6v5Gb3nB9ARPRQptapIv4BTo4VNtBF6HQyQ/g0qVDlw7t4OjQbu3kRyhCp1JFBMeCKFh8K1VMIkaSmpur/xtPh9q8QELxTIeH8+PwPOdIYXSc25Rzq2nANFpr9bTE7yrE/wf0vGzGHiU/vUo8HJGUj/5VFVUAx2kFwmri+UzP+0UAG+vFBSKoYoykfECL5w2mMDqep692klPV0us3OcgT5AlyUHwxp6p2a/vkn5gnMIBSdDJprA0X3nbVQzsrJZ4+AezhTye4K5n+RkpCimqE63rzL693ftwA4aX7IAvEm1sku+seHIChwfK7BSD4sNj3fUN/FQDCisneB+LVdfFaAfGT0cel4uR09PVb9fMyvT6qGM8ZzAD2ywqmkf5NJ/09tb2D8uwcvid+kivrPnsMXB8dA4i0O5zr1p1pGLlTE4DdP+CO13y4Dq8RXXVls4Dd3Wt23BmIa246TXQZr6xJ6wbp9K16VKBSkXtDdCeaddN2GpDhgbb6H/IOjHK99SRyAAAAAElFTkSuQmCC"
@@ -690,7 +690,7 @@
       url: "https://www.trialpay.com/",
       github: "https://github.com/trialpay",
       crunchbase: "https://www.crunchbase.com/organization/trialpay",
-      downloads: "https://www.trialpay.com/legal/mobile-sdk/",
+      download: "https://www.trialpay.com/legal/mobile-sdk/",
       tags: ['ads', 'mobile ads', 'games', 'game ads', 'video ads', 'banner ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAe9JREFUOI2Nk71rVEEUxX/zfG+z2aAElWwMJoWNdikEC23Si7WghWhjZSXivyB2mkZst9DSItE0ClY2QS1iClERjZBi3V03bz9m3sy9Fm+zb5NNIAcuM/eDmXPP3DEAr752NDaGODLEEQMzJCN+vt+bnzseG3Pi/hudv7DIqcmI9zerANxaqSMKlSSiEhumEsNUKcrXxFBJDJUk4uJsidiLkjqhfMywi9/tQCUxWA8uMTgxOAHrTW7B4AK4oESZQOqU9duzwwPe3aiyOFOi7YS2E1KrtK3QtkLTCs2+0OgFrFfiIEo3U/ajbZW16zNj8Q9/LG9/9mn2BStKBJCJUn2yNSw683SLlW/dob+8vkNto0MmyqW5CS6fnaDRF6yHeLeoHBcadL3ipbj12aeUydjwpZ7xaGma8ycTWn3BhgGD/ehlStcXbaUDLV5/7wFwuhLR7AsuaMFgFEqu8PCATMlE8ZKzDAItK1h/CIODGHUyZWmhDMCPluefVZyMMDCFBGQPF7hS2y40eTA/3O844eVmh9QJLlAwqHeFO6t/h4Xnpse7+7jtuLvW4PnnlNQp2agGNii1jQ4vNjsYDEGV2rU8V378i8jkMVEw5H/BywEi5s+3d7CCQtAipuSz45WjiXgoBmyI7q2Oz/IRIMtXzX+kPQWJy3tRuAAAAABJRU5ErkJggg=="
     },
@@ -702,7 +702,7 @@
       url: "http://www.tune.com/",
       github: "https://github.com/MobileAppTracking",
       crunchbase: "https://www.crunchbase.com/organization/tune",
-      downloads: "http://www.tune.com/#products",
+      download: "http://www.tune.com/#products",
       tags: ['mobile', 'ads', 'marketing', 'data', 'advertising', 'analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaJJREFUOI2V0z9L1lEYxvHPef6g1hxuDtVWzxtwFUHdpaUIEgQXg6BZlKQlBO0VBC3inArq6huwJajFTdqCSv397nMa/D32GE9QFxw4cK7ry+HmupNBvS4UY5KHmJRMoIPSnD912AGvCpcIPcmyYk4yoggk3MatIQAdq4UxZFOyTck4tiW7+NL47irmMK8YlwYBGd/0sClpS55IjmSVlca5Wj5JDmUf8EbxoA9pqY0Ky7I7wgsX9tUDYVhJ1CqX9oWXsjM1gpasJ8wKO4oDCWsD4b7W0tU0igNhR+4DwqRsVNhTqa0PCfe1nqjUwp7wQy11hAlJ4PPfkwMKmuF+5wrwf6qvbwV1SzgV2sL9f4IFjbctnLaEY+FcmFXpWBpWuEZLhUqnGfq5cNxSnAi7wrxsWsHiEMhiufp0Ni3MC3uKk5baueyt8FW2oTIjdC0MQBYKoasyI9tovFtq58mzQoWuKcUmxhXb3KjyPcxJHuFM8lzlSFdTyKelX5IezTIxwvVY27ho9mNLcqLgXXKzNY8LjKKnmMRE83IqOcZH/PT+d+wXXNy1M4EK5+8AAAAASUVORK5CYII="
     },
@@ -725,7 +725,7 @@
       hq: "Copenhagen",
       url: "https://unityads.unity3d.com/",
       crunchbase: "https://www.crunchbase.com/product/unity",
-      downloads: "https://unityads.unity3d.com/help/Documentation%20for%20Publishers/Downloads",
+      download: "https://unityads.unity3d.com/help/Documentation%20for%20Publishers/Downloads",
       platforms: ['ios', 'android'],
       tags: ['ads', 'video ads', 'monetization', 'advertising'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAoBJREFUOI2Nk09I03EYhz8aGLjATGrOjA2dCglWagvSoENRB2l18N88OWudIiQtmRXOIUZl2qE/ZGoRi9ZwlTq2kw4RgqVoQZpjsO2nbU0zNotUqn06iEObZQ98Ly88D7y8fIH/RKlUGnJycu7k5ebyXE0NV+Yx/5Kqq68ZZmbeqcbHJzA/Pw+RSIRwOIyEhEQYhgbVspiYrti/ybb+/pIBu1FlMDxFOByGRqPBtqQkLC4u4NvXEB401B9eV6y/ohOOHjvOoqITtFgsFASBJDk6OkYArL14ieLtW9h218ooubGpSZBnZFChUHBpaYmrycvP58GCApJkikTCsvLytQFdU6sgk0kpT0+n1+ulx+PhpHOSgtfL1rbbBMDe3j4Gg0EWFxczOzubZrO5EgCgvaoXRPGbKZfLOel0Upiaps/n50xgllPTHwmApWUq/vj1k8FgkJ2dnUxJ3UWT6WUlqs93uzfFghKJhGKxmADWfW63J7KOy+VipVr9HgBijzR+GaxQaeD3+yFOTkb/gB2venrR12eBzWaD8bkJAND16HFkXZ/PB7t9cHcoFKoAADjc7hJ1lYYAqNPp+CcXamoJgIIwRZLU6/VEXBzv3e8wRqoOx1hJ1enliFarXRP4vrBAAFSePEWSlEqlLCw8FH3G1yOOkqozZ5fvXVfHubm5SMRoNBEATd3dBMDLDdejAwBgMJsrXt1scVvb2wmAWVlZbG5u5tjYW+5XHGDi1kTukEr5rLTctW5gNTdabnHP3n2MF8UTAFNTd1Imk1Gemcmh4WEjsMFnAgCr1Wqc9n3K+zwbSH8zPALnhwmkpWWip8e8oRtFIOCr6Hr4pMM89MK9MvsNLTuSVgAI/zUAAAAASUVORK5CYII="
@@ -738,7 +738,7 @@
       url: "https://unity3d.com/unity/analytics",
       github: "https://github.com/unity-technologies",
       crunchbase: "https://www.crunchbase.com/organization/unity-technologies",
-      downloads: "https://unity3d.com/get-unity",
+      download: "https://unity3d.com/get-unity",
       platforms: ['ios', 'android', 'wp8', 'windows', 'windows store apps', 'mac', 'linux'],
       tags: ['analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABoElEQVQokWNU0jFnIAUwkaSagYGBBY+cmbGhtaWpvq42KwtLdHI2Pg0JMeG15YUMDAzfvn/n4uRkYGAQFRF+/eYtAwMDs6CYDLLSAB+PmIhgaSnJw8dO5hZX//3z18zEkIGB4enzFxcvX2NgYGBQ0jGHo/beyf///1+3aRtc5P///4kZBQePHH/0+AlEBOGkzJT4kvzM1JySfQePQET2bFn17v2Hg0eO62pr2llboPihoaokNjLk0+fPbs72ibHhzEzMnJwcivJyJnYeDAwMZ85fnDprAYoGFhZmGIOFlZWViZGJlZWVgYHh75+/DAwM//////fvL9QlcOf2T5kFcTFc5OGjJ69ev1HSMe+bPPP////ofpg8Y+6/f3/nTe9fs2FLeW0LAwODk3fInUvHrS1MjQx0nzx7DlGGEqynz154/uKlhLiYh4uDrrbWnbv3f/3+3dZQpSAnO3HanAuXrjIwMDBiTUsp8VGVJXkMDAzfvn3n4uJkYGCwdPJ59foNTg0MDAxMTEwWpsbWlqb6OlpMzMxRiZkQcZwacAGSUysAzMmZ99Y8DDUAAAAASUVORK5CYII="
@@ -751,7 +751,7 @@
       url: "http://www.upsight.com/",
       github: "https://github.com/upsight",
       crunchbase: "https://www.crunchbase.com/organization/upsight",
-      downloads: "http://www.upsight.com/resources/",
+      download: "http://www.upsight.com/resources/",
       platforms: ['ios', 'android'],
       tags: ['mobile', 'analytics', 'bigdata', 'datamining', 'data'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAHVJREFUOI3tk7ENgDAMBN+IDjGOp/F8nsbrQG0KFJSQhJiGiq+il+7tSG9yd4Ql7ABWqG3JonDACQNqlNvTK/j+HgYIO4S9mDrcIEFBxb7wB3wfsL8JmBveAgBFgR560b6FHqBGEAbULqvVxKquGVz58Wvs6AB25S3hMGZIGgAAAABJRU5ErkJggg=="
@@ -764,7 +764,7 @@
       url: "http://urbanairship.com/",
       github: "https://github.com/urbanairship",
       crunchbase: "https://www.crunchbase.com/organization/urban-airship",
-      downloads: "http://urbanairship.com/resources/developer-resources",
+      download: "http://urbanairship.com/resources/developer-resources",
       platforms: ['ios', 'android', 'amazon', 'wp8', 'phonegap'],
       tags: ['messaging', 'in-app', 'notifications', 'analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAjBJREFUOI2lkktPE1EYhp8znV4YFKwlIuGiIsYFLkiUKDExYgw7xL/g1h/iX3Dl0pUmbHTpRnaaojEG0NA2SEfolGmp006nc/tcNFLFakx8Vyff5TknOY9a/bIfiIjiePrVjlqiREQppUSPoyjRF/BTFKA0TbpzgkgPpP9pWSlQKMI4puMH+EGounXFQDpFKqkjIuj9bhOg0WxTqdbxXY8UkNQUSU0jiGI6wGB2iImzuR6g+0xFq92hUrHJahq3xs+Q0RPYjsv+oUO96eJ3Ajzf59X6Jst3r/cAbsdnr1rHiGKWpicYNtLsVOt8rtb55nrYjotZa1Co2Lzd3sVpe8zNXkRTgOcHPH25RnBwyL0rM2gKPplVSlaNLdMiXyyzax+S0BSNVpua08LIpMllh9BRCq8TcOPCOA+XFrAaTcp2A9txySST3Lx8Hj+MWC+VeZHf5H3RRAGL87PMTI6ih2FEfqPA3EgWLwjxgpBTgwP4YcSHnT1ebxR4V/rKQcNBopgTJw2WF65y/848ekJDPc5vyJuP2+xbNSpWHT8IOXBa1JttAIx0kiEjQxwLudwwK7evMTszSULTEBHUs8Ku6IkERdPi0ZNVpidGGRocwKzYeK5H2w8I4phL58Z4sLLI6OlhojjuffvzYlkA/CCkZFpMjY1gZNKYVo219S2MTIqpsZEjsPzQ8DgAQNMUIl1VlVJdN1RX1Fjkt2XgVxPjuDcgIkj30M/0o2h/7f5D/hvwHcCRIz4/n9tVAAAAAElFTkSuQmCC"
