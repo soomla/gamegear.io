@@ -351,8 +351,8 @@
           });
 
 
-          $('.row-kit').on('click', function(event) {
-            $(this).toggleClass('expanded');
+          $('#content').on('click', '.row-title', function(event) {
+            $(this).parent().toggleClass('expanded');
           });
 
 
