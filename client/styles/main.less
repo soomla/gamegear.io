@@ -103,6 +103,109 @@ body {
   padding-bottom: @footerHeight;
 }
 
+.sharing {
+  color: @white;
+  @circleEdge: 35px;
+
+  .sn {
+    font-size: 0.8em;
+    color: @white;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 12px 10px;
+    overflow: hidden;
+    z-index: 0;
+
+    .fa {
+      display: inline-block;
+      width: @circleEdge;
+      font-size: 1.5em;
+      padding-top: 3px;
+      text-align: center;
+      float: left;
+    }
+
+    .sn-name {
+      margin-top: 5px;
+      text-transform: uppercase;
+    }
+
+    .sn-shares {
+      font-size: 0.9em;
+      font-weight: 100;
+    }
+    .sn-name, .sn-shares {
+      margin-left: @circleEdge + 10;
+    }
+
+    &:before {
+      content: '';
+      display: block;
+      margin: 0 auto;
+      width: @circleEdge;
+      height: @circleEdge;
+      background: rgba(0,0,0,0.1);
+      -border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      position: absolute;
+      top: 5px;
+      left: 10px;
+      .transition(transform 0.5s ease);
+      z-index: -1;
+    }
+
+    &:hover:before {
+      .scale(10);
+    }
+  }
+
+  @borderRadius: 10px;
+
+  .facebook {
+    border-top-left-radius: @borderRadius;
+    background-color: #2d5795;
+  }
+  .twitter {
+    border-top-right-radius: @borderRadius;
+    background-color: #00a6e9;
+  }
+  .googleplus {
+    border-bottom-left-radius: @borderRadius;
+    background-color: #de4927;
+  }
+  .linkedin {
+    border-bottom-right-radius: @borderRadius;
+    background-color: #0079b4;
+  }
+
+  @media (max-width: @screen-xs-max) {
+    .sn {
+      font-size: 0.8em;
+    }
+    .facebook {
+      .border-left-radius(@borderRadius)
+    }
+    .twitter {
+      border-radius: 0;
+    }
+    .googleplus {
+      border-radius: 0;
+    }
+    .linkedin {
+      .border-right-radius(@borderRadius)
+    }
+  }
+}
+
+.sharing-github {
+  @media (min-width: @screen-md-min) {
+    margin-top: 40px;
+  }
+}
+
+
 // Hide the headline when the entire row is
 #filter-bar.affix .headline {
   display: none;
