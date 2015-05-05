@@ -284,7 +284,11 @@
               <img src="http://www.google.com/s2/favicons?domain=crunchbase.com">
               <a href="{{crunchbase}}">Crunchbase</a>
             </div>
-            <a class="btn btn-default btn-download top15" href="#" role="button">Download {{name}} SDKs</a>
+            {{#if download}}
+            <a class="btn btn-default btn-download top15" href="{{download}}" role="button" target="_blank">Download {{name}} SDKs</a>
+            {{else}}
+            <a class="btn btn-default btn-download top15" href="{{url}}" role="button" target="_blank">Download {{name}} SDKs</a>
+            {{/if}}
 
           </div>
         </div>
