@@ -17,7 +17,7 @@
     wp8: ['windows phone']
   };
 
-  var kits = [
+  var sdks = [
     {
       r: 15,
       name: "AdColony",
@@ -888,7 +888,7 @@
 
 
   var data = {
-    kits           : kits,
+    sdks           : sdks,
     platforms      : platforms,
     platformAliases: platformAliases
   };

@@ -3,7 +3,7 @@
 
 'use strict';
 
-var kits = require(require('path').resolve(__dirname, '../../client/app/kits')).kits;
+var sdks = require(require('path').resolve(__dirname, '../../client/app/sdks')).sdks;
 var _ = require('lodash');
 var Promise = require("bluebird");
 var request = Promise.promisify(require("request"));
@@ -19,7 +19,7 @@ var taskConfig = function(grunt) {
     }
 
     if (target) {
-      var kit = _.find(kits, function(kit) {
+      var kit = _.find(sdks, function(kit) {
         return kit.name.toLowerCase() === target.toLowerCase();
       });
 
@@ -43,7 +43,7 @@ var taskConfig = function(grunt) {
       }
     } else {
 
-      _.each(kits, function(kit, i) {
+      _.each(sdks, function(kit, i) {
         if (kit.url) {
           var download = Promise.delay(200 * i).then(function() {
             return request({

@@ -170,13 +170,20 @@
         </div>
         <div class="row">
           <div class="col-xs-5 col-xs-offset-1">
-            <h4>Provider</h4>
+            <h4>
+              <span class="fa fa-sort sort-column" data-sort="provider"></span>
+              Provider
+            </h4>
           </div>
           <div class="col-xs-4">
-            <h4>Supported Platforms</h4>
-          </div>
-          <div class="col-xs-1 text-center">
             <h4>
+              <span class="fa fa-sort sort-column" data-sort="platforms"></span>
+              Supported Platforms
+            </h4>
+          </div>
+          <div class="col-xs-2 text-center">
+            <h4>
+              <span class="fa fa-sort sort-column" data-sort="rank"></span>
               Rank
               <a href="#footnotes">
                 <sup>[1]</sup>
@@ -253,12 +260,12 @@
     <!-- build:js(client) app/main.js -->
     <script src="/app/main.js"></script>
     <!-- [injector:js] -->
-    <script src="/app/kits.js"></script>
+    <script src="/app/sdks.js"></script>
     <!-- [endinjector] -->
     <!-- endbuild -->
 
     <script id="kit-template" type="text/x-handlebars-template">
-      <div class="row row-kit row-searchable">
+      <div class="row row-kit row-searchable" data-rank="{{r}}" data-provider="{{lowerCase name}}">
         <div class="row row-title">
           <div class="col-xs-1 text-center">
             <img src="{{favicon}}">
@@ -312,6 +319,14 @@
     </script>
 
     <script>
+      //
+      // Register Handlebars helper
+      //
+      Handlebars.registerHelper( "lowerCase", function (str){
+        return str.toLowerCase();
+      });
+
+
       var source   = $("#kit-template").html();
       var template = Handlebars.compile(source);
       $(function () {
@@ -319,10 +334,10 @@
         var search = {};
         var rows = [];
 
-        _.each(window.data.kits, function(kit) {
+        _.each(window.data.sdks, function(kit) {
 
           // Prepare search key based on kit metadata
-          // TODO: Remove all ifs once all kits have all properties
+          // TODO: Remove all ifs once all SDKs have all properties
           var key = kit.name;
           if (kit.tags) key += ' ' + kit.tags.join(' ');
           if (kit.founded) key += ' ' + kit.founded;
@@ -395,6 +410,49 @@
 
         $('#content').on('click', '.row-title', function(event) {
           $(this).parent().toggleClass('expanded');
+        });
+
+        //
+        // Column sorting
+        //
+        var sortColumn = null,
+            sortOrder = true;
+
+        $('.sort-column').click(function(event) {
+          var type = $(event.currentTarget).data('sort');
+          console.log(type);
+
+          // If sorting same column, flip the order
+          // Always save the sort column
+          if (sortColumn === type) {
+            sortOrder = !sortOrder;
+          } else {
+            sortColumn = type;
+          }
+
+          switch (type) {
+
+            case 'provider':
+              $('.row-kit').sort(function(a, b) {
+                var comparison = $(b).data('provider') < $(a).data('provider');
+                return (comparison ? 1 : -1) * (sortOrder ? 1 : -1);
+              }).appendTo($('#content'));
+              break;
+
+            case 'platforms':
+              $('.row-kit').sort(function(a, b) {
+                return ($('.icon-platform', b).length - $('.icon-platform', a).length) * (sortOrder ? 1 : -1);
+              }).appendTo($('#content'));
+              break;
+
+            case 'rank':
+              var naRows = $('.row-kit[data-rank="N/A"]');
+              var sortedRows = $('.row-kit:not([data-rank="N/A"])').sort(function(a, b) {
+                return (parseInt($(b).data('rank')) - parseInt($(a).data('rank'))) * (sortOrder ? 1 : -1);
+              });
+              $('#content').append(sortedRows, naRows);
+              break;
+          }
         });
 
 
