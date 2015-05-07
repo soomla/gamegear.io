@@ -20,8 +20,16 @@ Gamegear is a static website powered by a Grunt build with Node.js.  To run the 
 2. Install the latest version of Grunt: http://gruntjs.com/getting-started
 3. Install the latest version of Bower: http://bower.io/
 4. Fork the project on Github to your account.
-5. Clone the forked project: `git clone git@github.com:<YOUR_USER>/gamegear.io.git`
-6. Switch to the project folder: `cd gamegear.io`
+5. Clone the forked project:
+
+    ```
+    git clone git@github.com:<YOUR_USER>/gamegear.io.git
+    ```
+6. Switch to the project folder:
+
+    ```
+    cd gamegear.io
+    ```
 7. Install all dependecies:
 
   ```
@@ -29,7 +37,11 @@ Gamegear is a static website powered by a Grunt build with Node.js.  To run the 
   bower install
   ```
 
-6. Run the website locally: `grunt serve`
+6. Run the website locally:
+
+    ```
+    grunt serve
+    ```
 
 That's it! Now you have the website up and running.
 
@@ -38,7 +50,7 @@ That's it! Now you have the website up and running.
 To add a new company or SDK:
 Open `client/app/sdks.js` and add a new entry in the `sdks` array.  Make sure to:
 
-1. Add company info (name, description, year found, HQ location) and relevant links (website, Github, Crunchbase, downloads page)
+1. Add company info (name, description, year founded, HQ location) and relevant links (website, Github, Crunchbase, downloads page)
 2. Adhere to the lexicographic order of company names.
 3. Include all the platforms you support in the `platforms` array in your entry.
 4. Add all relevant tags, which will be used in the quick search bar. 3-6 tags should do it.
