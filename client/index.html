@@ -273,7 +273,7 @@
           <div class="col-xs-5">{{name}}</div>
           <div class="col-xs-4">
             {{#each platforms}}
-            <img src="{{this}}" title="{{@key}}" class="icon-platform">
+            <img src="{{this.src}}" title="{{this.tooltip}}" class="icon-platform">
             {{/each}}
           </div>
           <div class="col-xs-1 text-center">
@@ -354,7 +354,7 @@
           // Convert platforms to their Base64 image
           kit.platforms =
             _.chain(kit.platforms).map(function(el) {
-            return [el, window.data.platforms[el]];
+            return [el, {src: window.data.platforms[el], tooltip: window.data.tooltips[el]}];
           }).zipObject().value();
 
           var item = $(template(kit))[0];

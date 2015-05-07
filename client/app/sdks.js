@@ -17,6 +17,21 @@
   platforms.osx = platforms.ios;
   platforms.win = platforms.wp8;
 
+  var tooltips = {
+    ios: 'iOS',
+    android: 'Android',
+    unity: 'Unity',
+    cocos2dx: 'Cocos2d-x',
+    wp8: 'Windows Phone 8',
+    air: 'Adobe AIR',
+    amazon: 'Amazon',
+    bb: 'Blackberry',
+    js: 'Javascript',
+    osx: 'OSX',
+    win: 'Windows'
+  };
+
+
   var platformAliases = {
     ios: ['iphone', 'ipad'],
     android: ['google play'],
@@ -898,7 +913,8 @@
   var data = {
     sdks           : sdks,
     platforms      : platforms,
-    platformAliases: platformAliases
+    platformAliases: platformAliases,
+    tooltips       : tooltips
   };
 
   if ( typeof module === "object" && module && typeof module.exports === "object" ) {
