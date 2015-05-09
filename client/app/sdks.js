@@ -42,7 +42,7 @@
 
   var sdks = [
     {
-      r: 15,
+      r: 16,
       name: "AdColony",
       description: "AdColony is a mobile video advertising platform. AdColony works with Fortune 500 brands and more than 85% of the world’s top grossing publishers. AdColony is a division of Opera Mediaworks and has offices in Los Angeles, San Francisco, Seattle, New York, London and Helsinki.",
       founded: 2011,
@@ -55,7 +55,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAiZJREFUOI2NUl1Ik2EUft7NljLoop+rWd2ayAIpMouZUGTibkzNbOBWqxmL7O9SKaFWRCgJJS0iSjMkUVtG0Y85TAsiuqlFEWIFa04lSjD99n3v00Vuzi9HHTgXL4fn55znBUnxnw2SkJLOO12BJ7NvgX8A5oHrT/nu7z1wmDMKUxIgVefZtr/VJE/bS6soJU/ECQyYKwJAODJxUdNwlUBufOB0e/uH+h/2TP2Kpedkr4EQuDCHSlLeVFA0rEk2JCsrKuuvXLvxufmSv8++0xGKqexOXi9BUOlwB1WNN/XWz55vimqSZd2BRx11J32jSbMEAUhaPN6j1IMrdrsGSBZLyfwd9oqYJnlOd1wRt3lm5GtkcDam/KfPnveokvsjYxNDJJFlzWM4Mv5Gr54gGB373qKovE0SuRsKp901R+jxHuPklNJYVFIW7ezujS4EJikEScQ0NIJY4ah2WhaZMgqtOdk/w98ixuXLlo6/C31Y3d7qtwggDEBAV38SAGzlVa5bHW3XXxoNKAeQuc9TG0pPN6WRIkNV1UH/5cZaAK//IomnYNtaMiIl16sqvduKS6lqbP0xOd20x1nD4MDQp4XskxRpcaLg43trresKXrmqK02rVlpCRgOazebFWTFFgW3zxl1663oHgiQ6uwLtBw8d/3K398ELknj/cbhFStalUp/3kUgC5kxF1dgmJZdIyS2pLq9PQQCgRvgMwIwQaNAfOqV9AL8B0AxNfV3k8u8AAAAASUVORK5CYII="
     },
     {
-      r: 30,
+      r: 31,
       name: "Adjust",
       description: "Adjust is a business intelligence platform for mobile app marketers, combining attribution for advertising sources with advanced analytics and store statistics.",
       founded: 2012,
@@ -94,7 +94,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAxVJREFUOI09k89P23Ucxl+fH99+21JK2/FLfg0QSbaJZroYHFEXE40Z8aqn/QXKQROzi3MHvRpj4sE/wAsXLwuJGrMYYxYnRgMq2i5Y2AYMoVJoS9vvt5/P2wNzr/vzHJ68HiXX0fW7l16vefnEpZsTuakqNhBEAEBpobOTw+32gAAKRGTFKK51j9xcUhtXLl7O2HDpQDqo/ABheEi+t4wJQbzC/ZM9CXsFike0nOOw3Zw3V5+ZXDyKjh9ThUGGFz6iXTmm/vc23eemUT1zJF68itIGd38dxAMak2ty5JvEkX7e1uL2jNOGzOgkOtVFdu4V1HMvYQZGMMMTxMvfoTLdmJEJOuslTF8bM1KhX3sONtNjOlloooKQ5NgU8d4Wyckz0Kjhy0UApFpBFfpR2UHMqQPs2D5Yj1JQON1AJ7MR+XFFdm4emx9AvMMGIW73PgD68bNAAhWUMUM1MP5kzIfofzcy2LRD1cvUvvgU1n4lePYFgouv4vcfQL1Bu/g1DJ/CjJwBUfzf4GtJrDhFpZwh4y0pvUPrmy8JgwTRV4uY/iGioXG2bn5P35V36Zk+i+rfwN+7hds5wFeymIWnRj/oVlrbzRK6EJJ8823cnRJ+u0yttEqtskPy9BTihPb6KumX38L2nif+aQXi2NtcEJIUwW1tYcZfQ+cG8fUb2LnL5KfPkY2a6CDEt445Lv2Oqx+iM+NgEkADnTQGRFDZHOaJGeK1Zcz5C9jZS6hUF7anF5vvx0cRgThoCNGdZYLZNyAIsY/WzBawT14Aa/EimK4u2sWfUZk+UtMzKNchMTxBYnSCjo+J9tdAefSJ8ArdO0B0XOPex++hjaWz9wCT7yU1PUPzlx+QagWpVqgtfk701wrt29/S2ldYUHfFxZOtyi5pEVobReqrPwLQ+OM2KbcIxT+J9vZIJBI4ESIRrNbE4n+zWvuFo9gttWpV7GaJTnWf7c+uIUDaWKwJMIFHh+bkUA8d6HhP23feV3IdXSzNzouWD0E9zclj6bIBKWNxXjCBYBMeFQdEseDEl5sufmd88taN/wCtxV0SmMYZZwAAAABJRU5ErkJggg=="
     },
     {
-      r: 32,
+      r: 33,
       name: "AppFlood",
       description: "PapayaMobile is a social gaming networking service in China and internationally.",
       founded: 2008,
@@ -162,7 +162,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAwlJREFUOI11k2tIk3EUxp//+zrd1tbcVtHU0rLILmAXyWtWREaE0RDntjRjhpGJ3ctuhEFQREWZ1RZSUdoQtD5EHyoqi8ruZBeysaRWw0rbprVXt72dPkg2BZ9vh/P8nnM+nMMwRNXtNOHW4S2Hujo70/v8QhxjAC+RdKm12ldxU+ZW27YWXQ33s/AiZ/Mee89HZ4FKF1ufo19vc2UkNM8NAM47mPT49u7SLvenigh19MfyYyenGVRs8OSM/OLW+Sstjgc+GrrUgLJ6CMtKt19OzTWEUijMl7Nmg32eucShxfBwuJZWVFozDUUdAMDafTSxYJXRWVFjZ4Vx/WstLFp7N0ql+K6LSWpve9a8jnGcn4+I4BeWlCdXLZ7tBoDM/GLXzISY0/yHTo9NOzr+5YGCBU0AkG2ytPi93kzB650OxrvkCnmbr+tbeigYkIuCv1eXmFRprDzyNt604N7TKzequG6fLz0lz2QFgPlGS4vQ3Z1K9AdEhG+f3xt5fgTGJMy4yBgQCoXg+9Gx+HZ9zfNeVfKLQKBPxQV6/bHRyZPvZ5ssD/09/fCACPja3mrmGGMa3fg7ITEYCQAiY+LRGOaOVCrdHADwMiDYK0wdBIeFeDqcKWpd7AcSRR6MQanWNDEAHBhxEonkJ/cV4zbV1qslUqlvKC+RyT7NzjJcdr5sWSuVK7o5jkNhVc3ejfQbQUHQclEqTeuTC8fXGzQM26vrosNDIqTSn1cuXEoQR+a+SJw1Z7/H7cqIUsgdlnjWNummfIooijJuRc7yE29eP9n0iB5BH8uw+mR/SKRM7ik8X6cdq2CoaWLXIJE/C5GIpJR55QDQVF9uSxylbQAAZBtXv1tSts3+b3Kdl3DKO/xRlZxrNKfpTdT6z2N1E1JzDcH8zVVnyHF9+BMkJ/adazSn6VfSDpt96aBeGhEy8oo6sgzFrnXWuvyDJAz0dtEvnPXQ9EWWsuY0vZl21F4agAe9FFlLkecYs/P7Z1dZMNCnkSmVX4hAAUHQ0h9Rqho1uuG07XjJRPYf+wsRMkb3a7brwQAAAABJRU5ErkJggg=="
     },
     {
-      r: 22,
+      r: 23,
       name: "Appsflyer",
       description: "AppsFlyer is a mobile advertising measurement platform that allows app marketers to measure their user acquisition campaigns in real-time.",
       founded: 2011,
@@ -175,7 +175,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAilJREFUOI2Vkt9Lk1EYx7/n/TE3p3PYfmjoylGaUGDCCCS6qMmQJqREbF535YXspjuR6NK6iP4AgyCREdvAGBStC/EuCBYEI0w3Md1sLd3c9m573/fpYptsVFt94ZyL53nO55zvcx5GRAxt5A7CAOA9A56tz+BFY45rd7imlVw8Oi4XTxbdIXT+F8AdxFI2Hp0FgHzq6wUQ5hvzrJWFyVXcKaWigcaY2NWb1pkGL7+ewSEACAAQgWcZYJ0EAgNTGRSNCn3y3MWVidiBCJ6rgAAwAJWTjElnGlwEsHAKSO3mnYnP2bH6LQQGkStgyPr4U0y8J5FyrK3GqxAG2Jp6YLXpffWCOkJWteguhAfsI9IXRe1A3afG2LevKPA1AW5hbcMx1R86bUxtl3LF3nHbS1nUGY4IDIzXlJnWOhe+i3gToKYlnmdy/SUEQFG1YN8jwyOje/GSbIBoHp1/68XGX38hAs+TD2+SPlJVjmpuO/gczI7pd1vyw82r5mV/DzYFQJBvIhD7DVCFeIcB4hjK4JFHFtek8MdH9893Pb8hJp5elypGMMbgmLLMOeFfazkHADAdgjOzvRM2nqmkJy89UKXMj7MEAaYB7bb9inGs5SQ6V9GXTyX8AssKP9O85VvFk+G5MogI6b2inQCf0Aqg06NQ4cyHxcKRkWcSd6B4t1yu8AJDyVArSf6LhdnjnegrTU//frfFMhF0Y7epgIhYu3U7QOvuALn+lPsF+qMAvjUsx9gAAAAASUVORK5CYII="
     },
     {
-      r: 27,
+      r: 28,
       name: "Apsalar",
       description: "Apsalar is an etnerprise marketing analytics solution for mobile app marketers. It allows marketers to effectively measure the performance of mobile marketing, better understand the mobile app audience and share these insights with media partners for more effective acquisition and re-engagement.",
       founded: 2010,
@@ -256,7 +256,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAvNJREFUOI1dkctrXGUYxn/vd86cc+Y+IU1sjE1EJSaiARcFLUSNWpcWKeJCbLeCLrsQRClIceEfoNR6AREFRTBkoYgExEXaSqmQZpLWXM2kTZtMJpk5p+fMnO/7XCRe4gvv6uF5eC4yXLVn5FbtnOkkLogFEBF0s4H2ArxsDqs1B8+Kyvip7e1/W4Z/Xr0rygQY+y8uQpKmHHnvNL+deofB4VFsOzmoIQK4sUo37wQmbh/AOhkP94evOXniBOfsEn9MTyGe/z8TFtOOAlfvtMBYbDZA5QJMLo/+9gJTb75C75FBTKfD8vkPuXD1IgOPP4FN4gMiTumpl89iLBiDRbhx+VeunHqOwaFhqtUqKEU3Qmu9ypWZG5SGHgWz14nVGqV3W+x9SKMR8q5ewbgea2trFAoFtNZ0dXczWipz6NI3tOt3QNQ/DtTf5GR5gc2vPuL5p8eYmJhkvVajtlZjdnYWRLEzP89LY89Sn7mMKLVfIrim2QJrieOI8d2rJO1XeWRkhHp9m9WVFbK5LGErxIhgNrco9vVg98lgcXWzhdWWRjvi2PhxFhcX+HFyAj/IMn78BXSaMvn9d0xPX+To6Cj+4Qf/EwFc3Qqx2pJxFOs3N9AafpqaohnFlCoVSuUKn33xJQD39R0m3moQNLZwiiXAokwrRO828RPN74u3iaKQZhRzz/lPuD5/nYVr1+j5+FMAIit0Pv+AtLGLiZO9Gb3+o2dtqlFas9zs8FB2l2Iuz9xajbHeHgrFIjPVObo2blGpFNgcew1/YAQ6HWy7jRSffMMizl4k18f/c4pnHuuj51APC0vLRPFdPBFC02HO7aP84uuII6hcgIg9KIC1aJMSLf3C/f42kgkwjkOcttnpepjysZM4uTyS9VDZLKIsLuKGCHmswcbbEG4QBFlWogTbTFCOIZOv4BlFUr1Epn8It7sXOhpcN3Rl4N4zZvXm+2JNRYIyTtCFA2T2dxLHQXwP8X2U72ESTVqvo/KFHel+4K2/AAWoasXk7RPQAAAAAElFTkSuQmCC"
     },
     {
-      r: 25,
+      r: 26,
       name: "Countly",
       description: "Countly is a real-time mobile analytics app that provides information on application usage and end-user behavior.",
       founded: 2013,
@@ -294,7 +294,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAddJREFUOI2Vkj9oFFEQxn9zt/9yenc5lQSJSBBPzKEEBSER4SCNhYV2ghYKOTsrC0ubtDb214hVurQKsdIg2BjCIQEFQdF4Jhovidndt7vP4u2xObMWGXi8x8z3fTN88wRgqkVHhAYHCK358KZN3Zpq0bl7406jeal5ED5L75ZOQ7tjidCQynMWV58CkCSw+we2eqDCjOB6UB02N8BQZQQRGhZAz1/Dtk3B34UhNcPDm4v7us4tCMUUtxV3AbAAoghETGFnGy7XZwG4dl8YPmLytgtnJg12b1gAKgYKJhGoDHRqEsZODhJUnCMQRUA6QRSB1ubd/QZRSnBdKFfBcf8zgZasQ19g/pEeAD94JkgxRyBQEKfYUGUCzVmhXEs9sGH8nMHun0BBkpJUBP2+JyZgZGyQEOYJBAqKfYHY/AWAH2sQpoY6DpTKZhu5HiT9TAGWP77k6vQtXjwe9OD2E6H0jwcyfQ9dvwiFtJAk0FuHza+Q7FmZZcPxs2A7WW71LVgaVn52OV8bzQrlY+bkRZyOutkFDStWorm+/pn2xhdm8in5oeFVFNMSgOX3rz/FOiZQPn7gs/HrO36wTe/3DioIsV2HSvUQnnuYo7VRPNfDc0pcmLgy/hcCiqspqeS+/AAAAABJRU5ErkJggg=="
     },
     {
-      r: 23,
+      r: 24,
       name: "Fiksu",
       description: "Fiksu’s integrated mobile marketing platform unites actionable data, programmatic reach & an optimized system to deliver outstanding results.",
       founded: 2008,
@@ -418,7 +418,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAYNJREFUOI3Fkr1LW3EUhp/zu/cmNjQuV4hfhHTs5iJSCtG2IUPQxY4ddXB217+jf0RFKIjoYj+Cg0UoHQQFv26r5MMa0ZiYe5scB1FMDbFQwWc7cN73HN5z4LGR28X0ptLxhxE1WIDe7jOGk9WfrK+EgKQ0G8zuKBdlPgTV0ttmXTORaPRsPuesbwQ08HnDmGADBBWW/LN8OuLGPIV9lEYrAzU4Y734G6teip74Hh81Yc9saWe1juuFYiuFEq+zL6SV9ob3nkJP/BO/D4Zx+ybtQo3TzaPz57ZlWdnkk/aJAVNxgUWtApDbfWm2y7ySWiViOeHaveq/EVFjQ7390u0xyNUlFP13n+uQVcU0DJ8BglIxmlnTgXvFywpaHwSg+1lWANJruuAXDjNiLEJu7CvcOaMRcGzI/yhz5Hl7E3Qn9glICEDqm+Ioc7Xj4niroSLCxdOuL1vnhIv5X0O4/YvYZEhL8yunsortMNLQm1c2RtjOldn9XmGUMD5Flnn3P7E/NJcTqI/RzDOOpAAAAABJRU5ErkJggg=="
     },
     {
-      r: 20,
+      r: 21,
       name: "Inneractive",
       description: "Inneractive is an independent automated mobile ad marketplace focused on powering native and video ads.",
       founded: 2007,
@@ -460,7 +460,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAWlJREFUOI3VkbFqVGEQhb8z/92b1s7SQgvBC2IpgpWNnZUPkJWARvAhbBRBtI63MGCVKiBoZaOVYFDcJVj6AFooEXL3v3MsNmyRZuucbs7Ad84wcOYl9x3AQ3ABfdF09smvO6hsYyZYL8AQfsTIS23N8c6V2wRoOn8n73TQylQD7Gs6u+O+60GbNMAiBfpK6CqZ+0tfv5Cg5uWgGKqpI2CO3XcgbQ41YeE93ZsD/k4a0DfCvzFHpP8h/2hOXXSE/X6oSdvGSPruif8WcYg5wAb7MQCOyQowpmkKF4fqm1oaz5fpQBtPPeQFwUccfwk9WS7yIFbZAuBn27CwAXRrVWz08ZiAGICF0zgNRF0BQgJjrD0Ehmvuuxvr3hin5g3E/baIRTWYZ+sBoyBECQBvaDr7A8xKCIqu+1V3HmhKAPYE3EhCEtiloQRk7koW1ocT8IMS3iIR8jlGdoUvIX0mmYPfIEA+XNfwDOg/AZCnO4UtwssAAAAASUVORK5CYII="
     },
     {
-      r: 24,
+      r: 25,
       name: "Kiip",
       description: "Kiip is a rewards network and mobile application that offers rewards from brands and companies for virtual achievements.",
       founded: 2010,
@@ -488,7 +488,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAiJJREFUOI2lk01IFGEcxn/vOzP7Mbuzg1GXjIpKKyMKDaUi+joYiAV9UER58BREXQzBQxRBlyikQ9E3RtRGkIUpGYWb0MdCRnYyDCusFPTUzrrOzuzMdogWlkUIe66/93n4vw//v0gfWvXDcn2DWcjQpKWOZXLlszEDWK4fk4YmU7MNMDSZUmeCIqyh1+9FWbEehMAZ7MN++qjkXVGAVrkMvBzuyLc/5tVbsLsuk8+kCTU0o1XWMN11ldzX78UB6qJyos1n8J0sCEnYc7F7O5h6HC9MIyJlKHMXoh9oRQZCpDtOw9g4qlJdq0b3nMB9102mJw6KRG9sQt/XgjPUhLZ4KdHjV3Be3CT15BgioKI3HCR69CI8PK+KycFELjeVUqwLrUV/C27aTqBuB/nJUYSiYt1qLy6w5RxqJOZJETaFPzFaUo47NACOjVpRS/r+pRLuT4wiwqaQ/nDSC1TXI81IAUozgnm2G2/kA/bLOGbbdeScWBEPVNfjDyc91eu8ZvtOVjNPxckm7uBPZwht2IX75gHTiR7ymSyKbmCevIvTf4+8lyO49TDOQA+y+7Ytxvev/GW5fiy4cTOBqjrUdY3kPr3Cam8DILBmLaJsHvl0imDNNlA0nI/9ZF/3Y2gyVQgo7ELFEkI7j4BjA3mUBVXYvTewE89KejA0mZIl5X3+gvP+OUKPQSiK+7YTO9lXYv4rMbx7eX5G+g9S5+vqz/85599YFc04iS9ruwAAAABJRU5ErkJggg=="
     },
     {
-      r: 31,
+      r: 32,
       name: "Kochava",
       description: "Kochava gives mobile advertisers the ability to understand their user acquisition activities in context through real-time visualization of campaign data. The Kochava platform provides precise analytics that span from initial launch through conversion, optimization and lifetime value (LTV) reporting. ",
       founded: 2011,
@@ -501,7 +501,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAY1JREFUOI2Vk78vQ1EUxz+nVLBYSNAyEQmtCLqVEIPQyZ9hkYhFYhCLySAMRnsXidmvQZBomqKJIJE06mcliPjV9/KOwWvayntRZzn3nh+f+73n5kIJtu0LRNxynr+ao1CGRxajUOYI0LzVqOqwvb7MFdT6OnsRaanzBUOlKOiz/UYuIB6N2JWjpQD6bb+VD0mk2BebqKra63ogBVQA9SLysNvU1mhQkUZEUFUvWX/46uzGEXAzvzTXePk4+5a5zx4m9tN2vgqkIV+ut8BHfivPhQoueHltfZpZOD9aX2tBxP2FVC1gFfNruhDwDlQDezv+zik8rCDS5dCcwGJ88PrkAIqHOGb77oH0cRzYdD5eNnLNvwHHgAlUAl0gwy76i+KFgA8gCfAZT44iBGzJGbGsCVQzPwIkuNvQ3uwEAIgDmHvxkdx9LcMMDaSTy5ZhhlBNAJjl5RE3QAzAe5bqUEujRlbCQ3enKYChu9OUkZWwWhpV1PVzEaPHu+0PTCmI4wRAdpqCkzF6vK6Q/9g3BAmvMgbbesIAAAAASUVORK5CYII="
     },
     {
-      r: 29,
+      r: 30,
       name: "LeadBolt",
       description: "Leadbolt is an app discovery and monetization platform for mobile app developers and advertisers.",
       founded: 2010,
@@ -514,7 +514,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAmdJREFUOI2Vk1FIk2EUht9tmrrEopWakJpGkGFRYGUZ+RsNzNiCGGYpuFYrzN1ElnYRFFYWNRuBeSUbhbC8iOw3vahkVFotFbVf6yIx0bRooOCmbG5vNzU2m1AHDnzf+c77wPlejowkIobfD0yPo/ZbGr64gXhF8CXjXg5G/lzkkdVLhgZAcmjhfwBHfHPu3QC6/xGgABb8kMsBBJAz+qbtVHTc8moAYTMvBVC2d7Qeh/t7ViAASHbz26gY5RyASgAHQhujFivNZvOFtjaxVqmQjU00vCh93zvwWO6d42T/68MTn/o0m0vObQkTkAymyWRqFASBA30ftJz+CfMQYXKy6KyTl3ZU3g7UDxEdUwzTBA8ul0stCAJJppOE3mB4ZCjMa+2cpEzroPVKPw9ZLhqrKXUmhgKCI+j1enN2dnYjgNHCg0WT0b5ZT0lZ+Y3mMVxNVeL+5cyZd/u7Bp96VmUqqrPyr/31iR6PJ91isZy3Wq1nOD8b3fDEkfl8o+GJLICuXc47W+EaSczNV9f19fSoI7pAUgHA/crhEDJS1jyrHwam5qHUZ6Dd9rD5rj91W9rePbmDPp8vPiJALpd7AWyou3W96fP4j7LtK7Hi2Dp8ZW+rzrcsIU4BOEVR3BcbG+uKaKNKpXLqdDprS0tLXkraerGpPHc6IS5meMYn23S6ouIkAEiSZKyqqipdysYMQRBot9tPkIQkSZqampqbJNeSRHFx8Uu1Wu0KdSDMRpIQRbFUEAQajcYHJFW/6zs1Gs3HgoKCBZLJiwGyCOuco9Vqm7xe72oAAZJRSUlJ3Tab7SiA+cXNvwBqS1ORxbKzaQAAAABJRU5ErkJggg=="
     },
     {
-      r: 16,
+      r: 17,
       name: "MobileCore (IronSource)",
       description: "mobileCore offers app developers and advertisers a variety of ad formats and engagement tools, from traditional display ads, to interstitials, video ads and more. mobileCore offers the unique cross-promotion tool that allows mobile app developers to promote to their traffic their additional apps.",
       founded: 2013,
@@ -542,7 +542,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAP9JREFUOI3djrFKw1AARc8zz0DERk0RpXsXBz9AEMzm4GfYyUXs1LGrk1sXHf2OLg6l0MFNyCyoFGqaJo/G9/JcYkkLDo72TJc7nHvh3yN+QrNvj4FbE4/PrNFSBodD4AbIgDs9eT8FkHsHT0AnCsVgIWj27ZFJpwOrktqS3fWUkJtfRTb1l2alm8vd/ZMoFCNZVl2rkhpCWFlvPAJvhZq1ijTesbnyhOspxw8eAEd/flyicxfoAhcSwKTxOYCsN3pRKK7KVy9FGt8DOH7QjkLRK/u5Hr9em2QSAmwAWDXbLp+MKkefK3m42tt5trUQVCgqWVey4RdWBX9mDQRrwDd8uV2rVH3gQgAAAABJRU5ErkJggg=="
     },
     {
-      r: 33,
+      r: 34,
       name: "NativeX",
       description: "NativeX offers developers a holistic approach to monetization, through a wide range of both reward and non-reward ad formats including interstitials, Lightning Play video, in-house promotions and playable ads all in one SDK.",
       founded: 2000,
@@ -556,7 +556,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAolJREFUOI110V9ozXEYx/H38/39OefYZtuxbGNnmxkTpoTynyhFLtyhlJUiuaRd7FL+xI0iuSEpuRC1MtailFxRxBmRHNqNZYZz9uec3/n9vt+vi82ZWXsuv5/v8+rpeQQANq680v/6guPKHmsNF3e14MZBFPz6qDh6f5DUyjGMFkRAeba3ujHfecCnX7W0tLQvahpNP71eu8efEyGOcPjaIMOfFCaC1KaQxeuyGC0AWAuep3efWb8iDW3tTk1t/Q3l2aXvemK07QioqIlILgzI5+P0P45z6NJ3yudprJkAXN/wpi/Jq/tzqG+WlLS2LbcA1kzwnX2fiYouRluu7m/kVG+GwqjH3/LiIed3tuK4gihQfwNRUMgpnt2qxU9olAsn7g4QjE01O57h/dMk+WEHmewsAQCJasvD05X8/uZPooK1U7nrax5fqaJsvim9TQMAqhZZus/V4Sc0/NOsXEvmZSVD7z2Uw+yA41iGvzgMfY2XxgTw4xF9l5NUpMy0/zOAMBCWbBpjXiqYWCygHMvnF5UMPPdRLrMDJoLqhSEbDuaIilORG9O8ejCXsgbL/zUN0EVhzb4Rkg1B6e4AYcFh57EhcgMyOxAVhMbVBZZtG0FHU64XM1gjJBsCNhwZI8zLTMBasMaypeMnXozS6WLlId1n6vDjmmDcYWvH8IwplIjqCbKK7UezlFVpYmV6InAN754k6b05l4G35YhATXOe5XsL6BBEBBF61KcP0tW0NmTZ1hyV9RFGCyYSglHFneM1NDdrnt+uwk9oiuMumw9lyf9wUKLQxUKXgnT6ZM/HVfEK26smpxNl6D67gEQduDHL23sJsoMe1gpNq0cIc+bR+GjYnslk0n8ABt/9esSmVlIAAAAASUVORK5CYII="
     },
     {
-      r: 21,
+      r: 22,
       name: "Nextpeer",
       description: "Nextpeer is a multiplayer cross platform SDK for iOS, Android and Unity. ",
       founded: 2013,
@@ -584,7 +584,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACjElEQVQokT1SO0xTYRT+/t7bB1ShFqX0wXNxMTGRMMhAVEIQ0WjwkeDsoCYObi6GzcRV3TRxIAwao6bWaIgiEeShAkp4BEpKqQgBCrHYltv73/8chwue4bzyfeecnHyipbmJiACAwQAzY8/bgXcLO2N9c2NDEQkhiIiIAFaKbIxSiplJEYRQSjGTspSmOwiApmkMCCFsqM0HBDOEw2E3iRhCaG/eREPhSDw+N/5zBqrAxHs0m7O7x/bMLP5fuLa6NDI8PD72fWhk9EPfIACvCy63R3c6hXAQkZRmJlsQbe3nbl6/1nDsaCAUBiSUApEljemZ2eRiYj6eSCRTv5ZSDC47UNJ8ohH+YAQoAtynWlrfxV6yzJCRNrZ/y+zKj2+fuLCqtpPyz4LcmjM2pnKrE47sjhmuCYVrIpMzs21nr9QeOf74aY+UBV0DyOrovJFcSinLzOX+Gjt5YyePryMDAPwVEcBbVFbhD1bC7QN89+91TY/1pVMT/khd7MUTY+3n5uLQZmIATNnhwb7TZ9pHvnzsunun4Xgj9pcDLvsTVzsv9Ua7Ac+rnofZ5dH0widRyKVdut7/eeBPZvvC+VYyjfX1dGIxuZBIPn/d+zb2ESW+w5WH5qanhnq7q0OHhNrZIrJ0TYxNTFZHAsVFbiYlwA5Bbt0Rfd9/u+tBideTL1jxmaUH92/p0djbqkhFKBSsP3aETFNKg5hJWVJJskQ+n1+cn409e9TSVB9PpDTBolhH3gIArxMXL3ecbGoMBsrCFQdLS/Z5XFrpfq8QSkkpTQNMbElRVx0mIqWUUiqX+5vJmtgzF1Ae8Hm93kiwnJgFsLyyJmqrQkRk68RObAnZUyzLYmZLmgwwQ3c6/wGGFKgkOgS0DQAAAABJRU5ErkJggg=="
     },
     {
-      r: 13,
+      r: 14,
       name: "Parse (Facebook)",
       description: "Parse is a cloud app platform that enables users to add a scalable and powerful backend to launch a full-featured app.",
       founded: 2011,
@@ -663,7 +663,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAATFJREFUOI3NU7FKw1AUPe/x+hqboKliK1LhgYOjGVwUh06CnfoJ/YB+RPsP/QDp6NSlFcWhSNG1jg5CQChGMBWbRGJjrkOtELAg7aAH7nTvPfece7ms0nOp64SobGdwch+gmE/D9iMAgNIFprna7Stqu8uJGqULsOL5E3UfQ8wDZQjwuTq/YEoGrnQxN8HLO4FP/f6JAtv7WGwH1mpqMQt9d7yYhf+hQAxiGRzmoowXxei74181KmMyNLdiBPxipBd68XrTykqYksOUsw9jSg5liMkvaBvN0+elAiMiBgCsAyufRuNYGx50nRC2l9yNMgSsbAo38dq1E6JKJfQB4JtgCtZBeUdHY18MN1sPbzAlR3lLw1lgDu58VKmEVoKZiNhPgTbV9y690dGV56NN9Vl1n1AEmFPlCs6WAAAAAElFTkSuQmCC"
     },
     {
-      r: 17,
+      r: 18,
       name: "Prime31",
       description: "Mobile, desktop and Unity developer. Open source code including GoKit, GoKitLite, GestureKit, StateKit, RecyclerKit and more available on GitHub user prime31.",
       founded: 2008,
@@ -690,7 +690,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAg5JREFUOI2tkj1oE2EYx//Pe+/lktwFcrnahJpSrEUHHUqho1XEUnFxEVz9wK9BQoZCQQSLizhltSA4Oegi4iDdWsGxi9QMEqG1EBKpGXLXu+vd+74OIZiPRhf/0/vx/H/v8/55gP8t897G08TNTTW51WxPva/d+Fc9dRdOefNq28VajMS49A5QfDwHkAHst76m3m5f+1ZZrB4JOH3r5cQOm34XadY84gBQEiIQqvhollQoAM7BdANo/lrfPV9cogEAq51YeCZsZx6hC0gxulVGuADwwXOmJMUyZ4NNFwUzk1IJCSgAxECmCWr7VevV1tndc8eXNoB4EMBBpCAlJEhDYRxaNpBsrwkKogO9uX/3++WTr/8WIuvbSQnoOtjsGfZj7phV/xxcHGWcWq+v9QOkhJbQY5kbYyppAgAO7eJta3W7MmT+WK/QTOEOADCppM4Ygdk5IawsBwhQqlMZevCTTslarT7vNavJfEl6ncB52qAPsWlej/R0gqIQnQR7FLrwk/aytfLFy18ZMyMnX1JeG5TqdMm8lZk34UPHSPmtFxpPQGn60H9V6CKwMk9cz1xG6B4doleeuB8+SJMRup9gpP+YAXCNxcq20agK+HuRIE7DAKAz1365sJBpVBd7zSLrcEgJTQd+1pjm7xzGXcjgZPa9bFRaSpgZQMm+OxED+VMcjUuMRgK6kFHqGn8Dp+LIB4M+3M4AAAAASUVORK5CYII="
     },
     {
-      r: 19,
+      r: 20,
       name: "SOOMLA",
       description: "The SOOMLA Project is the first virtual economy platform. At the heart of the solution - SOOMLA's open source framework is standartizing virtual economies in games while the platform allows to create and manage virtual economies. The company's core technology is focused on financial algorithms, big data and community based frameworks.",
       founded: 2012,
@@ -704,7 +704,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACC0lEQVQokX2SPWgTYRjH//e+711yHwlJLk2sFUNQRM1ga/3AmqmIOjhYrmjmDm4OBt0cRBwzKLjo4lApWHQQRDsILYotRCIuEVFRKsWERC9N73JJk/twSJU01f6m/5/neeD54mQtix5czwPHHd27u6TXV8o/icBjM6TP247Tbq7fvqRNjB1q1gxsgQoHT2zyjK2vlH+53tLHb5VVwyf6+woYAMKoYVqorsJzYbWSR1LXtFP5T8uX3xZNfQ08BThEQ4GA5NoOA9A2rZ1q6NzZk8Rxw7J45eKZgYB8bF9CDcgvC0VJ8rdt50XhQ6VSY6IPspbFaOb69DNvW27MPMdoRtaypNXu8HH1QnoEQObe49zcYm/HubnFibuPAEyODfM71Fa7wxzHFRQpGVcBTKVHoorUWzB+IJkaigFIxCJMlpqmxSijHaPxpVwdTu46ndrTt5PDicGu+FyqdowG5Rnx88yu6DMLha0r72X29Tu7ovt5xgDwcXV6Pq+IgkCp43m6Xs+MHwcwO58PhYOU4wghD18VWCyycQdBEcvV2p2nC9Gg0mm20vuTlBAAS8WvP2p1XhJLet1YM5VQ0HMcTtayDdMaHIgsP7jJM/rPfp68eT95NScPxbHxS7YblPz/ywbgAeC4riYAwMFx3W0m5hmF53U1A+CTRd20zt+6Twjx/gT+wij5Xq3x0XDX/ga6RNskfYuBqQAAAABJRU5ErkJggg=="
     },
     {
-      r: 14,
+      r: 15,
       name: "Startapp",
       description: "StartApp is a mobile advertising platform.",
       founded: 2010,
@@ -730,18 +730,18 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAj1JREFUOI2Fk89KG1EUh787o5j+BUEjLoKLRFwZ6DOEbGJsHiBxUd9BQayCKHFXfIJ04WRoNyOCiJBFVChuXNguxKZCF3HRTBAXs5hr7szcLmwCrTE9y3PP+Tjnd+4PBkS5XK6Uy+XKoBrx1MPW1pZ1e3tbBBgbG7NWV1cX+tWZ/ZKbm5u77Xa7JKVEKYWUMp3P51P1en3vv4CNjQ3Ldd2SlBKtNVprgiBASpmem5ubPj4+dp4ErK+vW67rFn3fJwzDHkBrjeo8TJLL5aZPTk6cR4C1tbXdVqtV8n0fz/OYnJzk7u6OKNCIIY0ONSroQVKnp6d7PRFXVlasVqtVvL+/x/d9dnZ2SCQSDyt9eM+PRA1TPUM3XxFdjDLyfJiJiYnq9vZ2SSwvL1dc130npQRACIFt29RqNc6+nHHV/spw5hfh1SjRt9cgQKOJxWLE4/GP5tTUVCEIgjfdnT3P4+bmhkwmw/zbeRo/v9N6cYWqjxOFmkhHPV08z7swbNteVEpVATqdDrOzsywtLXF+fg7AeDyONiJCHRCGAWEYAqCUqtq2vWgCXF5eOjMzMynDMNLNZhPXdUmlUtTrdT5ZnxkxXtJpmmihMQyDKIosx3EWeiJ2o1AoWEDR932UUpimSWwkhg5BDIFpmgDV/f39Urfn0VfO5/MWUOyO2rv3n+aDg4PSX/l/AY1Gw0kmkykg3RXWMAy01tbh4eEjP/T1wvX19V4ymZwWQqSFEADW0dFRXzMNjGw2W8lmswPt/BsrPDDproYbPQAAAABJRU5ErkJggg=="
     },
     {
-      r: 34,
+      r: 13,
       name: "Supersonic",
       description: "Supersonic’s mobile advertising technology empowers developers to promote their apps and make money doing what they love.",
       founded: 2009,
-      hq: "San Bruno",
+      hq: "San Francisco",
       url: "https://www.supersonic.com/",
       github: "https://github.com/SupersonicAds",
       crunchbase: "https://www.crunchbase.com/organization/supersonicads",
-      download: "http://developers.supersonicads.com/hc/en-us/articles/201113271-Download-Android-SDK",
-      platforms: ['ios', 'android'],
-      tags: ['advertising', 'monetization', 'mobile'],
-      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAcdJREFUOI2dkl9IU3EUgL/fvZctvXOEMBMsqTAzq8daUAgrhAoicFZWrhwSRUQQiO0hCiToD0EvQRQEYtRLD1H6EEUg9lBR25peQ18rQe7mmHebMNj154NgyO5get7On+875+EIKaMuCuptpOyxrHwDFYTXq88gxCBue0DIfOyelVuIVAKWiDzV94VciJtWNu9bl6BGT2prgXPZHMav34x+HKNp53Y6uzt8WiXQRHySr2Pfif9IkE6lqav3ca3/CgCOgkw6w3jM4Oe3GInoOClzbqWnqio3B/rw1HjKC8zZJO/ejDBlTJf0zoZP07K7eSVXnATNrTt48OQu/oP7VtV37W3hVCi4quZ4QSI6wdDzV0wZ02xubODfnxmqqjZwPXIVTVPLC6SUPH74lM/vPwFw5mInBw7t58alfi5c7qZx65aSZf8F8zmKz95iDY9SEJJwuIvzvV0kzRRHjgU4ETzudCxi3hiRi8NfWHz5Ab1Q5G9PO5Pb6gi0twFg2zZ20cbldjkL5ppaJYqCcrINJXQUNtU6DpYLIYcemZZ/j4+NnjWBsPzKCsHDL9YDA6CIQY1qecer6i4k5ywrX1/RZq8+i+A1bvvWEpnon7mT+ZlkAAAAAElFTkSuQmCC"
+      download: "http://developers.supersonicads.com/hc/en-us/sections/200310962-SDKs",
+      platforms: ['ios', 'android', 'uity', 'air'],
+      tags: ['advertising', 'monetization', 'mobile', 'video ads'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaVJREFUOI3FkzFrWnEUxX8+xQaaWNKX5aUUnLoI8kALqesb/AYZHDo61E5+gjxIJxezZLGk6BcoHZIxOEgfFocOdWgWoSQ6VEFa0Cp/PV2iiGmyOPTAWS733Hs5//MPSWITWBupAWRZd7iCfeA9cANohX3gCAiH1gQAhObzhfiL4zjP8vk8iUSCaDSKMYYgCCiXy8xms3cPXXBq27a63a7+hUKhIGAYWVv+CMjJsrwX83n2ZTaL4zg0m02KxSKj0WjZ2O/3AZ4stkaUTh/Lcfo6OPilw8Pfr3Z3J57nSZLG47FKpZLi8fjCg59AGSijk5O3Ojv7rlZLMmZ5YrVaFSDf92Vu68YY+b6/GPIaIHx0ff2V0egxl5fPubraYTIJM53yNBzm08XF5OP5eaRWq2GMIZ1O43kejUaDTqezB3xYNS+qWOyNtrd/fLYs7YBisZhc15XruspkMgqCQJKUy+UEtO7NwRZ8S6VSGg6Hd9zv9XqybVvAKcD6KwDwBxLJZJJ6vb6sTadT2u02lUqFwWBwAxw/lETdw+5tMveXofvvn2njAX8Brh4OAB5x1JMAAAAASUVORK5CYII="
     },
     {
       r: 40,
@@ -798,7 +798,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAe9JREFUOI2Nk71rVEEUxX/zfG+z2aAElWwMJoWNdikEC23Si7WghWhjZSXivyB2mkZst9DSItE0ClY2QS1iClERjZBi3V03bz9m3sy9Fm+zb5NNIAcuM/eDmXPP3DEAr752NDaGODLEEQMzJCN+vt+bnzseG3Pi/hudv7DIqcmI9zerANxaqSMKlSSiEhumEsNUKcrXxFBJDJUk4uJsidiLkjqhfMywi9/tQCUxWA8uMTgxOAHrTW7B4AK4oESZQOqU9duzwwPe3aiyOFOi7YS2E1KrtK3QtkLTCs2+0OgFrFfiIEo3U/ajbZW16zNj8Q9/LG9/9mn2BStKBJCJUn2yNSw683SLlW/dob+8vkNto0MmyqW5CS6fnaDRF6yHeLeoHBcadL3ipbj12aeUydjwpZ7xaGma8ycTWn3BhgGD/ehlStcXbaUDLV5/7wFwuhLR7AsuaMFgFEqu8PCATMlE8ZKzDAItK1h/CIODGHUyZWmhDMCPluefVZyMMDCFBGQPF7hS2y40eTA/3O844eVmh9QJLlAwqHeFO6t/h4Xnpse7+7jtuLvW4PnnlNQp2agGNii1jQ4vNjsYDEGV2rU8V378i8jkMVEw5H/BywEi5s+3d7CCQtAipuSz45WjiXgoBmyI7q2Oz/IRIMtXzX+kPQWJy3tRuAAAAABJRU5ErkJggg=="
     },
     {
-      r: 18,
+      r: 19,
       name: "TUNE (HasOffers)",
       description: "TUNE is an attribution analytics company behind the products MobileAppTracking (MAT) and HasOffers. It creates Software-as-a-Service (SaaS) products to help marketers manage performance advertising relationships across mobile and desktop.",
       founded: 2009,
@@ -878,7 +878,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAjBJREFUOI2lkktPE1EYhp8znV4YFKwlIuGiIsYFLkiUKDExYgw7xL/g1h/iX3Dl0pUmbHTpRnaaojEG0NA2SEfolGmp006nc/tcNFLFakx8Vyff5TknOY9a/bIfiIjiePrVjlqiREQppUSPoyjRF/BTFKA0TbpzgkgPpP9pWSlQKMI4puMH+EGounXFQDpFKqkjIuj9bhOg0WxTqdbxXY8UkNQUSU0jiGI6wGB2iImzuR6g+0xFq92hUrHJahq3xs+Q0RPYjsv+oUO96eJ3Ajzf59X6Jst3r/cAbsdnr1rHiGKWpicYNtLsVOt8rtb55nrYjotZa1Co2Lzd3sVpe8zNXkRTgOcHPH25RnBwyL0rM2gKPplVSlaNLdMiXyyzax+S0BSNVpua08LIpMllh9BRCq8TcOPCOA+XFrAaTcp2A9txySST3Lx8Hj+MWC+VeZHf5H3RRAGL87PMTI6ih2FEfqPA3EgWLwjxgpBTgwP4YcSHnT1ebxR4V/rKQcNBopgTJw2WF65y/848ekJDPc5vyJuP2+xbNSpWHT8IOXBa1JttAIx0kiEjQxwLudwwK7evMTszSULTEBHUs8Ku6IkERdPi0ZNVpidGGRocwKzYeK5H2w8I4phL58Z4sLLI6OlhojjuffvzYlkA/CCkZFpMjY1gZNKYVo219S2MTIqpsZEjsPzQ8DgAQNMUIl1VlVJdN1RX1Fjkt2XgVxPjuDcgIkj30M/0o2h/7f5D/hvwHcCRIz4/n9tVAAAAAElFTkSuQmCC"
     },
     {
-      r: 26,
+      r: 27,
       name: "Vungle",
       description: "Vungle helps mobile application developers promote and monetize their apps through in-app video trailers. They enable developers to get a short, snappy video trailer made and distributed through their in-app mobile video platform. They also generate incremental revenue for developers by displaying video trailers inside of their apps. - See more at: https://www.crunchbase.com/organization/vungle#sthash.1ovAGY11.dpuf",
       founded: 2011,
@@ -891,7 +891,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACiElEQVQ4EaVTzU8TURCf2tJuS7tQtlRb6UKBIkQwkRRSEzkQgyEc6lkOKgcOph78Y+CgjXjDs2i44FXY9AMTlQRUELZapVlouy3d7kKtb0Zr0MSLTvL2zb75eL838xtTvV6H/xELBptMJojeXLCXyobnyog4YhzXYvmCFi6qVSfaeRdXdrfaU1areV5KykmX06rcvzumjY/1ggkR3Jh+bNf1mr8v1D5bLuvR3qDgFbvbBJYIrE1mCIoCrKxsHuzK+Rzvsi29+6DEbTZz9unijEYI8ObBgXOzlcrx9OAlXyDYKUCzwwrDQx1wVDGg089Dt+gR3mxmhcUnaWeoxwMbm/vzDFzmDEKMMNhquRqduT1KwXiGt0vre6iSeAUHNDE0d26NBtAXY9BACQyjFusKuL2Ry+IPb/Y9ZglwuVscdHaknUChqLF/O4jn3V5dP4mhgRJgwSYm+gV0Oi3XrvYB30yvhGa7BS70eGFHPoTJyQHhMK+F0ZesRVVznvXw5Ixv7/C10moEo6OZXbWvlFAF9FVZDOqEABUMRIkMd8GnLwVWg9/RkJF9sA4oDfYQAuzzjqzwvnaRUFxn/X2ZlmGLXAE7AL52B4xHgqAUqrC1nSNuoJkQtLkdqReszz/9aRvq90NOKdOS1nch8TpL555WDp49f3uAMXhACRjD5j4ykuCtf5PP7Fm1b0DIsl/VHGezzP1KwOiZQobFF9YyjSRYQETRENSlVzI8iK9mWlzckpSSCQHVALmN9Az1euDho9Xo8vKGd2rqooA8yBcrwHgCqYR0kMkWci08t/R+W4ljDCanWTg9TJGwGNaNk3vYZ7VUdeKsYJGFNkfSzjXNrSX20s4/h6kB81/271ghG17l+rPTAAAAAElFTkSuQmCC"
     },
     {
-      r: 28,
+      r: 29,
       name: "Zong (Paypal)",
       description: "Zong is a mobile payment company allowing user to make micropayments online in gaming and social networking web sites.",
       founded: 2000,
