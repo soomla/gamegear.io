@@ -739,7 +739,7 @@
       github: "https://github.com/SupersonicAds",
       crunchbase: "https://www.crunchbase.com/organization/supersonicads",
       download: "http://developers.supersonicads.com/hc/en-us/sections/200310962-SDKs",
-      platforms: ['ios', 'android', 'uity', 'air'],
+      platforms: ['ios', 'android', 'unity', 'air'],
       tags: ['advertising', 'monetization', 'mobile', 'video ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaVJREFUOI3FkzFrWnEUxX8+xQaaWNKX5aUUnLoI8kALqesb/AYZHDo61E5+gjxIJxezZLGk6BcoHZIxOEgfFocOdWgWoSQ6VEFa0Cp/PV2iiGmyOPTAWS733Hs5//MPSWITWBupAWRZd7iCfeA9cANohX3gCAiH1gQAhObzhfiL4zjP8vk8iUSCaDSKMYYgCCiXy8xms3cPXXBq27a63a7+hUKhIGAYWVv+CMjJsrwX83n2ZTaL4zg0m02KxSKj0WjZ2O/3AZ4stkaUTh/Lcfo6OPilw8Pfr3Z3J57nSZLG47FKpZLi8fjCg59AGSijk5O3Ojv7rlZLMmZ5YrVaFSDf92Vu68YY+b6/GPIaIHx0ff2V0egxl5fPubraYTIJM53yNBzm08XF5OP5eaRWq2GMIZ1O43kejUaDTqezB3xYNS+qWOyNtrd/fLYs7YBisZhc15XruspkMgqCQJKUy+UEtO7NwRZ8S6VSGg6Hd9zv9XqybVvAKcD6KwDwBxLJZJJ6vb6sTadT2u02lUqFwWBwAxw/lETdw+5tMveXofvvn2njAX8Brh4OAB5x1JMAAAAASUVORK5CYII="
     },
