@@ -6,20 +6,28 @@ var taskConfig = function(grunt) {
 
   grunt.config.set('copy', {
     dist: {
-      files: [{
-        expand: true,
-        cwd: '<%= yeogurt.client %>/',
-        dest: '<%= yeogurt.dist %>/',
-        src: [
-          'styles/fonts/**/*.{woff,otf,ttf,eot,svg}',
-          'images/**/*.{webp}',
-          'templates/**/*.html',
-          '!*.js',
-          '*.{ico,png,txt}',
-          '*.html',
-          'CNAME'
-        ]
-      }]
+      files: [
+        {
+          expand: true,
+          cwd   : '<%= yeogurt.client %>/',
+          dest  : '<%= yeogurt.dist %>/',
+          src   : [
+            'styles/fonts/**/*.{woff,otf,ttf,eot,svg}',
+            'images/**/*.{webp}',
+            'templates/**/*.html',
+            '!*.js',
+            '*.{ico,png,txt}',
+            '*.html',
+            'CNAME'
+          ]
+        },
+        {
+          expand: true,
+          cwd   : '<%= yeogurt.client %>/',
+          dest  : '<%= yeogurt.dist %>/',
+          src   : ['styles/flags.png']
+        }
+      ]
     }
   });
 

@@ -43,6 +43,7 @@
       <link rel="stylesheet" href="/bower_components/normalize.css/normalize.css" />
       <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
       <link rel="stylesheet" href="/bower_components/github-fork-ribbon-css/gh-fork-ribbon.css" />
+      <link rel="stylesheet" href="/bower_components/flags-sprite/dist/flags.css" />
       <!-- endbower -->
     <!-- endbuild -->
 
@@ -169,16 +170,21 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-5 col-xs-offset-1">
+          <div class="col-xs-4 col-xs-offset-1">
             <h4>
               <span class="fa fa-sort sort-column" data-sort="provider"></span>
               Provider
             </h4>
           </div>
-          <div class="col-xs-4">
+          <div class="col-xs-5 col-md-4">
             <h4>
               <span class="fa fa-sort sort-column" data-sort="platforms"></span>
               Supported Platforms
+            </h4>
+          </div>
+          <div class="col-xs-1 hidden-xs hidden-sm text-center">
+            <h4>
+              From
             </h4>
           </div>
           <div class="col-xs-2">
@@ -269,11 +275,14 @@
           <div class="col-xs-1 text-center">
             <img src="{{favicon}}">
           </div>
-          <div class="col-xs-5">{{name}}</div>
-          <div class="col-xs-4">
+          <div class="col-xs-4">{{name}}</div>
+          <div class="col-xs-5 col-md-4">
             {{#each platforms}}
             <img src="{{this.src}}" title="{{this.tooltip}}" class="icon-platform">
             {{/each}}
+          </div>
+          <div class="col-xs-1 hidden-xs hidden-sm text-center">
+            <span class="flag flag-{{c}} hidden-xs" title="{{country}}"></span>
           </div>
           <div class="col-xs-1 text-center">
             {{r}}
@@ -293,7 +302,9 @@
           </div>
           <div class="col-sm-5">
             <div class="hq bottom5 top15">Founded: {{founded}}</div>
-            <div class="hq bottom15">Headquarters: {{hq}}</div>
+            <div class="hq bottom15">Headquarters: {{hq}}
+            <span class="flag flag-{{c}} hidden-md hidden-lg"></span>
+            </div>
             <div class="website-data bottom5">
               <i class="fa fa-home"></i>
               <a href="{{url}}" target="_blank">Website</a>
@@ -311,7 +322,6 @@
             {{else}}
             <a class="btn btn-default btn-download top15" href="{{url}}" role="button" target="_blank">Download {{name}} SDKs</a>
             {{/if}}
-
           </div>
         </div>
       </div>
@@ -355,6 +365,9 @@
             _.chain(kit.platforms).map(function(el) {
             return [el, {src: window.data.platforms[el], tooltip: window.data.tooltips[el]}];
           }).zipObject().value();
+
+          // Add full country name
+          kit.country = window.data.countries[kit.c];
 
           var item = $(template(kit))[0];
           rows.push(item);
@@ -457,6 +470,7 @@
 
         // Initialize Bootstrap tooltips
         $('.icon-platform').tooltip();
+        $('.flag').tooltip();
 
       });
     </script>
