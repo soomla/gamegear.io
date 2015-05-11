@@ -115,7 +115,7 @@
 
     <!-- Begin page content -->
     <div id="wrap">
-      <div id="filter-bar" class="container" data-spy="affix" data-offset-top="160">
+      <div id="filter-bar" class="container">
         <div class="row headline">
           <div class="col-sm-6 bottom30 hidden-xs">
             <h3>A one-stop shop for mobile gaming SDKs.</h3>
@@ -471,6 +471,16 @@
         // Initialize Bootstrap tooltips
         $('.icon-platform').tooltip();
         $('.flag').tooltip();
+
+        var affixTop = function() {
+          $('#filter-bar').affix({
+            offset: {
+              top: 160
+            }
+          });
+        };
+
+        if (innerHeight > 640) affixTop();
 
       });
     </script>
