@@ -401,11 +401,12 @@
               return rex.test(key);
             });
 
-            $(rows).each(function(i, row) {
+            var $rows = $(rows).each(function(i, row) {
 
               // Note that index is zero based => first row is 'odd'
               $(row).addClass(i % 2 === 0 ? 'force-odd' : 'force-even');
-            }).show().addClass('expanded');
+            }).show();
+            if (innerHeight > 640) $rows.addClass('expanded');
           }
 
           //
