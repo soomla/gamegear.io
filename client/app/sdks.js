@@ -421,6 +421,20 @@
     },
     {
       r: "N/A",
+      name: "Gamedonia",
+      description: "Game Backend platform: from adding gameplay modules, to launching games on the cloud, Gamedonia carries the complete backend solution for developers.",
+      founded: 2012,
+      hq: "Barcelona",
+      c: "es",
+      url: "https://www.gamedonia.com/",
+      github: "https://github.com/gamedonia",
+      download: "https://docs.gamedonia.com/get-started",
+      platforms: ['ios', 'unity', 'cocos2dx', 'android', 'air'],
+      tags: ['game server', 'multiplayer','game backend', 'mobile','game development', 'online game', 'data storage', 'server scripts', 'push notifications', 'turn based games', 'user management'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAbdJREFUOI2FkD9oVEEQxr+Z3fOO+C/mHQTB9m5WCxUtDKgptLRRhHQxvY2Qyk4sr0iaEDSFlYUIooV2Gi0kVSyS5tiXEEVQDpSDkAQMudsdm3tyeTzvppr59tvf8A0woL5Vxqe+Vk5fH+ThvLD4fuzsv8HwtJLOZOPOUzwYCjDML5aWq5cAQBUJEwsA7CziXlRMDwUoaFUZnwHARhrViPMAoBZzUPwcCjhS/j17csyMzK8nr0b2saD79Fx/4cKJ46gq4UveX1hPlqsLSx+rjX6t+wwrRV4aBHLOvVXVUVXEjV0qo+UnhkYQkXdZr6oXmfmatWby3Cm+IiJ7AwEi8rpUKt1yzj3qSTHG+KfZbFIIoWGtPSoiH/4LYOY7nU5ny3v/GACIyABQAEjT9GG32103xtwsBNRqtbvMDODQpb8T0VbfvEZEqNfrU5lg+7a3em0507z3V3ORK71c2/lbZDfYFpGDwkcAzrldEQmFEQCAiOattSUR+VEA3zTGHCOiuUN/CoxvrLW3VRUhhFUAgZknmBkhhE/e+xv9fpMHtNvtl0mStGKM4wAuE9EZVV2LMTbSNL2f9/8Fh4GWYkVKdE4AAAAASUVORK5CYII="
+    },
+    {
+      r: "N/A",
       name: "Gondola",
       description: "Gondola is a virtual economy management tool that enables mobile game developers to balance and optimize virtual economies.",
       founded: 2013,
