@@ -82,9 +82,9 @@
       url: "https://www.adjust.com/?utm_source=gamegear",
       github: "https://github.com/adjust",
       crunchbase: "https://www.crunchbase.com/organization/adjust-2",
-      platforms: ['ios', 'android', 'wp8', 'air', 'unity', 'amazon'],
+      platforms: ['ios', 'android', 'wp8', 'unity', 'air', 'amazon'],
       download: "https://github.com/adjust/sdks",
-      tags: ['attribution', 'marketing analytics', 'install tracking'],
+      tags: ['attribution', 'install tracking', 'marketing analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAjZJREFUOI2lU0trE1EYPd9tM31MSBfBWExic6cI1UptO8aK1JXoQv+BLgR3PqALC4qCbhQ3boSCCEWKO/cVQdSFadCSJlFj1baYaRGlolXT3IFmZpLPTVqSthTUs7uvc87lnI+wCWI296KCISJEwOwn0EL519IMBYPX53Wqu1u3MhS3MfDMyWZMCIHGzl2zQtcL7uzHvbyy0gIi1nr2XbX8dGuDqqF4W3TaWg4ns2wovhazue5c2twpi5wOJ6ZYKr633jKiHxZ+R17P2obi9rVHirt2LvxYlIpHa/buV0ku16rfDCfSLG0+XEvc8bXwaMfzlxxOZrnWkSxyNjyZc2I2QwCAM29d0Hr7JyydElKxL2YzZJHhWfnjzQcOPmCnBMG4s8YgcAae5xPAsJA2gwuFQPnn0rgs8riTTjluJs0gPIHnghmnm+IDL0rvcueNqgtLpyx8PgcV9AgAgyCgIRgcczKpE5oZT2p95uNSavIoE5UBXARjGOVyQwW4tGpC29OdYYIhar4c0Mz4Uyf3po8YD5v3D4xoXd1zTiZ1mwg3GkLbP3Fh+ez69ASACTDgfVs8BcJJeF7rytTkGAMDwt+yu8mM3y1l08e8L587vLmZDmnzIQBw3k/3EyMvLJ1AbW3LjaH2I5ZO37U+c0QEAgyB8XwrIe+nc1q/OShCIcWuC1RwRSqOwnU1CLzdMsZaGIr9huJXssgRqTi9GuOWRdoMMcWjG4pUVfinKv/3MNXP5qrNvxjnP4MQUVv/uwVXAAAAAElFTkSuQmCC"
     },
     {
@@ -98,7 +98,7 @@
       github: "https://github.com/googleads/googleads-mobile-plugins",
       crunchbase: "https://www.crunchbase.com/organization/admob",
       download: "https://developers.google.com/mobile-ads-sdk/download",
-      platforms: ['ios', 'android', 'wp8'],
+      platforms: ['ios', 'android', 'wp8', 'unity', 'cocos2dx'],
       tags: ['advertising', 'banner ads', 'interstitial ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAfhJREFUOI2Vkz1oU1EUx3/nvXvfS15jqnVwcHHwA4UqdNAWKoomBcGhWNGpk8XFxUEUcRaFqKtTEQyC7urgUBoQtNRNFCsIbSF0qI3WNk1y38d1SJDmQ8S7HDic/4/zP+ceyRfsODAdm+oA//Fcr68CXJF8wa71EtfCVowttQgyGtJK8Nx2iOolXqvDzTFNmAi5QcXeXcL7rxGlzxEvP8Z/ILGpDjid4g0DhYse2oGHbxocv1elXEkQgeJ81NYBQBdgM7Tkj2oWVhJ2eMK+jFAsGU4cUMQ9ZtEFkFYc3u/yy1gcgcWKpR6Bls7qHoCsJ0zPGHLHNOODitWGZXJUc+NpjZ2pboLqTAQaHpcMc99iRg+6fLmc4c7zOnNLMVm/G9DVAUBKCfPLMbdfGwCunvVwXCFKumvlzN1Nuz1RqVkuDWmGD7ksf7cEynJhxCOxcP5BFROCI38BVEO4ntOcPKwYe7RFVgtRYhFXmLkV8Gkp5tqzOv3brLRZqIaWiRGPVx9CAiUEGrK+IAkUZw3pf83Ac2ChnDB52iebgtUty3rDsm4s54Y0T2YNgWqHtFmwFmoJ3J/wOXVEUf5hWfmZECfw4q3h3WJCoDuG2HlM1sKGsdRiUALKaX6utBZ0x85cr6/iAFOt02wSpel7TyDsTgv9vpD1e4uBqd8JecJJIf0F1wAAAABJRU5ErkJggg=="
     },
@@ -185,7 +185,7 @@
       github: "https://github.com/appsfire",
       crunchbase: "https://www.crunchbase.com/organization/appsfire",
       download: "http://docs.appsfire.com/sdk/ios/integration-reference/Introduction",
-      platforms: ['ios', 'android'],
+      platforms: ['ios', 'android', 'unity', 'air', 'phonegap'],
       tags: ['advertising', 'banner ads', 'interstitial ads', 'video ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAwlJREFUOI11k2tIk3EUxp//+zrd1tbcVtHU0rLILmAXyWtWREaE0RDntjRjhpGJ3ctuhEFQREWZ1RZSUdoQtD5EHyoqi8ruZBeysaRWw0rbprVXt72dPkg2BZ9vh/P8nnM+nMMwRNXtNOHW4S2Hujo70/v8QhxjAC+RdKm12ldxU+ZW27YWXQ33s/AiZ/Mee89HZ4FKF1ufo19vc2UkNM8NAM47mPT49u7SLvenigh19MfyYyenGVRs8OSM/OLW+Sstjgc+GrrUgLJ6CMtKt19OzTWEUijMl7Nmg32eucShxfBwuJZWVFozDUUdAMDafTSxYJXRWVFjZ4Vx/WstLFp7N0ql+K6LSWpve9a8jnGcn4+I4BeWlCdXLZ7tBoDM/GLXzISY0/yHTo9NOzr+5YGCBU0AkG2ytPi93kzB650OxrvkCnmbr+tbeigYkIuCv1eXmFRprDzyNt604N7TKzequG6fLz0lz2QFgPlGS4vQ3Z1K9AdEhG+f3xt5fgTGJMy4yBgQCoXg+9Gx+HZ9zfNeVfKLQKBPxQV6/bHRyZPvZ5ssD/09/fCACPja3mrmGGMa3fg7ITEYCQAiY+LRGOaOVCrdHADwMiDYK0wdBIeFeDqcKWpd7AcSRR6MQanWNDEAHBhxEonkJ/cV4zbV1qslUqlvKC+RyT7NzjJcdr5sWSuVK7o5jkNhVc3ejfQbQUHQclEqTeuTC8fXGzQM26vrosNDIqTSn1cuXEoQR+a+SJw1Z7/H7cqIUsgdlnjWNummfIooijJuRc7yE29eP9n0iB5BH8uw+mR/SKRM7ik8X6cdq2CoaWLXIJE/C5GIpJR55QDQVF9uSxylbQAAZBtXv1tSts3+b3Kdl3DKO/xRlZxrNKfpTdT6z2N1E1JzDcH8zVVnyHF9+BMkJ/adazSn6VfSDpt96aBeGhEy8oo6sgzFrnXWuvyDJAz0dtEvnPXQ9EWWsuY0vZl21F4agAe9FFlLkecYs/P7Z1dZMNCnkSmVX4hAAUHQ0h9Rqho1uuG07XjJRPYf+wsRMkb3a7brwQAAAABJRU5ErkJggg=="
     },
@@ -220,7 +220,7 @@
     },
     {
       r: "N/A",
-      name: "Batch.com",
+      name: "Batch",
       description: "The free retention toolkit for indie developers & startups, packed with the features you need to put retention on autopilot and spend more time on code and design.",
       founded: 2014,
       hq: "Paris",
@@ -431,7 +431,7 @@
       url: "https://www.gamedonia.com/",
       github: "https://github.com/gamedonia",
       download: "https://docs.gamedonia.com/get-started",
-      platforms: ['ios', 'unity', 'cocos2dx', 'android', 'air'],
+      platforms: ['ios', 'android', 'unity', 'cocos2dx', 'air'],
       tags: ['game server', 'multiplayer','game backend', 'mobile','game development', 'online game', 'data storage', 'server scripts', 'push notifications', 'turn based games', 'user management'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAbdJREFUOI2FkD9oVEEQxr+Z3fOO+C/mHQTB9m5WCxUtDKgptLRRhHQxvY2Qyk4sr0iaEDSFlYUIooV2Gi0kVSyS5tiXEEVQDpSDkAQMudsdm3tyeTzvppr59tvf8A0woL5Vxqe+Vk5fH+ThvLD4fuzsv8HwtJLOZOPOUzwYCjDML5aWq5cAQBUJEwsA7CziXlRMDwUoaFUZnwHARhrViPMAoBZzUPwcCjhS/j17csyMzK8nr0b2saD79Fx/4cKJ46gq4UveX1hPlqsLSx+rjX6t+wwrRV4aBHLOvVXVUVXEjV0qo+UnhkYQkXdZr6oXmfmatWby3Cm+IiJ7AwEi8rpUKt1yzj3qSTHG+KfZbFIIoWGtPSoiH/4LYOY7nU5ny3v/GACIyABQAEjT9GG32103xtwsBNRqtbvMDODQpb8T0VbfvEZEqNfrU5lg+7a3em0507z3V3ORK71c2/lbZDfYFpGDwkcAzrldEQmFEQCAiOattSUR+VEA3zTGHCOiuUN/CoxvrLW3VRUhhFUAgZknmBkhhE/e+xv9fpMHtNvtl0mStGKM4wAuE9EZVV2LMTbSNL2f9/8Fh4GWYkVKdE4AAAAASUVORK5CYII="
     },
