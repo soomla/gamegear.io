@@ -6,3 +6,4 @@ client/bower_components
 server/config/secrets.js
 .DS_Store
 .yo-rc.json
+.idea
