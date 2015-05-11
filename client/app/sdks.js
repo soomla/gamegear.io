@@ -75,15 +75,17 @@
     {
       r: 31,
       name: "Adjust",
-      description: "Adjust is a business intelligence platform for mobile app marketers, combining attribution for advertising sources with advanced analytics and store statistics.",
+      description: "Adjust is a business intelligence platform for mobile app marketers, combining attribution for advertising sources with advanced analytics and store statistics. Offices in San Francisco, Tokyo, Shanghai, and Istanbul.",
       founded: 2012,
-      hq: "San Francisco",
-      c: "us",
-      url: "https://www.adjust.com/",
+      hq: "Berlin",
+      c: "de",
+      url: "https://www.adjust.com/?utm_source=gamegear",
       github: "https://github.com/adjust",
       crunchbase: "https://www.crunchbase.com/organization/adjust-2",
-      tags: ['attribution', 'install tracking', 'marketing analytics'],
-      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACiElEQVQ4EaVTzU8TURCf2tJuS7tQtlRb6UKBIkQwkRRSEzkQgyEc6lkOKgcOph78Y+CgjXjDs2i44FXY9AMTlQRUELZapVlouy3d7kKtb0Zr0MSLTvL2zb75eL838xtTvV6H/xELBptMJojeXLCXyobnyog4YhzXYvmCFi6qVSfaeRdXdrfaU1areV5KykmX06rcvzumjY/1ggkR3Jh+bNf1mr8v1D5bLuvR3qDgFbvbBJYIrE1mCIoCrKxsHuzK+Rzvsi29+6DEbTZz9unijEYI8ObBgXOzlcrx9OAlXyDYKUCzwwrDQx1wVDGg089Dt+gR3mxmhcUnaWeoxwMbm/vzDFzmDEKMMNhquRqduT1KwXiGt0vre6iSeAUHNDE0d26NBtAXY9BACQyjFusKuL2Ry+IPb/Y9ZglwuVscdHaknUChqLF/O4jn3V5dP4mhgRJgwSYm+gV0Oi3XrvYB30yvhGa7BS70eGFHPoTJyQHhMK+F0ZesRVVznvXw5Ixv7/C10moEo6OZXbWvlFAF9FVZDOqEABUMRIkMd8GnLwVWg9/RkJF9sA4oDfYQAuzzjqzwvnaRUFxn/X2ZlmGLXAE7AL52B4xHgqAUqrC1nSNuoJkQtLkdqReszz/9aRvq90NOKdOS1nch8TpL555WDp49f3uAMXhACRjD5j4ykuCtf5PP7Fm1b0DIsl/VHGezzP1KwOiZQobFF9YyjSRYQETRENSlVzI8iK9mWlzckpSSCQHVALmN9Az1euDho9Xo8vKGd2rqooA8yBcrwHgCqYR0kMkWci08t/R+W4ljDCanWTg9TJGwGNaNk3vYZ7VUdeKsYJGFNkfSzjXNrSX20s4/h6kB81/271ghG17l+rPTAAAAAElFTkSuQmCC"
+      platforms: ['ios', 'android', 'wp8', 'air', 'unity', 'amazon'],
+      download: "https://github.com/adjust/sdks",
+      tags: ['attribution', 'marketing analytics', 'install tracking'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAjZJREFUOI2lU0trE1EYPd9tM31MSBfBWExic6cI1UptO8aK1JXoQv+BLgR3PqALC4qCbhQ3boSCCEWKO/cVQdSFadCSJlFj1baYaRGlolXT3IFmZpLPTVqSthTUs7uvc87lnI+wCWI296KCISJEwOwn0EL519IMBYPX53Wqu1u3MhS3MfDMyWZMCIHGzl2zQtcL7uzHvbyy0gIi1nr2XbX8dGuDqqF4W3TaWg4ns2wovhazue5c2twpi5wOJ6ZYKr633jKiHxZ+R17P2obi9rVHirt2LvxYlIpHa/buV0ku16rfDCfSLG0+XEvc8bXwaMfzlxxOZrnWkSxyNjyZc2I2QwCAM29d0Hr7JyydElKxL2YzZJHhWfnjzQcOPmCnBMG4s8YgcAae5xPAsJA2gwuFQPnn0rgs8riTTjluJs0gPIHnghmnm+IDL0rvcueNqgtLpyx8PgcV9AgAgyCgIRgcczKpE5oZT2p95uNSavIoE5UBXARjGOVyQwW4tGpC29OdYYIhar4c0Mz4Uyf3po8YD5v3D4xoXd1zTiZ1mwg3GkLbP3Fh+ez69ASACTDgfVs8BcJJeF7rytTkGAMDwt+yu8mM3y1l08e8L587vLmZDmnzIQBw3k/3EyMvLJ1AbW3LjaH2I5ZO37U+c0QEAgyB8XwrIe+nc1q/OShCIcWuC1RwRSqOwnU1CLzdMsZaGIr9huJXssgRqTi9GuOWRdoMMcWjG4pUVfinKv/3MNXP5qrNvxjnP4MQUVv/uwVXAAAAAElFTkSuQmCC"
     },
     {
       r: 1,
