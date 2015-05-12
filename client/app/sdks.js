@@ -674,6 +674,21 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACjElEQVQokT1SO0xTYRT+/t7bB1ShFqX0wXNxMTGRMMhAVEIQ0WjwkeDsoCYObi6GzcRV3TRxIAwao6bWaIgiEeShAkp4BEpKqQgBCrHYltv73/8chwue4bzyfeecnHyipbmJiACAwQAzY8/bgXcLO2N9c2NDEQkhiIiIAFaKbIxSiplJEYRQSjGTspSmOwiApmkMCCFsqM0HBDOEw2E3iRhCaG/eREPhSDw+N/5zBqrAxHs0m7O7x/bMLP5fuLa6NDI8PD72fWhk9EPfIACvCy63R3c6hXAQkZRmJlsQbe3nbl6/1nDsaCAUBiSUApEljemZ2eRiYj6eSCRTv5ZSDC47UNJ8ohH+YAQoAtynWlrfxV6yzJCRNrZ/y+zKj2+fuLCqtpPyz4LcmjM2pnKrE47sjhmuCYVrIpMzs21nr9QeOf74aY+UBV0DyOrovJFcSinLzOX+Gjt5YyePryMDAPwVEcBbVFbhD1bC7QN89+91TY/1pVMT/khd7MUTY+3n5uLQZmIATNnhwb7TZ9pHvnzsunun4Xgj9pcDLvsTVzsv9Ua7Ac+rnofZ5dH0widRyKVdut7/eeBPZvvC+VYyjfX1dGIxuZBIPn/d+zb2ESW+w5WH5qanhnq7q0OHhNrZIrJ0TYxNTFZHAsVFbiYlwA5Bbt0Rfd9/u+tBideTL1jxmaUH92/p0djbqkhFKBSsP3aETFNKg5hJWVJJskQ+n1+cn409e9TSVB9PpDTBolhH3gIArxMXL3ecbGoMBsrCFQdLS/Z5XFrpfq8QSkkpTQNMbElRVx0mIqWUUiqX+5vJmtgzF1Ae8Hm93kiwnJgFsLyyJmqrQkRk68RObAnZUyzLYmZLmgwwQ3c6/wGGFKgkOgS0DQAAAABJRU5ErkJggg=="
     },
     {
+      r: "N/A",
+      name: "OneSignal",
+      description: "OneSignal is a simple and powerful multi-platform push notification delivery service for mobile and web developers. OneSignal features Segmentation, API Access, A/B Testing, Localization, Realtime Analytics, and more.",
+      founded: 2014,
+      hq: "Silicon Valley",
+      c: "us",
+      url: "https://www.onesignal.com/",
+      github: "https://github.com/one-signal",
+      crunchbase: "https://www.crunchbase.com/organization/one-signal",
+      download: "http://documentation.onesignal.com/",
+      platforms: ['ios', 'android', 'unity','cocos2dx','wp8','air','phonegap','js'],
+      tags: ['push notifications', 'push', 'analytics','engagement','retention','api'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAsBJREFUOI11k89PUwkUhb8+Qlor4UfVGIIFEtGEpQs3Sjp/AC4mBFckrtyqCSTGEKILFa1TrBINxpAgFRcGg1oHY4wxgpPoH0Dax3sQxYaFoe1QnXm0fbTHRQlOmZm7/+6595wcDztGALHYVYLBLgqFQwD4/UukUn/Q1zfo2QlUwdHoZSWTykSjsltaZIJMkN3crPTIiJRISHfvDv+T2V6oN2+mC4VC76fubmoCAfB6wXFAAr8fikVK2Szt8Ti+xsbnnlDo15/Kd+5cyb96pSTIbm+XCVrp61M6FlN6akpfTp+uXNLWJhO0MTsrjY+Ht3+WbW/D1v79Wn/5UqtDQ1oELYJS584p9/q17M5O2a2tSoJk2xKAHj0azty+LaupSSYo9/atzC1wpbdXKydPanHLi9y7dzJBViCgdCQiPX0aNmht7cpGImAY1F+6xPrEBB6gYWQEN5mkuLBAw82beHw+0hcvEhgbg1KJbDgMe/f+YuA4HaVUCjY38XZ04Dx8SF1/P+sDA3iPHcN79Cjr/f3UnTmDOz+P4fMBUF5bg2KxzaDyCRgGpVwOD6B8HuPgQQ7cv09wcpJNAMepRFZTA+XylvvCwO9frmlpAdfFaGjACAYpmCbe48f5NjcHxSK7e3ooLC0hwFNbC+UyRiAAu3Z9QY8fX8tEo7Lq62UdPqzszEzFqOZmff/wQXJdJbdMTcdiWg6FZNXVae3GDWly8rfqGPftU+rsWaUfPFAC9P3jR8l1tQD6Ojqq1aEhWY2N1TEC6N696xuzsxXlpiYtd3VpdXBQ3+bmVM7n9fnUKX06cUJWba1M0N/xuDQxEanuwfv3zzbicSVBqxcuKDs9LTeTkST9+eKFvt66JSsY1F8zM9KTJ7//d5lGR6/LcfS/47rS2FiV8r/aKYDh4TBHjoTYs6cdgExmhURinoGB8zuBH6VTw8U26rQYAAAAAElFTkSuQmCC"
+    },    
+    {
       r: 14,
       name: "Parse (Facebook)",
       description: "Parse is a cloud app platform that enables users to add a scalable and powerful backend to launch a full-featured app.",
