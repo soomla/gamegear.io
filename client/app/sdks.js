@@ -84,8 +84,8 @@
       url: "https://www.adjust.com/?utm_source=gamegear",
       github: "https://github.com/adjust",
       crunchbase: "https://www.crunchbase.com/organization/adjust-2",
-      platforms: ['ios', 'android', 'wp8', 'unity', 'air', 'amazon'],
       download: "https://github.com/adjust/sdks",
+      platforms: ['ios', 'android', 'wp8', 'unity', 'air', 'amazon'],
       tags: ['attribution', 'install tracking', 'marketing analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAjZJREFUOI2lU0trE1EYPd9tM31MSBfBWExic6cI1UptO8aK1JXoQv+BLgR3PqALC4qCbhQ3boSCCEWKO/cVQdSFadCSJlFj1baYaRGlolXT3IFmZpLPTVqSthTUs7uvc87lnI+wCWI296KCISJEwOwn0EL519IMBYPX53Wqu1u3MhS3MfDMyWZMCIHGzl2zQtcL7uzHvbyy0gIi1nr2XbX8dGuDqqF4W3TaWg4ns2wovhazue5c2twpi5wOJ6ZYKr633jKiHxZ+R17P2obi9rVHirt2LvxYlIpHa/buV0ku16rfDCfSLG0+XEvc8bXwaMfzlxxOZrnWkSxyNjyZc2I2QwCAM29d0Hr7JyydElKxL2YzZJHhWfnjzQcOPmCnBMG4s8YgcAae5xPAsJA2gwuFQPnn0rgs8riTTjluJs0gPIHnghmnm+IDL0rvcueNqgtLpyx8PgcV9AgAgyCgIRgcczKpE5oZT2p95uNSavIoE5UBXARjGOVyQwW4tGpC29OdYYIhar4c0Mz4Uyf3po8YD5v3D4xoXd1zTiZ1mwg3GkLbP3Fh+ez69ASACTDgfVs8BcJJeF7rytTkGAMDwt+yu8mM3y1l08e8L587vLmZDmnzIQBw3k/3EyMvLJ1AbW3LjaH2I5ZO37U+c0QEAgyB8XwrIe+nc1q/OShCIcWuC1RwRSqOwnU1CLzdMsZaGIr9huJXssgRqTi9GuOWRdoMMcWjG4pUVfinKv/3MNXP5qrNvxjnP4MQUVv/uwVXAAAAAElFTkSuQmCC"
     },
@@ -491,7 +491,7 @@
       github: "https://github.com/InMobi",
       crunchbase: "https://www.crunchbase.com/organization/inmobi",
       download: "http://www.inmobi.com/products/sdk/",
-      platforms: ['ios', 'android'],
+      platforms: ['ios', 'android', 'unity', 'air'],
       tags: ['advertising', 'ad mediation', 'banner ads', 'interstitial ads', 'user acquisition'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAYNJREFUOI3Fkr1LW3EUhp/zu/cmNjQuV4hfhHTs5iJSCtG2IUPQxY4ddXB217+jf0RFKIjoYj+Cg0UoHQQFv26r5MMa0ZiYe5scB1FMDbFQwWc7cN73HN5z4LGR28X0ptLxhxE1WIDe7jOGk9WfrK+EgKQ0G8zuKBdlPgTV0ttmXTORaPRsPuesbwQ08HnDmGADBBWW/LN8OuLGPIV9lEYrAzU4Y734G6teip74Hh81Yc9saWe1juuFYiuFEq+zL6SV9ob3nkJP/BO/D4Zx+ybtQo3TzaPz57ZlWdnkk/aJAVNxgUWtApDbfWm2y7ySWiViOeHaveq/EVFjQ7390u0xyNUlFP13n+uQVcU0DJ8BglIxmlnTgXvFywpaHwSg+1lWANJruuAXDjNiLEJu7CvcOaMRcGzI/yhz5Hl7E3Qn9glICEDqm+Ioc7Xj4niroSLCxdOuL1vnhIv5X0O4/YvYZEhL8yunsortMNLQm1c2RtjOldn9XmGUMD5Flnn3P7E/NJcTqI/RzDOOpAAAAABJRU5ErkJggg=="
     },
