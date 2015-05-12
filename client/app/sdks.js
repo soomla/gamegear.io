@@ -411,7 +411,7 @@
       founded: 2012,
       hq: "Barcelona",
       c: "es",
-      url: "https://www.gamedonia.com/",
+      url: "http://www.gamedonia.com/",
       github: "https://github.com/gamedonia",
       download: "https://docs.gamedonia.com/get-started",
       platforms: ['ios', 'unity', 'cocos2dx', 'android', 'air'],
