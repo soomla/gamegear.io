@@ -61,6 +61,20 @@
 
   var sdks = [
     {
+      r: "N/A",
+      name: "AdBuddiz",
+      description: "AdBuddiz is one of the largest international mobile ad networks. The solution helps thousands of iOS and Android developers all over the world to monetize their traffic with ads that look beautiful. Its powerful optimization engine uses machine learning to ensure the maximum revenues for developers. In addition, the integration of the SDK is as simple as possible with only 2 lines of code.",
+      founded: 2012,
+      hq: "Paris",
+      c: "fr",
+      url: "http://www.adbuddiz.com/?utm_source=gamegear",
+      github: "https://github.com/AdBuddiz",
+      download: "https://publishers.adbuddiz.com/?utm_source=gamegear",
+      platforms: ['ios', 'android', 'unity', 'air', 'phonegap'],
+      tags: ['advertising', 'interstitial ads'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAXVJREFUOI3Vkz1LK1EQhp9jgp0GFmysr4VIkCW4BgnkN2xtZaNgE7STIIiNgpWFnYJgY2cQbmchfqGFguIiJhAkQYughej6ra+Frp6onbe5B6aYYeaZmXc4RhK/eQ2/qv4XgPiP0UqlD+mZpqbyi+PcNUAH8GxlnAAbAEiqt0plZBg0Bar296/fS/OAvloqlTqW9B0wDjdroAD02NVVGhgcXI+KPM87iMViF5Evaa4eEARTC6Baa+t5OR5/KFod8/n8SpRnAdJ1gFHQBkjFYscqaN8CJBKJ62QyeWQVD0myrrCzM5sEOru7T2hrCwS1M0u1dDpd9X3/1HGcSwBjzNiniE9PjIJ2Qbe+X9LMTGGtuflq0prAmjRvx5DE3fJyYQl0BNoG/QVVQb0WIJPJHLquG0R+Npt9v0IYeiOgTZAWF6c/Ok1MFH46H6BcLrcV5RmFoUe53E4YGlx3nsbGt6VrtR5aWv5gzIslxSOwB5SigPn/P9Mr7dcNQWpbarMAAAAASUVORK5CYII="
+    },
+    {
       r: 16,
       name: "AdColony",
       description: "AdColony is a mobile video advertising platform. AdColony works with Fortune 500 brands and more than 85% of the world’s top grossing publishers. AdColony is a division of Opera Mediaworks and has offices in Los Angeles, San Francisco, Seattle, New York, London and Helsinki.",
