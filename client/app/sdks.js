@@ -699,9 +699,9 @@
       crunchbase: "https://www.crunchbase.com/organization/one-signal",
       download: "http://documentation.onesignal.com/",
       platforms: ['ios', 'android', 'unity','cocos2dx','wp8','air','phonegap','js'],
-      tags: ['push notifications', 'push', 'analytics','engagement','retention','api'],
+      tags: ['push notifications', 'push', 'analytics', 'engagement', 'retention', 'api'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAsBJREFUOI11k89PUwkUhb8+Qlor4UfVGIIFEtGEpQs3Sjp/AC4mBFckrtyqCSTGEKILFa1TrBINxpAgFRcGg1oHY4wxgpPoH0Dax3sQxYaFoe1QnXm0fbTHRQlOmZm7/+6595wcDztGALHYVYLBLgqFQwD4/UukUn/Q1zfo2QlUwdHoZSWTykSjsltaZIJMkN3crPTIiJRISHfvDv+T2V6oN2+mC4VC76fubmoCAfB6wXFAAr8fikVK2Szt8Ti+xsbnnlDo15/Kd+5cyb96pSTIbm+XCVrp61M6FlN6akpfTp+uXNLWJhO0MTsrjY+Ht3+WbW/D1v79Wn/5UqtDQ1oELYJS584p9/q17M5O2a2tSoJk2xKAHj0azty+LaupSSYo9/atzC1wpbdXKydPanHLi9y7dzJBViCgdCQiPX0aNmht7cpGImAY1F+6xPrEBB6gYWQEN5mkuLBAw82beHw+0hcvEhgbg1KJbDgMe/f+YuA4HaVUCjY38XZ04Dx8SF1/P+sDA3iPHcN79Cjr/f3UnTmDOz+P4fMBUF5bg2KxzaDyCRgGpVwOD6B8HuPgQQ7cv09wcpJNAMepRFZTA+XylvvCwO9frmlpAdfFaGjACAYpmCbe48f5NjcHxSK7e3ooLC0hwFNbC+UyRiAAu3Z9QY8fX8tEo7Lq62UdPqzszEzFqOZmff/wQXJdJbdMTcdiWg6FZNXVae3GDWly8rfqGPftU+rsWaUfPFAC9P3jR8l1tQD6Ojqq1aEhWY2N1TEC6N696xuzsxXlpiYtd3VpdXBQ3+bmVM7n9fnUKX06cUJWba1M0N/xuDQxEanuwfv3zzbicSVBqxcuKDs9LTeTkST9+eKFvt66JSsY1F8zM9KTJ7//d5lGR6/LcfS/47rS2FiV8r/aKYDh4TBHjoTYs6cdgExmhURinoGB8zuBH6VTw8U26rQYAAAAAElFTkSuQmCC"
-    },    
+    },
     {
       r: 14,
       name: "Parse (Facebook)",
@@ -914,7 +914,7 @@
       github: "https://github.com/Tapjoy",
       crunchbase: "https://www.crunchbase.com/organization/tapjoy",
       download: "http://dev.tapjoy.com/",
-      platforms: ['ios', 'android', 'air', 'unity', 'cocos2dx'],
+      platforms: ['ios', 'android', 'unity', 'cocos2dx', 'air'],
       tags: ['analytics', 'marketing automation', 'monetization', 'ads', 'video ads', 'advertising', 'messaging', 'virtual economy', 'interstitial ads', 'offer wall'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABiUlEQVQokZWSPUtbcRTGf+f6v5Gb3nB9ARPRQptapIv4BTo4VNtBF6HQyQ/g0qVDlw7t4OjQbu3kRyhCp1JFBMeCKFh8K1VMIkaSmpur/xtPh9q8QELxTIeH8+PwPOdIYXSc25Rzq2nANFpr9bTE7yrE/wf0vGzGHiU/vUo8HJGUj/5VFVUAx2kFwmri+UzP+0UAG+vFBSKoYoykfECL5w2mMDqep692klPV0us3OcgT5AlyUHwxp6p2a/vkn5gnMIBSdDJprA0X3nbVQzsrJZ4+AezhTye4K5n+RkpCimqE63rzL693ftwA4aX7IAvEm1sku+seHIChwfK7BSD4sNj3fUN/FQDCisneB+LVdfFaAfGT0cel4uR09PVb9fMyvT6qGM8ZzAD2ywqmkf5NJ/09tb2D8uwcvid+kivrPnsMXB8dA4i0O5zr1p1pGLlTE4DdP+CO13y4Dq8RXXVls4Dd3Wt23BmIa246TXQZr6xJ6wbp9K16VKBSkXtDdCeaddN2GpDhgbb6H/IOjHK99SRyAAAAAElFTkSuQmCC"
     },
