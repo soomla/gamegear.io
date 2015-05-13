@@ -114,7 +114,8 @@ var taskConfig = function(grunt) {
 
     grunt.task.run([
       'clean:tmp',
-      'injector',
+      'injector:scripts',
+      'injector:less',
       'wiredep',
       'less:server',
       //'favicon-base64',

@@ -52,6 +52,20 @@ var taskConfig = function(grunt) {
           '<%= yeogurt.client %>/app/**/*.less'
         ]
       }
+    },
+    analytics: {
+      options :{
+        transform: function(filePath) {
+          return require('fs').readFileSync('.' + filePath);
+        },
+        starttag: '<!-- [injector:analytics] -->',
+        endtag: '<!-- [endinjector] -->'
+      },
+      files: {
+        '<%= yeogurt.dist %>/index.html': [
+          '<%= yeogurt.client %>/analytics.html'
+        ]
+      }
     }
   });
 

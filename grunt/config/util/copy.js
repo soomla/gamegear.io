@@ -17,7 +17,7 @@ var taskConfig = function(grunt) {
             'templates/**/*.html',
             '!*.js',
             '*.{ico,png,txt}',
-            '*.html',
+            'index.html',
             'CNAME'
           ]
         },

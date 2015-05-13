@@ -7,7 +7,8 @@
 var taskConfig = function(grunt) {
   grunt.registerTask('build', 'Build a production ready version of your site.', [
     'clean:dist',
-    'injector',
+    'injector:scripts',
+    'injector:less',
     'wiredep',
     'copy:dist',
     'concurrent',
@@ -16,6 +17,7 @@ var taskConfig = function(grunt) {
     'cssmin',
     'autoprefixer:server',
     'usemin',
+    'injector:analytics',
     'htmlmin:dist',
     'uglify',
     'clean:tmp'
