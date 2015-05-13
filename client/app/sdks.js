@@ -885,7 +885,7 @@
       github: "https://github.com/Tapjoy",
       crunchbase: "https://www.crunchbase.com/organization/tapjoy",
       download: "http://dev.tapjoy.com/",
-      platforms: ['ios', 'android', 'air', 'unity'],
+      platforms: ['ios', 'android', 'air', 'unity', 'cocos2dx'],
       tags: ['analytics', 'marketing automation', 'monetization', 'ads', 'video ads', 'advertising', 'messaging', 'virtual economy', 'interstitial ads', 'offer wall'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABiUlEQVQokZWSPUtbcRTGf+f6v5Gb3nB9ARPRQptapIv4BTo4VNtBF6HQyQ/g0qVDlw7t4OjQbu3kRyhCp1JFBMeCKFh8K1VMIkaSmpur/xtPh9q8QELxTIeH8+PwPOdIYXSc25Rzq2nANFpr9bTE7yrE/wf0vGzGHiU/vUo8HJGUj/5VFVUAx2kFwmri+UzP+0UAG+vFBSKoYoykfECL5w2mMDqep692klPV0us3OcgT5AlyUHwxp6p2a/vkn5gnMIBSdDJprA0X3nbVQzsrJZ4+AezhTye4K5n+RkpCimqE63rzL693ftwA4aX7IAvEm1sku+seHIChwfK7BSD4sNj3fUN/FQDCisneB+LVdfFaAfGT0cel4uR09PVb9fMyvT6qGM8ZzAD2ywqmkf5NJ/09tb2D8uwcvid+kivrPnsMXB8dA4i0O5zr1p1pGLlTE4DdP+CO13y4Dq8RXXVls4Dd3Wt23BmIa246TXQZr6xJ6wbp9K16VKBSkXtDdCeaddN2GpDhgbb6H/IOjHK99SRyAAAAAElFTkSuQmCC"
     },
