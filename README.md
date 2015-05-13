@@ -2,6 +2,8 @@
 
 Gamegear is a collaborative website created by SOOMLA for the benefit of mobile game developers and studios.  The idea originated from an internal need to study the landscape of companies in the mobile gaming space, and we've decided to let the entire community benefit from our research.
 
+So here you have it:  http://gamegear.io
+
 ##
 
 ## Contribution Guidelines
