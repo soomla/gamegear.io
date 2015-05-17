@@ -436,6 +436,12 @@
           }
         });
 
+        var naRows = $('.row-kit[data-rank="N/A"]');
+        var sortedRows = $('.row-kit:not([data-rank="N/A"])').sort(function(a, b) {
+          return parseInt($(a).data('rank')) - parseInt($(b).data('rank'));
+        });
+        $('#content').append(sortedRows, naRows);
+
 
         // Initialize Bootstrap tooltips
         $('.icon-platform').tooltip();
