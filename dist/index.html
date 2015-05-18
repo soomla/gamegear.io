@@ -65,11 +65,13 @@
               <img src="http://www.google.com/s2/favicons?domain=crunchbase.com">
               <a href="{{crunchbase}}" target="_blank">Crunchbase</a>
             </div>
-            {{#if download}}
-            <a class="btn btn-default btn-download top15" href="{{download}}" role="button" target="_blank">Download {{name}} SDKs</a>
-            {{else}}
-            <a class="btn btn-default btn-download top15" href="{{url}}" role="button" target="_blank">Download {{name}} SDKs</a>
-            {{/if}}
+            <a class="btn btn-default btn-download top15" href="{{or download url}}" role="button" target="_blank">
+              {{#if downloadtext}}
+              {{downloadtext}}
+              {{else}}
+              Download {{name}} SDKs
+              {{/if}}
+            </a>
           </div>
         </div>
       </div></script> <script>//
@@ -77,6 +79,10 @@
       //
       Handlebars.registerHelper( "lowerCase", function (str){
         return str.toLowerCase();
+      });
+
+      Handlebars.registerHelper( "or", function (val1, val2){
+        return val1 || val2;
       });
 
 
