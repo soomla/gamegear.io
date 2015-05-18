@@ -121,13 +121,14 @@
     {
       r: "N/A",
       name: "App Annie",
-      description: "App Annie provides business intelligence solutions such as ranking, sales analytics and advanced market intelligence for the app economy.",
+      description: "App Annie is the largest mobile app intelligence platform, providing developers and publishers with a 360-degree view of what they need to know to build, market and invest in their apps.",
       founded: 2010,
       hq: "San Francisco",
       c: "us",
       url: "https://www.appannie.com/",
       crunchbase: "https://www.crunchbase.com/organization/app-annie",
       download: "https://www.appannie.com/tours/store-intelligence/",
+      downloadtext: "No SDK Required",
       platforms: ['ios', 'android', 'amazon'],
       tags: ['intelligence', 'analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAxVJREFUOI09k89P23Ucxl+fH99+21JK2/FLfg0QSbaJZroYHFEXE40Z8aqn/QXKQROzi3MHvRpj4sE/wAsXLwuJGrMYYxYnRgMq2i5Y2AYMoVJoS9vvt5/P2wNzr/vzHJ68HiXX0fW7l16vefnEpZsTuakqNhBEAEBpobOTw+32gAAKRGTFKK51j9xcUhtXLl7O2HDpQDqo/ABheEi+t4wJQbzC/ZM9CXsFike0nOOw3Zw3V5+ZXDyKjh9ThUGGFz6iXTmm/vc23eemUT1zJF68itIGd38dxAMak2ty5JvEkX7e1uL2jNOGzOgkOtVFdu4V1HMvYQZGMMMTxMvfoTLdmJEJOuslTF8bM1KhX3sONtNjOlloooKQ5NgU8d4Wyckz0Kjhy0UApFpBFfpR2UHMqQPs2D5Yj1JQON1AJ7MR+XFFdm4emx9AvMMGIW73PgD68bNAAhWUMUM1MP5kzIfofzcy2LRD1cvUvvgU1n4lePYFgouv4vcfQL1Bu/g1DJ/CjJwBUfzf4GtJrDhFpZwh4y0pvUPrmy8JgwTRV4uY/iGioXG2bn5P35V36Zk+i+rfwN+7hds5wFeymIWnRj/oVlrbzRK6EJJ8823cnRJ+u0yttEqtskPy9BTihPb6KumX38L2nif+aQXi2NtcEJIUwW1tYcZfQ+cG8fUb2LnL5KfPkY2a6CDEt445Lv2Oqx+iM+NgEkADnTQGRFDZHOaJGeK1Zcz5C9jZS6hUF7anF5vvx0cRgThoCNGdZYLZNyAIsY/WzBawT14Aa/EimK4u2sWfUZk+UtMzKNchMTxBYnSCjo+J9tdAefSJ8ArdO0B0XOPex++hjaWz9wCT7yU1PUPzlx+QagWpVqgtfk701wrt29/S2ldYUHfFxZOtyi5pEVobReqrPwLQ+OM2KbcIxT+J9vZIJBI4ESIRrNbE4n+zWvuFo9gttWpV7GaJTnWf7c+uIUDaWKwJMIFHh+bkUA8d6HhP23feV3IdXSzNzouWD0E9zclj6bIBKWNxXjCBYBMeFQdEseDEl5sufmd88taN/wCtxV0SmMYZZwAAAABJRU5ErkJggg=="
