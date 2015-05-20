@@ -804,7 +804,7 @@
       github: "https://github.com/PlayFab",
       crunchbase: "https://www.crunchbase.com/organization/playfab-inc",
       download: "https://playfab.com/sdks",
-      platforms: ['ios', 'unity', 'js', 'cocos2dx'],
+      platforms: ['ios', 'android', 'unity', 'cocos2dx', 'air', 'js'],
       tags: ['game server', 'multiplayer'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAftJREFUOI2Vk89LlHEQh5/vu/vuu+vKlpQYUmqwmbCdykII8dIlFDp08BKRFdGPrQ516FaEkR3qIPgHBEFEXYIiwkOHTqZiRGEEZYGXSGvVbd333X3fT4fWbXXbpIGBgZl5Zhg+gySzjqPARyMDh3SWhzrHfY0M9Cv/E0nGSDL828RF53w+7w0jwIdolq8Mz2yhqY3wus3vx2DJO21scA7cOEyy8xmz00ma2gAMf1250j9MopPM6ATL+vy2MmckmfCqacDEPIRhQ0Es7N1czogw8Ok1uMvQ3lluWgEoEMRGuenlCmncbD3xjRkiZkgduoUhcMNEnQdHvrFAgWtjzezcJ8BYK6TYKGe8xcwVQjLEG55SzNWRXRp6md1zEINfKlsGcpVHsgCNz4HnkUYwuD2SUh99g8n4fgJxdZ4LGIqRAi7991q4PplkW8fvA5YA2Bbge60Yy+9p5AtATyMTBAEvXBKAb3ygZRfs2A11CVO5QSkK+VhBqPsVT25P09U9znPsEHcTTAG2AAKftbZaBxK4P3ovv6EXC4g2zB9t99K4zLpFnGhQrAEQIBnsWP5UczS11eGYG5Dp2sQd6ovQc+l4FMVpTVUBkMTUnOBxYZFHWffd9zVCqhbXKuFVSdlTOaz8kZr/8ueIgR9CgVWrsJaFy3zb+YjtxP4X8Atq4B9ZS2fStQAAAABJRU5ErkJggg=="
     },
