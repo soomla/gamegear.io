@@ -425,21 +425,6 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAlFJREFUOI2lkk1IVGEUhp/v3jvXKadRZ0yzJEvJlNII2kWJizZRIkESCC0SXIQQSRtXZW2iHzcRtSpokYtw0zIkpRaFgqaYqVFBYfgzjD/jOHPvnfudFpVSaUi9cFbnvO85cB74T6n1GnK9tQLfayccPo6v+ynd36DqGmO/zxlrmh/cPkfQHpL8wgY2hUJiZ9Uy8Lx6QxdIR9sOfHdYh3MjaEEphUovTxPIriYxF0ORx+JsBjeTUDcf65UAudwcQKsAGaeYcO4QOZGgiEbFZyZZjJ8ma8tRgsFmsrOjeJ7Hwtw4xXsuKgBpqW9ga9ElrEAFVqAT257QiflbhuP14nt3MFSjRApPYWeBAEqBaFQqOabk2oU63OQTHSmwRYDlJczEYgem9RQtlUx+Ou+HwlXfN2VAmWAYYAUwROIWC7EbOpRr82EMFhcwfS9GMGeavHCUop2SeT9UZcRnUYYBIohSIAKiwQ7OGkx9ydf9L9Bv32DOzY0Sym1jaaEmM9jXRTKRZe0qPyNOCnHSiJMGJwVuGkOLQ174qpKmk42MDtSxu2yc6PZRJoav+KnkXjFMlK8x9x2sJxQU3o20YgWr8d1ZDGOQ7Oh91dndu/qF9pZt9L967U9PlijLQhTgZzBzIt3q2egxOVurKKnIIzaTUve6Uj991goAfS+b/MnPJZgW4vo/KFEw9dUAUI96BHri65M4MRLA1+C6q7W0BAWFy2sR+GdA5YEplU6D66A8D1IpTK0dDh1++LeAXyRHSu9K+eaklNnzUh39KDWlJzZs/ld9A705BAhn6CRYAAAAAElFTkSuQmCC"
     },
     {
-      r: 31,
-      name: "Fyber (Sponsorpay)",
-      description: "Fyber is a leading mobile advertising technology company that empowers app developers to execute smart ad monetization strategies across all connected devices through a unified mobile Supply-Side Platform. Serving approximately 320+ million monthly active users, Fyber works with thousands of the world's leading app developers, publishers and advertisers.",
-      founded: 2009,
-      hq: "Berlin",
-      c: "de",
-      url: "http://www.fyber.com/company.html",
-      github: "https://github.com/SponsorPay",
-      crunchbase: "https://www.crunchbase.com/organization/sponsorpay",
-      download: "http://developer.fyber.com/content/",
-      platforms: ['ios', 'android', 'unity'],
-      tags: ['advertising', 'user acquisition', 'ad mediation', 'interstitial ads', 'video ads', 'offer wall'],
-      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAQJJREFUOI2lUztuwkAQfbNwgVQpQLIQUpYmKdLQYMsnoHKD7DtwFcIZHFFAxQUCFg0VBY1NAUQmh0gRD1Us44wXS3nV6knvM7uzBAFhFLPEB06PytwNUSU0GeWHorht6VfXol1R9JGy93VK5mUTKoulmlJLImLf1qpZVW3kDf+MM1ssKXB6FEYxMzMBgMrTH3THJC6i3dVjAHjfHH7yBsEznaVEycBt0TSM4jfOMqVMSXXQlMjZYkkjb8jlUaRGYoN7dyA2WG3Zcvv0eS8RANYXHqfHBKRUpn6f7vKdnOumpsdkAgD+4Knx70USV9nS+sV+pH1RaFxlycQE8TPVMZLGuwJZ+HikXjcfLAAAAABJRU5ErkJggg=="
-    },
-    {
       r: "N/A",
       name: "Fuse Powered",
       description: "Fuse Powered has built the only platform that enables mobile game publishers to maximize revenue by giving every player an optimal experience. The Fuse platform has more than 600 million installs worldwide.",
@@ -453,6 +438,21 @@
       platforms: ['ios', 'android', 'unity', 'corona', 'air'],
       tags: ['advertising', 'ad mediation', 'interstitial ads', 'monetization', 'video ads', 'rewarded video'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAS5JREFUOI2lk7Fqg0Acxn8nBRehUjKEghACWUKG4hPkAULwCUrXInTo1CkPIbiGkCeQ4gP4BOIgXQISCJQOpVjo0qXXwfPQJB203+R9992Pzz93Qkop+Icu+hwSIWvy+A7TKkXXBiLEJo8/AJgtNkaPAl7jO+gDWAIwnGbSJ+sEECEj8rhqMBgHcGaIKlRoY7a4kj6lWjXrRwDnGnh/rt+LWwXd1NBTQB26vN4rZ6mbvb3cKG9bxw3xlBbiPv4RIWsdMq0Sx30EII89EWIDDzVY+iQagONGAOwST9edzCPpEzVaeBzSas9xg2ZhA6iM7y+bXbJS/rMKV/BDuuLzdaT2Ni2A9NkznGYaYlql9KsJa3h9uDG8ZgMYjPVQmMz1/7XglbYcqfNbOFafq9zSL3gbZ2uuvgk1AAAAAElFTkSuQmCC"
+    },
+    {
+      r: 31,
+      name: "Fyber (Sponsorpay)",
+      description: "Fyber is a leading mobile advertising technology company that empowers app developers to execute smart ad monetization strategies across all connected devices through a unified mobile Supply-Side Platform. Serving approximately 320+ million monthly active users, Fyber works with thousands of the world's leading app developers, publishers and advertisers.",
+      founded: 2009,
+      hq: "Berlin",
+      c: "de",
+      url: "http://www.fyber.com/company.html",
+      github: "https://github.com/SponsorPay",
+      crunchbase: "https://www.crunchbase.com/organization/sponsorpay",
+      download: "http://developer.fyber.com/content/",
+      platforms: ['ios', 'android', 'unity'],
+      tags: ['advertising', 'user acquisition', 'ad mediation', 'interstitial ads', 'video ads', 'offer wall'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAQJJREFUOI2lUztuwkAQfbNwgVQpQLIQUpYmKdLQYMsnoHKD7DtwFcIZHFFAxQUCFg0VBY1NAUQmh0gRD1Us44wXS3nV6knvM7uzBAFhFLPEB06PytwNUSU0GeWHorht6VfXol1R9JGy93VK5mUTKoulmlJLImLf1qpZVW3kDf+MM1ssKXB6FEYxMzMBgMrTH3THJC6i3dVjAHjfHH7yBsEznaVEycBt0TSM4jfOMqVMSXXQlMjZYkkjb8jlUaRGYoN7dyA2WG3Zcvv0eS8RANYXHqfHBKRUpn6f7vKdnOumpsdkAgD+4Knx70USV9nS+sV+pH1RaFxlycQE8TPVMZLGuwJZ+HikXjcfLAAAAABJRU5ErkJggg=="
     },
     {
       r: 36,
