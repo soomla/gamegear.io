@@ -152,7 +152,7 @@
         <div class="row bottom30">
           <div class="input-group">
             <span class="input-group-addon">Search</span>
-            <input id="filter" type="text" class="form-control" placeholder="'Flurry', 'Unity', 'video ads'...">
+            <input id="filter" type="text" class="form-control" placeholder="'Flurry',  'video ads',  'platform:unity' ...">
           </div>
         </div>
         <div class="row">
@@ -315,6 +315,7 @@
       $(function () {
 
         var search = {};
+        var platformSearch = {};
         var rows = [];
 
         _.each(window.data.sdks, function(kit) {
@@ -324,6 +325,12 @@
           var key = kit.name;
           if (kit.tags) key += ' ' + kit.tags.join(' ');
           if (kit.founded) key += ' ' + kit.founded;
+
+          //
+          // Commented search by platform like this because when searching unity for example
+          // it shows all vendors supporting unity instead of showing just unity services
+          //
+/*
           if (kit.platforms) {
             key += ' ' + kit.platforms.join(' ');
             _.each(kit.platforms, function(platform) {
@@ -333,6 +340,11 @@
               }
             });
           }
+*/
+
+
+          // Save local copy for later
+          var platforms = kit.platforms;
 
           // Convert platforms to their Base64 image
           kit.platforms =
@@ -351,6 +363,22 @@
           // for search purposes later
           //
           search[key] = item;
+
+          //
+          // Cache the item for all platforms relevant to it
+          // for search purposes later
+          //
+          _.each(platforms, function(platform) {
+            (platformSearch[platform]) || (platformSearch[platform] = []);
+            platformSearch[platform].push(item);
+
+            var platformAliases = window.data.platformAliases[platform];
+            _.each(platformAliases, function(platform) {
+              (platformSearch[platform]) || (platformSearch[platform] = []);
+              platformSearch[platform].push(item);
+            });
+          });
+
         });
 
         $.fn.append.apply($('#content'), rows);
@@ -368,12 +396,25 @@
           if (pattern == '') {
             $('.row-searchable').show().removeClass('expanded force-odd force-even');
           } else {
-            var rex = new RegExp(pattern, 'i');
-            $('.row-searchable').hide();
 
-            var rows = _.filter(search, function(value, key) {
-              return rex.test(key);
-            });
+            var rows;
+
+            // First test if it's a platform search
+            var match = pattern.match(/^platform:(.*)/);
+            if (match) {
+
+              rows = platformSearch[match[1]];
+              if (!rows) $('.row-searchable').hide();
+            } else {
+
+              var rex = new RegExp(pattern, 'i');
+              $('.row-searchable').hide();
+
+              rows = _.filter(search, function(value, key) {
+                return rex.test(key);
+              });
+
+            }
 
             var $rows = $(rows).each(function(i, row) {
 

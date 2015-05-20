@@ -38,10 +38,10 @@
 
   var platformAliases = {
     ios: ['iphone', 'ipad'],
-    android: ['google play'],
+    android: ['google', 'play'],
     unity: [],
     cocos2dx: ['cocos2d'],
-    wp8: ['windows phone']
+    wp8: ['windows']
   };
 
 
