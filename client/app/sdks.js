@@ -46,6 +46,7 @@
 
   var countries = {
     br: 'Brazil',
+    ca: 'Canada',
     ch: 'Switzerland',
     cn: 'China',
     de: 'Germany',
