@@ -24,6 +24,7 @@
     android: 'Android',
     unity: 'Unity',
     cocos2dx: 'Cocos2d-x',
+    corona: 'Corona',
     wp8: 'Windows Phone 8',
     air: 'Adobe AIR',
     amazon: 'Amazon',
