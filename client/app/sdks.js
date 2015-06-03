@@ -282,6 +282,21 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAeFJREFUOI2lkLFrU1EUxr97333Na/Je0CgmQeqQyViEYmpFqnEIpWC1LjrVLX9Ai3vBdrCDQ8AO4iIFoR1Eh7Q2o4MYSgUJVaGDGgOBGFt9r7X1xdvkHqe8VqpJxTMdPs73O+c7wH8W26eskr/87sE9c6102d36HhVCQA+FK7K7P3cskUy3BNj21zExN5Ux3s5D1hUUABCBQ8HoDGLj9NVKKDV5CjHmND2i2ZSkPGPdH83UVp7B1S2A74IbALZ/SviXH0Vt6X6c/EzxTIRVgT1j5sOJBflmEUq3/hKWQWoBBFaeHh4vzGabMgeAfO7xjdCnl9G65m/3M9RIwPc61/dik5IeoCdgpN31IsB4azcAMAHftyLU7O2jHkDYZQITrY17otS313D24pW0B4DewQE6GAAA4zqk8+W9B9gQwSLXDngBKYhgBKvw5T1AITE0o0IxgBrttyuJzUg33e1KZT3AwBH/0o8LN5cNqqFlFFIwD4Wx1Ts0/eQEcz0AAEwnRoZrqTHbIBcgtd+sdmAaPlTjg/Nd/YOjTdkLPhFm1Z0yxW91mtlAfq6POyWAaQABXNNQP94DJzmyELl0bfi3SH+6dLGy3nv+w6s7TuF5Q3VYPBg7WSycuz4zYLGltk/61/oFX8GmkUWNbS0AAAAASUVORK5CYII="
     },
     {
+      r: "N/A",
+      name: "Branch",
+      description: "Branch is a deeplinking and tracking technology that helps mobile developers attribute app installs, optimize and create invite systems, and do smarter in-app sharing. Developers can generate URLs that pass and track data from the originating source through install, across devices, and across platform. This technology enables developers to get a deeper insight into app installs, create more personalized customer experiences, and drive better engagement once in the app.",
+      founded: 2014,
+      hq: "Palo Alto",
+      c: "us",
+      url: "http://branch.io",
+      github: "http://github.com/branchmetrics",
+      crunchbase: "https://www.crunchbase.com/organization/branch-metrics",
+      download: "https://dev.branch.io/#core-sdk-repositories-and-reference-docs",
+      platforms: ['ios', 'android', 'unity', 'phonegap', 'js', 'air'],
+      tags: ['deeplinks', 'analytics', 'invites', 'referrals', 'rewards', 'growth', 'marketing'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAZ9JREFUOI2dkjtIm2EUhh9iYppiTU2MjcGQWFBwKCloB4lBCBQtNQbb0EZKdevQXSoUKi6C4CYhXXQUB1MpZFHqpYuTF4yIhAQJvdFBvBASxT/muDj8lVy0z/LxHs738p7DgdIs2by9R8Bkmb6CzPiW9yWYFHFPzgnwplCTpoSBWW+qI3+ucNdqB6i/bYJHNq8v/WRsSqoaGndVdSvwCXDdxMQDXKh0k7NvUJ5Fd6Tl3bAAXeUMuoCcSo/7VlISiGUlsJ0RIFJqBwBpQFT6xa/FCBqNhj8rUYDvAM6qh81xe/fLQ2Dkn+8V2k1HT78As8AZkADeAwvABwAq75s2ArGsBJMirqFxAaaBz8BW7+oPCSZEPOGvAnwrFFFrsNiqtXcMSC6PwVIP0A4ogF1nrCGv5NCb6gDmis353OF/m3s8PCHAF1W94YH76XHrSEj0NbVZ4KjMvoqiv3p3rpKZAeP/mq0B0jYaFqd/4IIb3MF1OjtC8/JqT5HX8bwYrPZYuTu4zknmd4oKnRYlfczp358Ht00A8NHq6T7Q3TOuA1wCzLWDx+UflUEAAAAASUVORK5CYII="
+    },
+    {
       r: 4,
       name: "Chartboost",
       description: "Chartboost is a San Francisco-based mobile game discovery and monetization platform. The company, which acts as a business engine for mobile games, allows video game developers to create customized interstitial and video ads, promote new games, and swap traffic with one another. Developers have direct access to game data derived from Chartboost-enabled games. As of 2014, Chartboost had been integrated into more than 60,000 games with 12 billion game sessions per month. The company has raised $21 million in funding and has offices in San Francisco and Amsterdam.",
