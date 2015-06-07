@@ -502,6 +502,20 @@
     },
     {
       r: "N/A",
+      name: "GameUp",
+      description: "Game Backend as a Service in the cloud for developers. Add achievements, leaderboards, multiplayer, push support, and more to games on any device including virtual reality (VR).",
+      founded: 2014,
+      hq: "London",
+      c: "uk",
+      url: "https://gameup.io/",
+      github: "https://github.com/gameup-io",
+      download: "https://dashboard.gameup.io/#/signup",
+      platforms: ['ios', 'android', 'unity', 'js'],
+      tags: ['game server', 'multiplayer', 'game backend', 'mobile games', 'game development', 'game storage', 'push notifications', 'turn based games', 'user accounts'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAitJREFUOI1jZCAAZvyfovWF4TPjSYbFV1czXsOQZyJkwOWN97N+XRC9Ynav9E7X44mz0eVZ8Gluvz3j/r8/f7+xy36eyfSPiZWDV5CZJBf8Y/my9e+Pf/xfr3Gmf73FnfT2wvfQqf973Yg2gI2HT03M4I/lX9PrjHzGXxIZeb9e/MPwdRc+PQwMDAwMM//PzKo+3v654/GkvQz/IWLlh5oOTPg/QZGg5rn/F6qnbyl+jS4+9f/0kvpbPefQxTG8cPXQlU4Lb8foBf93ZS75v0cGJp7NmNnD8Pnf85l/5+Uhq8eIBXlT5a/Pb72aw/bxn+zb7x+mLfy/8xgjA+PM/wxMi34zvF50eO7BeAYGhkk4XfDrww/Bdy/eSRSbJjO8/PyW4c7Bq1a3jlxdeP/4jf+/vzGnafspbcXphen/Oxn4xMS/cDCysObtamLgZ+NmkOIWY2i2KWD4xfjn84v7D7gZRX9PxemF3wxswRx/2Hj+/fvLIM4pwsDHxs3AxsTK0HVsFoOCvuLF9z+uvChlrMYdiJfW3HDhYOf48ff/fwYVQTkGZyVrhlMvLjF8+vuNgYnz9xtOPqHt6F5mROZM+T9X9/WFt2sVDDT3fnj+yfrZrWe6nMwcDKLKEjdePr/+vcW4zgjdABQX5DAmX+Y0eKt258oZzu+/Xr0QlmfbL27Av/Xjpxc/ReSFj6JrxnABMpj2n4HhL8M0i/fXP9iIako/+cvQtCKH8S6GOgA3vuK/Ings4gAAAABJRU5ErkJggg=="
+    },
+    {
+      r: "N/A",
       name: "Gondola",
       description: "Gondola provides dynamic pricing for virtual goods and in-app purchases (IAP) in mobile games.",
       founded: 2013,
