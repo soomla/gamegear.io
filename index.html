@@ -61,10 +61,12 @@
               <i class="fa fa-github"></i>
               <a href="{{github}}" target="_blank">Github</a>
             </div>
+            {{#if crunchbase}}
             <div class="crunchbase-data">
               <img src="http://www.google.com/s2/favicons?domain=crunchbase.com">
               <a href="{{crunchbase}}" target="_blank">Crunchbase</a>
             </div>
+            {{/if}}
             <a class="btn btn-default btn-download top15" href="{{or download url}}" role="button" target="_blank">
               {{#if downloadtext}}
               {{downloadtext}}
