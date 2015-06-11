@@ -288,7 +288,7 @@
       founded: 2014,
       hq: "Palo Alto",
       c: "us",
-      url: "http://branch.io",
+      url: "http://branch.io/",
       github: "http://github.com/branchmetrics",
       crunchbase: "https://www.crunchbase.com/organization/branch-metrics",
       download: "https://dev.branch.io/#core-sdk-repositories-and-reference-docs",
@@ -522,23 +522,11 @@
       hq: "New York",
       c: "us",
       url: "http://gondola.io/",
-      platforms: ['ios', 'android', 'unity', 'cocos2dx'],
+      github: "http://gondola.github.io/",
       crunchbase: "https://www.crunchbase.com/organization/gondola",
+      platforms: ['ios', 'android', 'unity', 'cocos2dx'],
       tags: ['virtual economy', 'analytics', 'dynamic pricing'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAsRJREFUOI1Vk9tvVFUUxn9rn33O6ZnOUNtBqem0GEpUEAJBQgghBIjCi0bwwQf/FhObFF+M8RYffDaRBA2tCYmGa1BMazBeYgkYqtxaehE7LZ2hM3Mue/lwCh3Xy06+vb9vfVl7fQKQOh1S5U1AENZKV882THNMjTBijQzZxOmwJ7xTS/L3ssoLfPj624v0dJU4tG8PaZYLWAERiCzbE6eeUeV4LYZm6ohTRyt1JJlSXW5x8rtL7N29m0asxKkjSR2NxKHqSBVUOW5EHrtac2sCoaMYcnV2nqV6HRMIQWiwBgq+YE1OEkENgDUQejk5iAyTH33AxGuHOccMs2+9yi/7d/LXl19Q6MhFUqekLm9oADIHTiEKDDNzC1RHTlJ71GR0cppLvVsIbci5Eyd4FGf5ANrKPB62AAULH585S7G0jvMtj/e8Lt7VDm71P8/81CSnLo/hm/wnknYHAIkaZh9U+fzTz/B9ny0BHChFHJy6yTMLc3SXN3B6eJj5f2s0sjUXkjidWEnYlgKzly9Qmb7F37fvsPT9RWIMFU0xtWXOb9vBvv4+gkOvUzl4mACIfK7ZJwviQCr9dB15he7xMUrbd7L8QoWnN27mxulRBiMhHqhQKg9gFJppRsH3aBNQevoHmfjqFMlPP5JFRRaTFvfHf6b++zWWlx4Q9/ayaehDFldSxu/VeXtH15oAKL5v6T56jJufvM/1sV9ZAfzVWwvsujuHDQv8MFnHU3mC4xuoxhnFALo7Q/q+ucJz9/5koZmROAhF2bB5kEJPmav3W1QbjvVhHhyLIq1MwQgP44zf/kn4Yy7m5We3sphZyiFsKltKHoxNNahnlumHTQb6IhTEIow+FcpLnlhuL8VEVti6PmRhxaHEzDSh5CmuU+gpBiS1lAMDnbzxYifAqLTH2Zg8uPL/BOMU3OrSGAFF1amMWCND/wG0tC9owL9oNgAAAABJRU5ErkJggg=="
-    },
-    {
-      r: "N/A",
-      name: "Liftpass",
-      description: "Open source price management for games. Serve the right price to the right player at the right time.",
-      founded: 2015,
-      hq: "New York",
-      c: "us",
-      url: "http://openliftpass.org/",
-      platforms: ['ios', 'android', 'unity', 'cocos2dx'],
-      github: "https://github.com/whiteshoemedia/liftpass",
-      tags: ['virtual economy', 'analytics', 'game backend'],
-      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAZiS0dEAP8A/wD/oL2nkwAAAtBJREFUOI1tkz1vXFUQhp8559zv9V7bQXEc4wQrGzAUgBUqGmQRKir+AIKKKh0Npat0LvgBFCDkCskNpqBwQWMpEQsSlp1A8AcsxI4Vr7x3937fQ7EbIiGmnvedZ0bvCMD29ra/sLCw5Ir4ACUQOg4lQFny3yqszXq93sHq6mpmtra2vJWVlc/CMPzYgmstFoH+IMU3iijwwVqs/VcvIraI4/iLz+/cuSu7u7uvdTqd7xplrtXNuFFE+P7eLu3Q582bi6R5gee6GK2xgKMVuimOdnZ23ldKqcAiXlVb6tpSVjXJKOXH/QOOH5+SjFLSPGeQJOPxQFE11A2+KxIYwNoJYl6U9AcXBL7H7VuvMMpyDk/PaUchkWvYP8tpe5rAEWbcBmuMVc83g8Y2IIrZdoulq5c56mecD3NeXbhE3sCD0xHdk5y9s4KiAQcwk7OgLASey0WScHjylGSUcuPKLDPtCM81TIcu2g6oGsOwhLLWAKhneyGglUIrzXQU8NbNF7FZSvnnEekgoR36TJkasQ2eFrSMwZUD5GXD07SmnzdYpSnKirJq8A73GT3c45dvt5AiY77t4YrFN4KaGBgcyGrL3pOSsoFZTxPZlLYzJPrpHlHvCPn7L7KXO1xdWqZfDGm5eoINihKUCGAZFRXHFw0nwxplHOavLxIOB5Rvv8OxmaL76x+4TU7kKowoymdHFAGjZIymBFtpev0hx7fe4753g4fnOSff3OdS6PDhu68zp8YaJgaiBKY8havHNFK7/PzbAV//8IBW4PLSCy1uv3GdxcvTzMQxWguCRaQSM8iydN6QL7QdkrzGAtb6ONeu8OkHMXErIgoDjOOiJ1EOjMJIkSdJnprNzc3fP5mb+zKO44+iUFyaZvw3QYwQg4yzZi0INShE26o4e/L4q42NjUcCsL6+HiwvL3c8TwXWmud/9z8lUslgkKXdbvfR2tra6B+h9ziSj/hmnwAAAABJRU5ErkJggg=="
     },
     {
       r: 3,
@@ -689,6 +677,19 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAmdJREFUOI2Vk1FIk2EUht9tmrrEopWakJpGkGFRYGUZ+RsNzNiCGGYpuFYrzN1ElnYRFFYWNRuBeSUbhbC8iOw3vahkVFotFbVf6yIx0bRooOCmbG5vNzU2m1AHDnzf+c77wPlejowkIobfD0yPo/ZbGr64gXhF8CXjXg5G/lzkkdVLhgZAcmjhfwBHfHPu3QC6/xGgABb8kMsBBJAz+qbtVHTc8moAYTMvBVC2d7Qeh/t7ViAASHbz26gY5RyASgAHQhujFivNZvOFtjaxVqmQjU00vCh93zvwWO6d42T/68MTn/o0m0vObQkTkAymyWRqFASBA30ftJz+CfMQYXKy6KyTl3ZU3g7UDxEdUwzTBA8ul0stCAJJppOE3mB4ZCjMa+2cpEzroPVKPw9ZLhqrKXUmhgKCI+j1enN2dnYjgNHCg0WT0b5ZT0lZ+Y3mMVxNVeL+5cyZd/u7Bp96VmUqqrPyr/31iR6PJ91isZy3Wq1nOD8b3fDEkfl8o+GJLICuXc47W+EaSczNV9f19fSoI7pAUgHA/crhEDJS1jyrHwam5qHUZ6Dd9rD5rj91W9rePbmDPp8vPiJALpd7AWyou3W96fP4j7LtK7Hi2Dp8ZW+rzrcsIU4BOEVR3BcbG+uKaKNKpXLqdDprS0tLXkraerGpPHc6IS5meMYn23S6ouIkAEiSZKyqqipdysYMQRBot9tPkIQkSZqampqbJNeSRHFx8Uu1Wu0KdSDMRpIQRbFUEAQajcYHJFW/6zs1Gs3HgoKCBZLJiwGyCOuco9Vqm7xe72oAAZJRSUlJ3Tab7SiA+cXNvwBqS1ORxbKzaQAAAABJRU5ErkJggg=="
     },
     {
+      r: "N/A",
+      name: "Liftpass",
+      description: "Open source price management for games. Serve the right price to the right player at the right time.",
+      founded: 2015,
+      hq: "New York",
+      c: "us",
+      url: "http://openliftpass.org/",
+      github: "https://github.com/whiteshoemedia/liftpass",
+      platforms: ['ios', 'android', 'unity', 'cocos2dx'],
+      tags: ['virtual economy', 'analytics', 'game backend'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAZiS0dEAP8A/wD/oL2nkwAAAtBJREFUOI1tkz1vXFUQhp8559zv9V7bQXEc4wQrGzAUgBUqGmQRKir+AIKKKh0Npat0LvgBFCDkCskNpqBwQWMpEQsSlp1A8AcsxI4Vr7x3937fQ7EbIiGmnvedZ0bvCMD29ra/sLCw5Ir4ACUQOg4lQFny3yqszXq93sHq6mpmtra2vJWVlc/CMPzYgmstFoH+IMU3iijwwVqs/VcvIraI4/iLz+/cuSu7u7uvdTqd7xplrtXNuFFE+P7eLu3Q582bi6R5gee6GK2xgKMVuimOdnZ23ldKqcAiXlVb6tpSVjXJKOXH/QOOH5+SjFLSPGeQJOPxQFE11A2+KxIYwNoJYl6U9AcXBL7H7VuvMMpyDk/PaUchkWvYP8tpe5rAEWbcBmuMVc83g8Y2IIrZdoulq5c56mecD3NeXbhE3sCD0xHdk5y9s4KiAQcwk7OgLASey0WScHjylGSUcuPKLDPtCM81TIcu2g6oGsOwhLLWAKhneyGglUIrzXQU8NbNF7FZSvnnEekgoR36TJkasQ2eFrSMwZUD5GXD07SmnzdYpSnKirJq8A73GT3c45dvt5AiY77t4YrFN4KaGBgcyGrL3pOSsoFZTxPZlLYzJPrpHlHvCPn7L7KXO1xdWqZfDGm5eoINihKUCGAZFRXHFw0nwxplHOavLxIOB5Rvv8OxmaL76x+4TU7kKowoymdHFAGjZIymBFtpev0hx7fe4753g4fnOSff3OdS6PDhu68zp8YaJgaiBKY8havHNFK7/PzbAV//8IBW4PLSCy1uv3GdxcvTzMQxWguCRaQSM8iydN6QL7QdkrzGAtb6ONeu8OkHMXErIgoDjOOiJ1EOjMJIkSdJnprNzc3fP5mb+zKO44+iUFyaZvw3QYwQg4yzZi0INShE26o4e/L4q42NjUcCsL6+HiwvL3c8TwXWmud/9z8lUslgkKXdbvfR2tra6B+h9ziSj/hmnwAAAABJRU5ErkJggg=="
+    },
+    {
       r: 17,
       name: "MobileCore (IronSource)",
       description: "mobileCore offers app developers and advertisers a variety of ad formats and engagement tools, from traditional display ads, to interstitials, video ads and more. mobileCore offers the unique cross-promotion tool that allows mobile app developers to promote to their traffic their additional apps.",
@@ -810,15 +811,15 @@
     {
       r: "N/A",
       name: "Personaly",
-      description: "PERSONA is a personal data monetization ecosystem for web and mobile consumers.",
+      description: "Persona.ly is a global technology company, specializing in personalized monetization solutions for web and mobile applications.",
       hq: "Watertown",
-      c: "us",
+      c: "il",
       url: "http://persona.ly/",
       github: "https://github.com/personaly",
-      crunchbase: "https://www.crunchbase.com/organization/persona",
-      platforms: ['android'],
+      crunchbase: "https://www.crunchbase.com/organization/persona-ly",
+      platforms: ['android', 'ios', 'unity', 'js', 'air'],
       tags: ['advertising', 'offer wall'],
-      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACiElEQVQ4EaVTzU8TURCf2tJuS7tQtlRb6UKBIkQwkRRSEzkQgyEc6lkOKgcOph78Y+CgjXjDs2i44FXY9AMTlQRUELZapVlouy3d7kKtb0Zr0MSLTvL2zb75eL838xtTvV6H/xELBptMJojeXLCXyobnyog4YhzXYvmCFi6qVSfaeRdXdrfaU1areV5KykmX06rcvzumjY/1ggkR3Jh+bNf1mr8v1D5bLuvR3qDgFbvbBJYIrE1mCIoCrKxsHuzK+Rzvsi29+6DEbTZz9unijEYI8ObBgXOzlcrx9OAlXyDYKUCzwwrDQx1wVDGg089Dt+gR3mxmhcUnaWeoxwMbm/vzDFzmDEKMMNhquRqduT1KwXiGt0vre6iSeAUHNDE0d26NBtAXY9BACQyjFusKuL2Ry+IPb/Y9ZglwuVscdHaknUChqLF/O4jn3V5dP4mhgRJgwSYm+gV0Oi3XrvYB30yvhGa7BS70eGFHPoTJyQHhMK+F0ZesRVVznvXw5Ixv7/C10moEo6OZXbWvlFAF9FVZDOqEABUMRIkMd8GnLwVWg9/RkJF9sA4oDfYQAuzzjqzwvnaRUFxn/X2ZlmGLXAE7AL52B4xHgqAUqrC1nSNuoJkQtLkdqReszz/9aRvq90NOKdOS1nch8TpL555WDp49f3uAMXhACRjD5j4ykuCtf5PP7Fm1b0DIsl/VHGezzP1KwOiZQobFF9YyjSRYQETRENSlVzI8iK9mWlzckpSSCQHVALmN9Az1euDho9Xo8vKGd2rqooA8yBcrwHgCqYR0kMkWci08t/R+W4ljDCanWTg9TJGwGNaNk3vYZ7VUdeKsYJGFNkfSzjXNrSX20s4/h6kB81/271ghG17l+rPTAAAAAElFTkSuQmCC"
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjM1QzdFOEVGN0U1MTFFNDg4NkNCNERENjdDNDE4QjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjM1QzdFOEZGN0U1MTFFNDg4NkNCNERENjdDNDE4QjgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGMzVDN0U4Q0Y3RTUxMUU0ODg2Q0I0REQ2N0M0MThCOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGMzVDN0U4REY3RTUxMUU0ODg2Q0I0REQ2N0M0MThCOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pp4v81wAAAN0SURBVHjaTFNdbBRVFD5z78z+/zAs262lP1hKFkoq65qujduKhLYUjOWBCCZK4hslhPBg4gMPEGMlxAcjJGIEHkiMMcqLDxijxgRjIpUoQdekaQvLjzTFtct2Zmd2Znbm3uuZ5Sec5D7d833fOd85RzovwZPwBIABQNRooJjrbd/zbEbNEUJkIcQV/D6Lb+FxrmTWwX7nQ5CfoBHsAWzsTsdPvNTfPb4qHIx6jIOEAjKlRY+xN4SAo5j5OTwVLQK/iCZAn5qKfTOaX58NEgpNjyFYAst2Zx+YduQZNdajUHLBZTyMiLPAUM7zgPhgjuqMkg8GN3VmQwh2EOxHPKScNG23ULpXzV28dvNSzXYJkpyUTC0nss+BOzwBxO/bBii0ta/a05GIPVRGMCXSt5fnFo+WNRv2bn2+Lx0NTl8s3akwIVTFsQ5Xi5MgkgkgDkAXvl0d6QQlvhVIiCqwpJmfXS7f37Y6FphxDP3q9nVrpk1d/+va0jLUc9t268XJT0nD2iGj+nZByatqLIxg3jKEErL4+93/nHAicmFjJtnlt8SzA69s3TxcN9s6xcKOt1ORaHzKtR1PttB5LLcnIFNo4ZGAMa5VLDfDQkrKd/kfQUGOpmRpqRK+cWWG75wvUSc3cqp5+Mhx2UWM74P3COyTyFRKJhJR8+d/q40FzYi0BwOQKP1ilWYXZ2oNZ6hLdcPW9/O36kMFjaDfd0zOK8tOEygyIBe4zeba10YGRerlidPn6spsgyizkhI8UzKaPyaT2GskgXnCjL8/BQR7/snh4ocbK2arhNZYXawrEpvaN3XolN2xfuh6gxfLK8a7c3qjP5dOYpU4eCr/LTCbNAXMYdWXrt6vwQpjEMDN8AIhgNvz44Xzx/Z+4pX1mGPU3vptYSDbrk7mU3FwGP8DdUq+IH0hGAI5FLq3xGBQEN734pokWLjCMpohee4YUKVt2XGTnZHgif0bOnoVBDHO30OCmdYWH1jX648NKrXawN1a9bvpfM/ascxqMJh/XKK1kQRBYezNtiycEPsa23sT7fZat7BldBTw4sDQtVKmWt398a3yRw94bXhCjZKArPg3gqkuNCSJsb5NX5L+3CFl/0EPnX54leKRih+GpsO502ciuu28Hv3z111jnpbu5k7YSHdWvZHxL0KF4ldyPs9jOPfHqP8FGAAYmoiHQS/FUQAAAABJRU5ErkJggg=="
     },
     {
       r: "N/A",
