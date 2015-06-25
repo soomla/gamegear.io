@@ -1019,7 +1019,8 @@
       url: "http://www.tune.com/",
       github: "https://github.com/MobileAppTracking",
       crunchbase: "https://www.crunchbase.com/organization/tune",
-      download: "http://www.tune.com/#products",
+      download: "https://developers.mobileapptracking.com/mobile-sdks/",
+      platforms: ['ios', 'android', 'amazon', 'wp8', 'unity', 'air', 'phonegap', 'js', 'cocos2dx'],
       tags: ['attribution', 'install tracking', 'marketing analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaJJREFUOI2V0z9L1lEYxvHPef6g1hxuDtVWzxtwFUHdpaUIEgQXg6BZlKQlBO0VBC3inArq6huwJajFTdqCSv397nMa/D32GE9QFxw4cK7ry+HmupNBvS4UY5KHmJRMoIPSnD912AGvCpcIPcmyYk4yoggk3MatIQAdq4UxZFOyTck4tiW7+NL47irmMK8YlwYBGd/0sClpS55IjmSVlca5Wj5JDmUf8EbxoA9pqY0Ky7I7wgsX9tUDYVhJ1CqX9oWXsjM1gpasJ8wKO4oDCWsD4b7W0tU0igNhR+4DwqRsVNhTqa0PCfe1nqjUwp7wQy11hAlJ4PPfkwMKmuF+5wrwf6qvbwV1SzgV2sL9f4IFjbctnLaEY+FcmFXpWBpWuEZLhUqnGfq5cNxSnAi7wrxsWsHiEMhiufp0Ni3MC3uKk5baueyt8FW2oTIjdC0MQBYKoasyI9tovFtq58mzQoWuKcUmxhXb3KjyPcxJHuFM8lzlSFdTyKelX5IezTIxwvVY27ho9mNLcqLgXXKzNY8LjKKnmMRE83IqOcZH/PT+d+wXXNy1M4EK5+8AAAAASUVORK5CYII="
     },
