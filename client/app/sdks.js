@@ -790,7 +790,7 @@
       crunchbase: "https://www.crunchbase.com/organization/exit-games",
       download: "https://www.exitgames.com/en/realtime/download",
       platforms: ['ios', 'android', 'unity', 'cocos2dx', 'corona', 'wp8', 'js', 'osx', 'win'],
-      tags: ['game server', 'multiplayer', 'cross-platform', 'chat', 'realtime', 'turnbased', 'asynchronous', 'synchronous', 'BaaS', 'cloud-based'],
+      tags: ['multiplayer', 'cross-platform', 'chat', 'realtime', 'turnbased', 'cloud-based'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAACM0lEQVQokYWSzUuUURTGn3PvmXlHxy90nCQ0RCTMooEwW9gsbFELsUVQtMh14GhU5qKVf0DrggoiaBXZwqJcBUlbjRDMNg0EStnoIDav8/Hee04LbSNFZ33Ow8Pv/Cicm6h8uI+Y4r8TUSKbo607ZAIG4IxnsaoCgMjs7SgRJCJiABqRSsQ2BvWeSK1CI6eNbRRukhEPJSLUYFTFRsZDQACMh4pTVyPZUc5carm5kjw3IxU1Cvi/9GREFPRfQEuX3y7EjwyaxrSmjwIQgnUQOnhAu29uJYZn/MYyd2elmI9WZsP393R3i0hJACGjKhbGw4MAsOWm8Nmo7Rzg7qxp7TFBSn9umiRQRTwJ2zmAhi4+NmLSx6WwWn01bm+3L0DKDWOzsAkp5qkpTYFVVOOZy5zqCUYfcN+Iae+P5qf4xBWKJ+30ALj3THD6uoqrvL5h6tPckfHFfCJzjaz1X9/J+hL3jdrDp0xHBgSmdMq09UoxLzvrfPJq6fFFABKQW3pZPzQWOzsNX629nfJri7Y7i3KBwrmJxPBd+f65NJ9rnlwpPTlf+7JgYwIg3nyobnzRrc5VXkxQDBAQgaOPT6Pl53BlAuAi1LUaETVEolLaKD8clHCbAsACgAKMsCQUGlXflNojLcawqidEDij82Mda+4NVGTBwAJe3fj0a0u01jqtTEEGNITn4bBZHhokJjpS+fVKGhTKR/4eyJpHNiVMfgRSIKZEKwWMvWJTVx6D77iKRzf0GZLYKeH4tozMAAAAASUVORK5CYII="
     },
     {
