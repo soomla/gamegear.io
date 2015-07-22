@@ -12,7 +12,7 @@
       formats: [1, 1, 1, 1, 0, 0]
     },
     {
-      name: 'mobileCore',
+      name: 'MobileCore (IronSource)',
       formats: [1, 1, 1, 1, 1, 0]
     }
   ];

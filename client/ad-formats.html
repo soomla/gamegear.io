@@ -162,7 +162,7 @@
 
 
         <div id="table-header-ad-formats" class="row">
-          <div class="col-xs-offset-1 col-sm-offset-2 col-xs-1 text-center">
+          <div class="col-xs-offset-4 col-md-offset-3 col-xs-1 text-center">
             <h4>
               Interstitial
             </h4>
@@ -250,12 +250,14 @@
       <div class="row row-kit row-searchable">
         <div class="row row-title">
           <div class="col-xs-1 text-center">
-            <img src="http://placehold.it/16x16">
+            <img src="{{favicon}}">
           </div>
 
-          <div class="col-xs-1 hidden-xs text-center">
+          <div class="col-xs-1 text-center">
             {{name}}
           </div>
+
+          <div class="col-xs-2 col-md-1 text-center"></div>
 
           {{#each formats}}
           <div class="col-xs-1 text-center">
@@ -289,8 +291,16 @@
         // TODO: Add search by "format:banner"
         var search = {};
         var rows = [];
+        var favicons = {};
+
+        _.each(window.data.sdks, function(kit) {
+          favicons[kit.name] = kit.favicon
+        });
 
         _.each(window.data.adNetworks, function(adNetwork) {
+
+          // Add the Favicon
+          adNetwork.favicon = favicons[adNetwork.name];
 
           var item = $(template(adNetwork))[0];
           rows.push(item);
