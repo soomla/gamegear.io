@@ -206,7 +206,7 @@
       crunchbase: "https://www.crunchbase.com/organization/appsaholic",
       download: "https://appsaholic.com/dash/account/signup",
       platforms: ['ios', 'android', 'unity', 'phonegap', 'corona'],
-      tags: ['advertising', 'rewards', 'video ads', 'ads', 'cloud based', 'virtual currency', 'monetization', 'engagement', 'retention', 'rewarded video'],
+      tags: ['advertising', 'rewards', 'virtual currency', 'monetization', 'engagement', 'retention'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAnBJREFUOI2NkztoVEEUhr8zM/fuK8lKEhN1TWGC+AgYNEI0oKCgWCl2EiwEFSsRBNHKRkSwsRAbewu18IEPRBGMD0RsFBR8bhNlfazZRHaze++dGYuNjxgLf5hm/jPn/Id/fvFfx5dy+OQ16lGIwvM/iK1h1fKnHNq7zfCquNOOPuuzWQ0iMwu9n30H4Bzu+but6X0jHYYoSZEOwCj4s9YDzoN3YPRfDRSxQNqYOQqBf57yJBzbj+8tgLWzeQTwGCKHfhmjO9TvCSLY0hdk0zqSUplwzxmY19aUNa3M1QAHhvVzeXx5PrXYY10V5xKci5iT387aMMCPbOFqeJpUOgQBYzIIIUYr1rUEmGrKES9vZWrc079gP11d80mShEzQDkAq08rGHRdxPkFrw4vXo5STu/gwi8WhNAKJJ9CWWw9P8LE4SVtYIJDMr41agm7awgJ379zkfekSASFiHYKgmsYLoFnS38PomwM8enrjL9ccZ88fQHffp7NzXtOcac4ExKRlAi8eYqG30MqCruyMBkopVgy0EMUVhApeHEY0gsOU6OXKxG7slAURKvUGp5YN45KI4xduMtTXw+ahVVRTu7j+6QMpo8CDMjBIiPn8PaSoBhGJsMCids3rt0UO3h+jY2Az97594/a5W+zasJo3qpu8NOWLaKIEjFagsQgWpYTP5a8cqQmFgTWQ1FmYzzGWH+bog1d0LlyEmw6M4BEBI4IIHodHnKeRbWduDlzcaObAewIfE/QsxnqHB7z3zYeAiR0NncoSSgrk5wedHYs/IQgTtQoCFbMyx4lhXV1aro7njDaO/0CtPhXsW9n3JKtc+QeRqvESZmDUFAAAAABJRU5ErkJggg=="
     },
     {
