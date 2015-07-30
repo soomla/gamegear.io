@@ -56,7 +56,7 @@
     <![endif]-->
 
 
-        <!-- build:js(client) app/modernizr.js -->
+    <!-- build:js(client) app/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
 
@@ -234,6 +234,7 @@
     <script src="/app/main.js"></script>
     <!-- [injector:js] -->
     <script src="/app/ad-networks.js"></script>
+    <script src="/app/router.js"></script>
     <script src="/app/sdks.js"></script>
     <!-- [endinjector] -->
     <!-- endbuild -->
@@ -387,15 +388,24 @@
         $.fn.append.apply($('#content-sdks'), rows);
 
 
+
+        // Debounce this function so not to update the URL
+        // after each keyup event
+        var navigateToQuery = _.debounce(function(pattern) {
+          router.navigate('?q=' + pattern);
+        }, 750);
+
+
+
         var $filter = $('#filter');
 
-        $filter.keyup(function (event) {
+        var filterSDKs = function(event) {
 
           // Always clear forced odd/even styles
           $('.row-searchable').removeClass('force-odd force-even');
 
 
-          var pattern = $(this).val();
+          var pattern = $filter.val();
           if (pattern == '') {
             $('.row-searchable').show().removeClass('expanded force-odd force-even');
           } else {
@@ -436,7 +446,10 @@
           if (Modernizr.mq('only all and (max-width: 480px)')) {
             if (event.which === 13) $filter.blur();
           }
-        });
+
+          navigateToQuery(pattern);
+        };
+        $filter.keyup(filterSDKs);
 
 
         $('#content-sdks').on('click', '.row-title', function(event) {
@@ -510,6 +523,26 @@
           $filter.focus();
         }
 
+
+
+        //
+        // Start Routing and History
+        //
+        var Router = Backbone.Router.extend({
+
+          routes: {
+            "?_escaped_fragment_=q=:query": "query",
+            "?q=:query": "query"
+          },
+
+          query: function(val) {
+            $filter.val(val);
+            filterSDKs({});
+          }
+
+        });
+        var router = new Router();
+        Backbone.history.start({pushState: true});
       });
     </script>
   </body>
