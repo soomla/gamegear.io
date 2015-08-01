@@ -195,6 +195,21 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAAAwklEQVQokWP8cmYBAymAhYGB4de+WiJVszk1syDzecKWMQsqMvz78//3NwYGRkZWTgYmlj/PL3zdlIliAxwwi6gzcQoy/P/PwMzCwMDA8PcPAyMjE68kupPg4PPyEEYGxv+/PvEl7v3/58enRV5M7Pz/vr/DqeHf+/sQxv9/vxn+/vr/7e3fb2/RvMGEw3uMOMRxasAJhowGRkYmBkZmrFIsWEX//fzIiMMs7Bp+39jCyClIgobvR3qwijMwMDCSmrwB+sQ6nnQuMJUAAAAASUVORK5CYII="
     },
     {
+      r: "N/A",
+      name: "Appsaholic",
+      description: "Appsaholic is a free rewards and engagement platform powered by Perk, the #1 mobile rewards program. Visit Appsaholic.com to learn how you can leverage rewards to drive engagement, retention and improved monetization opportunities.",
+      founded: 2010,
+      hq: "Austin",
+      c: "us",
+      url: "http://www.appsaholic.com/",
+      github: "https://github.com/Appsaholic",
+      crunchbase: "https://www.crunchbase.com/organization/appsaholic",
+      download: "https://appsaholic.com/dash/account/signup",
+      platforms: ['ios', 'android', 'unity', 'phonegap', 'corona'],
+      tags: ['advertising', 'rewards', 'virtual currency', 'monetization', 'engagement', 'retention'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAnBJREFUOI2NkztoVEEUhr8zM/fuK8lKEhN1TWGC+AgYNEI0oKCgWCl2EiwEFSsRBNHKRkSwsRAbewu18IEPRBGMD0RsFBR8bhNlfazZRHaze++dGYuNjxgLf5hm/jPn/Id/fvFfx5dy+OQ16lGIwvM/iK1h1fKnHNq7zfCquNOOPuuzWQ0iMwu9n30H4Bzu+but6X0jHYYoSZEOwCj4s9YDzoN3YPRfDRSxQNqYOQqBf57yJBzbj+8tgLWzeQTwGCKHfhmjO9TvCSLY0hdk0zqSUplwzxmY19aUNa3M1QAHhvVzeXx5PrXYY10V5xKci5iT387aMMCPbOFqeJpUOgQBYzIIIUYr1rUEmGrKES9vZWrc079gP11d80mShEzQDkAq08rGHRdxPkFrw4vXo5STu/gwi8WhNAKJJ9CWWw9P8LE4SVtYIJDMr41agm7awgJ379zkfekSASFiHYKgmsYLoFnS38PomwM8enrjL9ccZ88fQHffp7NzXtOcac4ExKRlAi8eYqG30MqCruyMBkopVgy0EMUVhApeHEY0gsOU6OXKxG7slAURKvUGp5YN45KI4xduMtTXw+ahVVRTu7j+6QMpo8CDMjBIiPn8PaSoBhGJsMCids3rt0UO3h+jY2Az97594/a5W+zasJo3qpu8NOWLaKIEjFagsQgWpYTP5a8cqQmFgTWQ1FmYzzGWH+bog1d0LlyEmw6M4BEBI4IIHodHnKeRbWduDlzcaObAewIfE/QsxnqHB7z3zYeAiR0NncoSSgrk5wedHYs/IQgTtQoCFbMyx4lhXV1aro7njDaO/0CtPhXsW9n3JKtc+QeRqvESZmDUFAAAAABJRU5ErkJggg=="
+    },
+    {
       r: 39,
       name: "AppsFire",
       description: "Appsfire operates an advertising platform for application developers and advertisers.",
