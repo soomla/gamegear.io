@@ -175,15 +175,24 @@ window._fbq.push(['track', 'PixelInitialized', {}]);</script> <noscript><img hei
         $.fn.append.apply($('#content'), rows);
 
 
+
+        // Debounce this function so not to update the URL
+        // after each keyup event
+        var navigateToQuery = _.debounce(function(pattern) {
+          router.navigate('?q=' + pattern);
+        }, 750);
+
+
+
         var $filter = $('#filter');
 
-        $filter.keyup(function (event) {
+        var filterSDKs = function(event) {
 
           // Always clear forced odd/even styles
           $('.row-searchable').removeClass('force-odd force-even');
 
 
-          var pattern = $(this).val();
+          var pattern = $filter.val();
           if (pattern == '') {
             $('.row-searchable').show().removeClass('expanded force-odd force-even');
           } else {
@@ -224,7 +233,10 @@ window._fbq.push(['track', 'PixelInitialized', {}]);</script> <noscript><img hei
           if (Modernizr.mq('only all and (max-width: 480px)')) {
             if (event.which === 13) $filter.blur();
           }
-        });
+
+          navigateToQuery(pattern);
+        };
+        $filter.keyup(filterSDKs);
 
 
         $('#content').on('click', '.row-title', function(event) {
@@ -298,4 +310,24 @@ window._fbq.push(['track', 'PixelInitialized', {}]);</script> <noscript><img hei
           $filter.focus();
         }
 
+
+
+        //
+        // Start Routing and History
+        //
+        var Router = Backbone.Router.extend({
+
+          routes: {
+            "?_escaped_fragment_=q=:query": "query",
+            "?q=:query": "query"
+          },
+
+          query: function(val) {
+            $filter.val(val);
+            filterSDKs({});
+          }
+
+        });
+        var router = new Router();
+        Backbone.history.start({pushState: true});
       });</script> </body> </html>
