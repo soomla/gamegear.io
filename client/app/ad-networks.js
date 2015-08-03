@@ -1,6 +1,6 @@
 (function() {
 
-  // Legend: ['Interstitial', 'Video', 'Native', 'Offer Wall', 'Banner', 'Text']
+  // Legend: ['Interstitial', 'Video', 'Native', 'Offer Wall', 'Banner']
 
   var adNetworks = [
     {

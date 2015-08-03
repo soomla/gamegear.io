@@ -99,8 +99,10 @@ body {
     padding: 6px;
   }
 
-  .navbar-right {
-    margin-right: 100px;
+  @media (min-width: @screen-sm-min) {
+    .navbar-right {
+      margin-right: 100px;
+    }
   }
 }
 
@@ -448,3 +450,11 @@ a.whitelink {
   }
 }
 
+@media (max-width: @screen-xs-max) {
+  #table-header-ad-formats {
+
+    h4 {
+      font-size: 15px;
+    }
+  }
+}
