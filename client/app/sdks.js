@@ -1157,7 +1157,11 @@
     module.exports = data;
   } else {
     // Otherwise expose jQuery to the global object as usual
-    window.data = data;
+    if (!window.data) {
+      window.data = data;
+    } else {
+      _.extend(window.data, data);
+    }
 
     // Register as a named AMD module, since jQuery can be concatenated with other
     // files that may use define, but not via a proper concatenation script that
