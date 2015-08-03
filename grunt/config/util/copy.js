@@ -18,6 +18,7 @@ var taskConfig = function(grunt) {
             '!*.js',
             '*.{ico,png,txt}',
             'index.html',
+            'ad-formats.html',
             'CNAME'
           ]
         },

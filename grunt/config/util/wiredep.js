@@ -28,7 +28,8 @@ var taskConfig = function(grunt) {
         }
       },
       src: [
-        '<%= yeogurt.client %>/index.html'
+        '<%= yeogurt.client %>/index.html',
+        '<%= yeogurt.client %>/ad-formats.html'
       ]
     },
     styles: {
