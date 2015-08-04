@@ -118,7 +118,7 @@
       crunchbase: "https://www.crunchbase.com/organization/admob",
       download: "https://developers.google.com/mobile-ads-sdk/download",
       platforms: ['ios', 'android', 'wp8', 'unity', 'cocos2dx'],
-      tags: ['advertising', 'banner ads', 'interstitial ads'],
+      tags: ['advertising', 'video ads', 'banner ads', 'interstitial ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAfhJREFUOI2Vkz1oU1EUx3/nvXvfS15jqnVwcHHwA4UqdNAWKoomBcGhWNGpk8XFxUEUcRaFqKtTEQyC7urgUBoQtNRNFCsIbSF0qI3WNk1y38d1SJDmQ8S7HDic/4/zP+ceyRfsODAdm+oA//Fcr68CXJF8wa71EtfCVowttQgyGtJK8Nx2iOolXqvDzTFNmAi5QcXeXcL7rxGlzxEvP8Z/ILGpDjid4g0DhYse2oGHbxocv1elXEkQgeJ81NYBQBdgM7Tkj2oWVhJ2eMK+jFAsGU4cUMQ9ZtEFkFYc3u/yy1gcgcWKpR6Bls7qHoCsJ0zPGHLHNOODitWGZXJUc+NpjZ2pboLqTAQaHpcMc99iRg+6fLmc4c7zOnNLMVm/G9DVAUBKCfPLMbdfGwCunvVwXCFKumvlzN1Nuz1RqVkuDWmGD7ksf7cEynJhxCOxcP5BFROCI38BVEO4ntOcPKwYe7RFVgtRYhFXmLkV8Gkp5tqzOv3brLRZqIaWiRGPVx9CAiUEGrK+IAkUZw3pf83Ac2ChnDB52iebgtUty3rDsm4s54Y0T2YNgWqHtFmwFmoJ3J/wOXVEUf5hWfmZECfw4q3h3WJCoDuG2HlM1sKGsdRiUALKaX6utBZ0x85cr6/iAFOt02wSpel7TyDsTgv9vpD1e4uBqd8JecJJIf0F1wAAAABJRU5ErkJggg=="
     },
     {
@@ -151,20 +151,6 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABxElEQVQokX1Sz0tUURT+zr33vatv3rOiBM2mJqmF1EKF1hW0iWqVf0m1ClqUblq0alcG0abAINq4SWyrEgkhRJPgOEyjOFbQzJ33a+47LQYGnVG/5Xe+j3POdw7thPbRamOuFDdSFoQDkTF8h6bO6elJXz382nizHt0t6PO+ZIC5W00EAjYa9vV61GKouVI0VdAzk/4pLQD06NHu+jvOBPC+FKlmiwu+HO4XffKQgQAAksRoIEPLShANOKSIFqrJym6qBO7k9dgx1WWwDAYkkdICZZM9+FJf3ErKxlrGh814esK/cdrdawgc8iQxoLSkj+WoFnGSMQBJWKqlr36GY8fViCfa6nrK85V4cTtxBRQBv5pZu3B9yL027L740VzZTcvGtg2ft5PZYrhcSzeNPeEKtTeW+5e90UB+qsZnc/JCIC3j3Ub0bM2s/ml1Etu33FYzuzig7l3KXTmpPEWzxXDmm6kY2xFwl+HpmrGMq0NONcyefw9fFsO/SdZ9lsG3O7VoHzviiXrK/9LeG2KwTyjbw3cy6IVliH55WPUAaAFxO68Dh476CgAAAb5Dt/JaPZnwCZivJKZ11HvnFN084z4e9/8D2IG7lvzaKDwAAAAASUVORK5CYII="
     },
     {
-      r: 35,
-      name: "Applifier",
-      description: "Applifier is a cross-promotion network for social games and applications.",
-      founded: 2008,
-      hq: "Helsinki",
-      c: "fi",
-      url: "http://www.applifier.com/",
-      github: "https://github.com/Applifier",
-      crunchbase: "https://www.crunchbase.com/organization/applifier",
-      platforms: ['ios', 'android'],
-      tags: ['ads', 'video ads', 'monetization', 'advertising', 'game ads', 'mobile ads'],
-      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAvBJREFUOI1lkl9olnUUxz/nPM/7bu/rwjk1dbaBa8ZYr4S0SVAR9A8hFAqTbvp3lVFgdVvQlTcVQTcadddF0cVsBkZdtIyZ2K5abrpsrs3Nf83UNue793l+v3O6eN9J0YEDhwPfD1/O+Yq7c6VG14FfOTw2ffE+VBGc/1dja5HeLZtH36mwZ2Mzk3Kh6j3PDV4401RuIimkaFowdEX0b5DjUYgh11BdZvnmEl8+231/+sE4nxVLRQrlkkkiKGANnYiCgIpgDi6GO0YqOK7HLvOtPPL5eS+sKpE0FwxzYozgDiKICKqKqIJDjIGsVqM1icxdXdSuspAagiMWaoEsy8iyDIsGQJqmFIoFkiRBgBgCrUlgcHeHvnfiIgOj86RuTgyRaIGXe8o81rFWO1cXqQbj1J9VDpyct/lFR1TJ85y/85yjkzfYt/1OBkbnUTfHcyMsBzrKic4t1Bic+Ivp68vsaF/Fwcfb9dZSFclrjLzYrZ0tCe9+f96qoeHSohFCJJrx5nezlmUZ5pE8wse7t+jOrW1sKiuzCzWGZxZ4+6F2fX7gdzs+s7ACiLhAVst4ra9N91bW0VZKmbm+TKlY/2ezOsTIV+NXeX/nFixGpq5VG4BgWHR2dbewr38jX5++yhe/zFshEV7q26CP3l3EzInR6FzdxOXFDI9Oa1MKgJoZIY9U1jcpwEfDF+3nmQWOTd64HSELRlGENx7czKGTl7Bg9HW01B14PSEMnVuwvdvW6uEXenXo3A3672phwx3FRoiFLAr7j0zxzcQ1e/KeNdrdVmoAoiOKHp+u2utH/rA9lTXaVko5dOISlxcznt62npuZUkhShqaWrLW5yMFntvJjw6G88oOPjJz6rd9dLcRAjBEHVLidxkQTRBV3g5jz6gPr9NOfZumtbJ+QuUXveeqTsTMk9aO4iNVt1xupTyKCuxHyTEOeEUNgaP+OJ8TduXKLrreGOTo2Pt5TF6wg/js5jptxb6X37IcP665NZc7+A0lYfdO2lKYpAAAAAElFTkSuQmCC"
-    },
-    {
       r: 10,
       name: "Applovin",
       description: "AppLovin is a mobile advertising technology company that enables brands to acquire and re-engage customers on mobile.",
@@ -176,7 +162,7 @@
       crunchbase: "https://www.crunchbase.com/organization/applovin",
       download: "https://applovin.com/developers",
       platforms: ['ios', 'android'],
-      tags: ['advertising', 'marketing analyitcs', 'user acquisition'],
+      tags: ['advertising', 'video ads', 'marketing analyitcs', 'user acquisition'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAAB2ElEQVQokZVSS2hTQRS9dz4vLxNraWypBkUk2li1EbsRVLpRhFLBD6JWXalQBEFBodnqRnRTtSCC6EpEBDU7cZVFFPyAVMRujE2oGkhVgmkzfXnzZsaFv9CnFu/y3Hvu59yDIpOF/wn2R1QqDQAupySUCiMgpbre331jYI3nazMvQWpzZuOy2y8mjz54PbqtywvmUkIrEbw/PjWyJ33MU9fyE0BwvpUaemRXz+l7Y4fujp3dsQ5m1b8I0toNba4KTGE2AEbflqu7k3Fp7N8n1NWlfb1777yMRFiUk6Hsm+GBHpjxm0so33LgR3tjB5OLHISHxapGCKwFSuJG9y1vy5Vr/Ocx7Jc4UGsc37q672p+f6ojsTCCgJWZxsXn73NDm87nizLmCEYAAEUmK5U5lV6cXtHewslEZbpS8z7VfWNtxwKns8VdGo9xh41/qJ57UhIuY8rCSsESrdEjN5+NHuwdzhXAoYAIAGAt+Pry9tTJR69OrE8c7mq/VaoShlCoq1VLWi/sXFuamgaHCkoEQUFQUAIR9rT45Up/9+ZU5+OPXxkiikzWAHi+Tsb4OxkIHv69TXBS9jVQIhDYd2mjDp30TbgaAATFz8a6jJBmlRCAzzXB72j2zzcznK+3yBKdxQAAAABJRU5ErkJggg=="
     },
     {
@@ -210,7 +196,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAnBJREFUOI2NkztoVEEUhr8zM/fuK8lKEhN1TWGC+AgYNEI0oKCgWCl2EiwEFSsRBNHKRkSwsRAbewu18IEPRBGMD0RsFBR8bhNlfazZRHaze++dGYuNjxgLf5hm/jPn/Id/fvFfx5dy+OQ16lGIwvM/iK1h1fKnHNq7zfCquNOOPuuzWQ0iMwu9n30H4Bzu+but6X0jHYYoSZEOwCj4s9YDzoN3YPRfDRSxQNqYOQqBf57yJBzbj+8tgLWzeQTwGCKHfhmjO9TvCSLY0hdk0zqSUplwzxmY19aUNa3M1QAHhvVzeXx5PrXYY10V5xKci5iT387aMMCPbOFqeJpUOgQBYzIIIUYr1rUEmGrKES9vZWrc079gP11d80mShEzQDkAq08rGHRdxPkFrw4vXo5STu/gwi8WhNAKJJ9CWWw9P8LE4SVtYIJDMr41agm7awgJ379zkfekSASFiHYKgmsYLoFnS38PomwM8enrjL9ccZ88fQHffp7NzXtOcac4ExKRlAi8eYqG30MqCruyMBkopVgy0EMUVhApeHEY0gsOU6OXKxG7slAURKvUGp5YN45KI4xduMtTXw+ahVVRTu7j+6QMpo8CDMjBIiPn8PaSoBhGJsMCids3rt0UO3h+jY2Az97594/a5W+zasJo3qpu8NOWLaKIEjFagsQgWpYTP5a8cqQmFgTWQ1FmYzzGWH+bog1d0LlyEmw6M4BEBI4IIHodHnKeRbWduDlzcaObAewIfE/QsxnqHB7z3zYeAiR0NncoSSgrk5wedHYs/IQgTtQoCFbMyx4lhXV1aro7njDaO/0CtPhXsW9n3JKtc+QeRqvESZmDUFAAAAABJRU5ErkJggg=="
     },
     {
-      r: 39,
+      r: 38,
       name: "AppsFire",
       description: "Appsfire operates an advertising platform for application developers and advertisers.",
       founded: 2009,
@@ -284,7 +270,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABuElEQVQokX2SPUsrURCGnxOUXRUrjUGLtIL2Wi0kQVQsFUQiGitJoxYBrcTOws7ejyqV+ANcFbSxt1EQLRIEJR+ysk1CzMwtdr0h92reamYOz+F9hzGqSmc1mxQKxGL09QFoZ11cSCIhiYQkk3p3p6qdADk5kbU1LZdVVY6OZHZWRf4DPE/v7/XyUo6PZXpaa7VwXiiI42il0tXy6rqaz/P6yvg4IyPc3pqdHSwreNSzM6JRBgZQVfV9Sadld1efnkIzp6eyvBz+/fIiS0syN6ePj2EGyWbl/LzlyvclldLr67B9exPH0VIp6CJ4Hg8PZn4+NFavay7H4CCpVDiJxbAsSqWgi2BZNJuUywDPz5rJ8PVFf38rmzH09lKpfAM9PSwu6saGbm/r6qpZX6dWo1rFdduYej0ouwCzucnYmL6/m1wO4POTyUk9ODCqzMwANBrYdgsAmJoyQVEs4vtma0vjcd3fJ5/HcQCGhtqBvxoeJhKhWDSZDMmkui43N9g2o6PfGf5RdzcLC3p4SLVKPG4mJvA8VlYwoQPz47Xq3h5XV9g2jQbptMlmW/l/Pe+PDzyPaLRtxfAH4N5Be3i6H2wAAAAASUVORK5CYII="
     },
     {
-      r: 46,
+      r: 45,
       name: "Boku",
       description: "Boku is a global mobile payments network providing mobile-enhanced payments in e-commerce and at physical point-of-sale.",
       founded: 2009,
@@ -397,10 +383,10 @@
       download: "http://www.deltadna.com/sdk/",
       platforms: ['ios', 'android', 'unity'],
       tags: ['analytics'],
-      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACiElEQVQ4EaVTzU8TURCf2tJuS7tQtlRb6UKBIkQwkRRSEzkQgyEc6lkOKgcOph78Y+CgjXjDs2i44FXY9AMTlQRUELZapVlouy3d7kKtb0Zr0MSLTvL2zb75eL838xtTvV6H/xELBptMJojeXLCXyobnyog4YhzXYvmCFi6qVSfaeRdXdrfaU1areV5KykmX06rcvzumjY/1ggkR3Jh+bNf1mr8v1D5bLuvR3qDgFbvbBJYIrE1mCIoCrKxsHuzK+Rzvsi29+6DEbTZz9unijEYI8ObBgXOzlcrx9OAlXyDYKUCzwwrDQx1wVDGg089Dt+gR3mxmhcUnaWeoxwMbm/vzDFzmDEKMMNhquRqduT1KwXiGt0vre6iSeAUHNDE0d26NBtAXY9BACQyjFusKuL2Ry+IPb/Y9ZglwuVscdHaknUChqLF/O4jn3V5dP4mhgRJgwSYm+gV0Oi3XrvYB30yvhGa7BS70eGFHPoTJyQHhMK+F0ZesRVVznvXw5Ixv7/C10moEo6OZXbWvlFAF9FVZDOqEABUMRIkMd8GnLwVWg9/RkJF9sA4oDfYQAuzzjqzwvnaRUFxn/X2ZlmGLXAE7AL52B4xHgqAUqrC1nSNuoJkQtLkdqReszz/9aRvq90NOKdOS1nch8TpL555WDp49f3uAMXhACRjD5j4ykuCtf5PP7Fm1b0DIsl/VHGezzP1KwOiZQobFF9YyjSRYQETRENSlVzI8iK9mWlzckpSSCQHVALmN9Az1euDho9Xo8vKGd2rqooA8yBcrwHgCqYR0kMkWci08t/R+W4ljDCanWTg9TJGwGNaNk3vYZ7VUdeKsYJGFNkfSzjXNrSX20s4/h6kB81/271ghG17l+rPTAAAAAElFTkSuQmCC"
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAXdJREFUOI21kr0vQ1EYxn+nx42U+qiBXqIJMQpJJ4nBIjFLaVgt/gb/gsFqs2qESGwSg8FNfAxMYhCVol+J3pQS4p4eg9ympy2RiGc6b87z/JLnzQt/lPjuQ2stsgW3AmD3hgNCCP1rQCZf1AA7H5tpgLi1GAXo7+tp8ItmwYCUataZlktDIwBspK7ZnTxQFaVkPUjUh+PHMwD4YV8bqWsAdib2qYUEak2F5flmjQxNb18YswEYcCV7a+HqnEzfcljIVa2l+9X61iYAQAYtjk7GWEq28ao8bl7KnL6tM2rvI2WDvRHQFYsAUHTu2FsLU7pfxTk7B2AiNt4AaKkdWu1Q9R2MdgEQHbCNQGdHyJgNwHu2TPvw1w6Cg50ADPZHjMDTc/n7Ch9bSR5THlppXlMuRecO5+ych1weTynSV5cczJk1jJVqrWW24HoAVmIBgKnECkA1aPeGLSGE1xTgyz+qUKlUdrt7Wi2tLGh+yj8qky9qH/Zv+gTKp4jM2TiTAQAAAABJRU5ErkJggg=="
     },
     {
-      r: 41,
+      r: 40,
       name: "Everbadge",
       description: "Everbadge is a mobile performance network located near Seattle, Washington. Currently the network has over 1,500 publishers and generates over 100,000 mobile transactions a month on Android, iOS and Windows Phone.",
       hq: "Lacey",
@@ -442,7 +428,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAAC0klEQVQokT2SPUvzUACFb3LThrbWLkFJJC0VnWyHRAVBxYIWjUHsooKgoJPg4uDoDxBEBwuC6KxSwYpDcehgBD8QlwbsoLT4kYaIESlJtLZJr0Nf3u3h8EznHIzneQzDEEI4jv/+/v78/Pj9frfbDSGsVCqGYZAk6fV6HcdpaAQAoGGbpskwTCKRiMViLMtCCBVFub6+Pjk5KRQKzc3NCCEMwyBN0xBCy7JEUUwmk7FYzOPx5PN5VVXD4XB/f//k5KRhGLlczu12I4Qgy7KGYQiCsLm5adv2xsbG0dFRrVbTdT2VSt3c3HAcJ4qiruv39/cejwdSFMUwzPb2NoRwaWmJ47iVlZVarYYQEkURx/GdnZ2BgYF4PC5JkqZpMBAIzM/PDw0Nra+vR6PR8fHxxcXFYrHo9/sVRenr66Mo6uDgQBAEhFA2mwUcx8mybJrmwsJCuVxOJBIcx6XTacuyEEKqqlYqleXl5dfXV03T4vE4TpJkW1tbLpeLRqPFYlGW5ZGRkdHRUYIgbNtuaWkhSbKjo+Pu7q61tZVlWRwA8H+Her3ucrkmJiY8Hk8jdxynAfV6vQF4tVpVVTUSiciy3N7eTtN0Pp8HABAEASEkCAIAUCgUenp6Pj8/FUXBDcO4uroKBAI0TWez2b29vbOzs93d3cfHx1KphOP4+fk5ACAcDkuS9PLyAiKRiCAIlmWVy+XZ2dl0Oq1p2vHx8eXlpaqqmUxmbm7u7e0NITQzM9PV1QVDodD7+/vX19fY2Njg4ODh4eHFxQVFUbqun56ePj09ra2tsSy7tbWVyWSampownudxHP/+/p6enl5dXfX5fKVS6fb2FiHU29sbCoVs204mk/v7+16vFwCA8TyPEIIQmqbZ2dk5NTU1PDzMMAwA4OPjQ5KkVCr18PDQsAEAWHd397++cNyyrGq1GgwGg8EghmGKojw/P7tcLp/P5zhO461/CP5mAYtR610AAAAASUVORK5CYII="
     },
     {
-      r: 42,
+      r: 41,
       name: "Fortumo",
       description: "Fortumo is a mobile payment provider enabling apps and game developers to monetize their users through mobile operator billing.",
       founded: 2007,
@@ -487,7 +473,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAQJJREFUOI2lUztuwkAQfbNwgVQpQLIQUpYmKdLQYMsnoHKD7DtwFcIZHFFAxQUCFg0VBY1NAUQmh0gRD1Us44wXS3nV6knvM7uzBAFhFLPEB06PytwNUSU0GeWHorht6VfXol1R9JGy93VK5mUTKoulmlJLImLf1qpZVW3kDf+MM1ssKXB6FEYxMzMBgMrTH3THJC6i3dVjAHjfHH7yBsEznaVEycBt0TSM4jfOMqVMSXXQlMjZYkkjb8jlUaRGYoN7dyA2WG3Zcvv0eS8RANYXHqfHBKRUpn6f7vKdnOumpsdkAgD+4Knx70USV9nS+sV+pH1RaFxlycQE8TPVMZLGuwJZ+HikXjcfLAAAAABJRU5ErkJggg=="
     },
     {
-      r: 36,
+      r: 35,
       name: "GameAnalytics",
       description: "GameAnalytics is an analytics engine that enables game developers to acquire, retain and monetize players.",
       founded: 2011,
@@ -585,7 +571,7 @@
       crunchbase: "https://www.crunchbase.com/organization/inmobi",
       download: "http://www.inmobi.com/products/sdk/",
       platforms: ['ios', 'android', 'unity', 'air'],
-      tags: ['advertising', 'ad mediation', 'banner ads', 'interstitial ads', 'user acquisition'],
+      tags: ['advertising', 'video ads', 'ad mediation', 'banner ads', 'interstitial ads', 'user acquisition'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAYNJREFUOI3Fkr1LW3EUhp/zu/cmNjQuV4hfhHTs5iJSCtG2IUPQxY4ddXB217+jf0RFKIjoYj+Cg0UoHQQFv26r5MMa0ZiYe5scB1FMDbFQwWc7cN73HN5z4LGR28X0ptLxhxE1WIDe7jOGk9WfrK+EgKQ0G8zuKBdlPgTV0ttmXTORaPRsPuesbwQ08HnDmGADBBWW/LN8OuLGPIV9lEYrAzU4Y734G6teip74Hh81Yc9saWe1juuFYiuFEq+zL6SV9ob3nkJP/BO/D4Zx+ybtQo3TzaPz57ZlWdnkk/aJAVNxgUWtApDbfWm2y7ySWiViOeHaveq/EVFjQ7390u0xyNUlFP13n+uQVcU0DJ8BglIxmlnTgXvFywpaHwSg+1lWANJruuAXDjNiLEJu7CvcOaMRcGzI/yhz5Hl7E3Qn9glICEDqm+Ioc7Xj4niroSLCxdOuL1vnhIv5X0O4/YvYZEhL8yunsortMNLQm1c2RtjOldn9XmGUMD5Flnn3P7E/NJcTqI/RzDOOpAAAAABJRU5ErkJggg=="
     },
     {
@@ -619,7 +605,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAZJJREFUOI3Fkj9oVEEQxn8zO3vv7oTELhCSgxRGQTAKsbG1EOxSCLEVG0uFJFhooYVVCisbWxtBMGAKK1FE0cKkiviviaKNTZC7XF7e27F4L0rA4lmIH3yww+w3uzPzwf+GACz46riit4tdplxDEiIuCthv1nHCUCKJICKxkCVfmfny8v16mSc8CU5ACLgEQIFQUarzXl5ixvipkw8s7w/uFju7eBl/TJ0+8ahAtHpB9v3A69gxBFOhtbYsvVvMP7lZnrmz4Nf844W/6f2qr5299O3VB+t/3RII5OwMm4qv+wvePn6+WgwzLOUJ63Z/DbQJEuX5fKtPcsdCFpGQEZrrKXAphjnuhlo7SmvkAIbfa1wBoRhso1kLG5s99Ong5OErN+RoY3mHlDmB7sREqo20sjj8vn1MQkzVniOugWqFYR/bo6Pp89PXcyl0R8Zmj7+xRX94f/PZxrnqgv7RSF4bSQgkV1QzQtYitrOLFgflkd7M9IaqeWUURbC6wB4NVEEijlF2Ou/ALi9Lb7P53P4VfgKXVYg+rLV7FgAAAABJRU5ErkJggg=="
     },
     {
-      r: 44,
+      r: 43,
       name: "Kii",
       description: "Kii Corporation was formed in July 2010 as the result of the merger of Servo Software and Synclore Corporation, leaders in the mobile data synchronization and backup space. The company’s core offering, Kii Platform, is a unique combination of cloud technology, distribution services and an early stage investment fund designed to help mobile app developers monetize and grow their business.",
       founded: 2007,
@@ -649,7 +635,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABNUlEQVQokWP8qsiADLju/WdgYPimxMiAA7D8xSaKVRCm4T82DdgEoRr+YBPFKgjTgM0wrIIQwPT7PwMyggAIm9HQUuzCW4kH/wVXHPjDzgkRZPmFzZhfDAycVk6iczYycfO8OnX0TIyP6u/vTBAn/cZmO7uLn8TUFUwcnK9OHT0e6aH6+8tfWNAxXpRBUar3+D8DA8P/378YWdlenjp6JNpb+cdHJmRPY7Xh79+/LKwM/3/9kv/z/e9/lGhh+s3AgIwgYHtC0J8f3yVsHJVnrv7DzIysgOnXfwZkBDXm0M5tSaF/f/8SdPNT6J2PrAB7sHIw/P+3f9vmxNC/v3+Jh8QqNk6AK2DcIYHi+kv/WBgYGPSY/jAwMHz6z/jwP/N/BgYRxn9SjP8gChi3oGogCLCnVjwAAKzqp1tGgqXEAAAAAElFTkSuQmCC"
     },
     {
-      r: 45,
+      r: 44,
       name: "Kinvey",
       description: "Kinvey is a BaaS provider that makes it easy for developers to set up, use and operate a cloud back-end for their mobile apps.",
       founded: 2010,
@@ -746,7 +732,7 @@
       crunchbase: "https://www.crunchbase.com/organization/nativex",
       download: "http://nativex.com/monetize/nativexsdk/",
       platforms: ['ios', 'android', 'unity'],
-      tags: ['advertising', 'banner ads', 'native ads'],
+      tags: ['advertising', 'video ads', 'banner ads', 'native ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAolJREFUOI110V9ozXEYx/H38/39OefYZtuxbGNnmxkTpoTynyhFLtyhlJUiuaRd7FL+xI0iuSEpuRC1MtailFxRxBmRHNqNZYZz9uec3/n9vt+vi82ZWXsuv5/v8+rpeQQANq680v/6guPKHmsNF3e14MZBFPz6qDh6f5DUyjGMFkRAeba3ujHfecCnX7W0tLQvahpNP71eu8efEyGOcPjaIMOfFCaC1KaQxeuyGC0AWAuep3efWb8iDW3tTk1t/Q3l2aXvemK07QioqIlILgzI5+P0P45z6NJ3yudprJkAXN/wpi/Jq/tzqG+WlLS2LbcA1kzwnX2fiYouRluu7m/kVG+GwqjH3/LiIed3tuK4gihQfwNRUMgpnt2qxU9olAsn7g4QjE01O57h/dMk+WEHmewsAQCJasvD05X8/uZPooK1U7nrax5fqaJsvim9TQMAqhZZus/V4Sc0/NOsXEvmZSVD7z2Uw+yA41iGvzgMfY2XxgTw4xF9l5NUpMy0/zOAMBCWbBpjXiqYWCygHMvnF5UMPPdRLrMDJoLqhSEbDuaIilORG9O8ejCXsgbL/zUN0EVhzb4Rkg1B6e4AYcFh57EhcgMyOxAVhMbVBZZtG0FHU64XM1gjJBsCNhwZI8zLTMBasMaypeMnXozS6WLlId1n6vDjmmDcYWvH8IwplIjqCbKK7UezlFVpYmV6InAN754k6b05l4G35YhATXOe5XsL6BBEBBF61KcP0tW0NmTZ1hyV9RFGCyYSglHFneM1NDdrnt+uwk9oiuMumw9lyf9wUKLQxUKXgnT6ZM/HVfEK26smpxNl6D67gEQduDHL23sJsoMe1gpNq0cIc+bR+GjYnslk0n8ABt/9esSmVlIAAAAASUVORK5CYII="
     },
     {
@@ -905,7 +891,7 @@
       crunchbase: "https://www.crunchbase.com/organization/revmob",
       download: "http://sdk.revmobmobileadnetwork.com/ios.html",
       platforms: ['ios', 'android', 'unity', 'air', 'cocos2dx', 'amazon'],
-      tags: ['advertising', 'banner ads', 'mobile ads'],
+      tags: ['advertising', 'video ads', 'banner ads', 'mobile ads'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAg5JREFUOI2tkj1oE2EYx//Pe+/lktwFcrnahJpSrEUHHUqho1XEUnFxEVz9wK9BQoZCQQSLizhltSA4Oegi4iDdWsGxi9QMEqG1EBKpGXLXu+vd+74OIZiPRhf/0/vx/H/v8/55gP8t897G08TNTTW51WxPva/d+Fc9dRdOefNq28VajMS49A5QfDwHkAHst76m3m5f+1ZZrB4JOH3r5cQOm34XadY84gBQEiIQqvhollQoAM7BdANo/lrfPV9cogEAq51YeCZsZx6hC0gxulVGuADwwXOmJMUyZ4NNFwUzk1IJCSgAxECmCWr7VevV1tndc8eXNoB4EMBBpCAlJEhDYRxaNpBsrwkKogO9uX/3++WTr/8WIuvbSQnoOtjsGfZj7phV/xxcHGWcWq+v9QOkhJbQY5kbYyppAgAO7eJta3W7MmT+WK/QTOEOADCppM4Ygdk5IawsBwhQqlMZevCTTslarT7vNavJfEl6ncB52qAPsWlej/R0gqIQnQR7FLrwk/aytfLFy18ZMyMnX1JeG5TqdMm8lZk34UPHSPmtFxpPQGn60H9V6CKwMk9cz1xG6B4doleeuB8+SJMRup9gpP+YAXCNxcq20agK+HuRIE7DAKAz1365sJBpVBd7zSLrcEgJTQd+1pjm7xzGXcjgZPa9bFRaSpgZQMm+OxED+VMcjUuMRgK6kFHqGn8Dp+LIB4M+3M4AAAAASUVORK5CYII="
     },
     {
@@ -938,7 +924,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAATdJREFUOI3Nkb1KA1EQhb97s5vNCvoMYiM28RFEdAUjNmKXQhDRRgsLbSy0tRDBQgQxvoG2gdj4CCbRTsHKBwhKEu/esVjM/klsc6qZe2bOnMOFkUPwxPnKO1J5Q4ImH2m2dJyd19kHpdg0HRADAqcxU6yAOsnOF5LNQpNt12fdGrCG7kOZ1Zh1rkFPRivm8U8HGnZtH7QLKG4zZudAALWVcvxbLLaZKfq8mE/QHtSnYy6CL3Ftl6DXSDnQlrOwB8qBsE89mxXkPtEc5SJoj2UxUPAAy0FeoLuWjpMQCFpcIqAKYL54bszSjmhvHsYksp+MAFCqDQSUsGG/QRchFC4Sl27yTgaoAqigxY7jcRX2QSydRpmJIUuA/wpMRbXd0wiHygF3HFDUhi8D2Lvo8xSg9/+fH3n8AJgAVgNHR4R6AAAAAElFTkSuQmCC"
     },
     {
-      r: 38,
+      r: 37,
       name: "Superrewards",
       description: "Super Rewards is a web advertising company that offers points and rewards to web users who sign up for services.",
       founded: 2007,
@@ -967,7 +953,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaVJREFUOI3FkzFrWnEUxX8+xQaaWNKX5aUUnLoI8kALqesb/AYZHDo61E5+gjxIJxezZLGk6BcoHZIxOEgfFocOdWgWoSQ6VEFa0Cp/PV2iiGmyOPTAWS733Hs5//MPSWITWBupAWRZd7iCfeA9cANohX3gCAiH1gQAhObzhfiL4zjP8vk8iUSCaDSKMYYgCCiXy8xms3cPXXBq27a63a7+hUKhIGAYWVv+CMjJsrwX83n2ZTaL4zg0m02KxSKj0WjZ2O/3AZ4stkaUTh/Lcfo6OPilw8Pfr3Z3J57nSZLG47FKpZLi8fjCg59AGSijk5O3Ojv7rlZLMmZ5YrVaFSDf92Vu68YY+b6/GPIaIHx0ff2V0egxl5fPubraYTIJM53yNBzm08XF5OP5eaRWq2GMIZ1O43kejUaDTqezB3xYNS+qWOyNtrd/fLYs7YBisZhc15XruspkMgqCQJKUy+UEtO7NwRZ8S6VSGg6Hd9zv9XqybVvAKcD6KwDwBxLJZJJ6vb6sTadT2u02lUqFwWBwAxw/lETdw+5tMveXofvvn2njAX8Brh4OAB5x1JMAAAAASUVORK5CYII="
     },
     {
-      r: 40,
+      r: 39,
       name: "Swrve",
       description: "Swrve is a mobile marketing automation platform that allows mobile product teams to optimize their applications.",
       founded: 2011,
@@ -982,7 +968,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAiRJREFUOI2lkV1oknEUxp+/76vvTNtSWx+zVbY2t2HiZiMERYm6GGV1kyBCFAlBF+smGBHRjRThVXSxq+gu2lyxWbGGQavRqKCtaDD7nBiZXdQY8+v1VU8X5XDxRsHO1Z//+Z2H5zkHWGWxfwGLebLyHNaLJaT0a1j8v5UvPP64q6XL9dTYZqtsbe8mY5tNatjRHV0g2lLLcXLDQ0OkGwj5HikqJasgqJhSpYQgqBQcJDPPa1ti9+7cqrIKOYHxuYFDlWLB9Csk903faIygggIANNRrCrWsrEAyHm+tvjduMw1PPRj0Xbw22bPZ5jrh9Rw5XcvycgLNOy0fPr+bBgCkE/MBb/Bcyu9kYQCzTTevrmBXXIGIOMZYmYg0VmfvpFTIdFV7nFJ42xkMHYsEHS9kI4hEDrf36Gubx3uXAeU9gbED9YZNI9V+WRLNU+G+21+IDHKuMf5k5sYGk4U6djtpv78vVP3vvz7R2+nY96nd7iSj2UaLRTou68Dtsk0oeR5EQGLuZX/gbPgUAO7KSc+YztD0cNlJBdtld0BEyjPnL8VGoyNutSAAAHhBMyvUCamlhR8uhQLqpUwGr6ZnfI0aFqnOLV+BMSa9/07+4Wh0VA30AEBJzFpKYtai+O2TE9TPk3Hcl40AAK0G9jX15tleta75ci4vpnLZHHLZHDKZbJ5xaweTB2OH7XaWk43wZ6XTtE6vR4cE1FERCa2Wzf+NXVX9BEXcwhiuUGgUAAAAAElFTkSuQmCC"
     },
     {
-      r: 43,
+      r: 42,
       name: "TalkingData",
       description: "TalkingData is a Chinese mobile data analysis service offering app analytics, mobile game analytics, mobile campaigns and analytics for enterprises.",
       founded: 2011,
@@ -1011,7 +997,7 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABiUlEQVQokZWSPUtbcRTGf+f6v5Gb3nB9ARPRQptapIv4BTo4VNtBF6HQyQ/g0qVDlw7t4OjQbu3kRyhCp1JFBMeCKFh8K1VMIkaSmpur/xtPh9q8QELxTIeH8+PwPOdIYXSc25Rzq2nANFpr9bTE7yrE/wf0vGzGHiU/vUo8HJGUj/5VFVUAx2kFwmri+UzP+0UAG+vFBSKoYoykfECL5w2mMDqep692klPV0us3OcgT5AlyUHwxp6p2a/vkn5gnMIBSdDJprA0X3nbVQzsrJZ4+AezhTye4K5n+RkpCimqE63rzL693ftwA4aX7IAvEm1sku+seHIChwfK7BSD4sNj3fUN/FQDCisneB+LVdfFaAfGT0cel4uR09PVb9fMyvT6qGM8ZzAD2ywqmkf5NJ/09tb2D8uwcvid+kivrPnsMXB8dA4i0O5zr1p1pGLlTE4DdP+CO13y4Dq8RXXVls4Dd3Wt23BmIa246TXQZr6xJ6wbp9K16VKBSkXtDdCeaddN2GpDhgbb6H/IOjHK99SRyAAAAAElFTkSuQmCC"
     },
     {
-      r: 37,
+      r: 36,
       name: "Trialpay",
       description: "TrialPay is an alternative e-commerce payment system in which a consumer gets an item for free from a participating merchant in exchange for buying or trying out another product or service from a TrialPay advertiser.",
       founded: 2006,
@@ -1055,7 +1041,7 @@
     {
       r: 11,
       name: "Unity Ads",
-      description: "Unity Ads is the top performing video ad network.",
+      description: "Unity Ads is the top performing video ad network. Unity acquired Applifier in 2014.",
       founded: 2005,
       hq: "Copenhagen",
       c: "dk",
@@ -1139,7 +1125,6 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAbBJREFUOI3Fk79rU2EUhp9zv15usUosEgwxNWlxUREXtTrYQaKTnUS0/gkd3KQIQqdKcdJCVt2E0urmILjEQaWFlm4iFFOSmNLSyk2bxlxzv9Mh/mjsbZcOHniXl/c8cF44oqocZJwDbQMd/xrrVYaOZXMvUke9BgIoiIhePtNTevLgxstMksf7AhYrXKey5pXqxgP54xeLy7Gppx/HllZGayfjPNvzhLf5Lz10OWAMSAg0WzIh9CqFAld35ncBcq/yp3AdQBG/iFTLLW2UYf0rNyffXGvAkT0AluX5cgYjYJuAgGNaEoP4DTZO9Ha/XuR5ZAehdeLoL6sZgFWwFsIQKj4M31G6Y2IEGwlY9RnEAxDEKJJKqJgOtcnjIpcuYhMJoa5cSDAdDVijHxfwt3Du3wvDZNxgrdC0aBBA3XL3fGqm7xBTkYDZhW9pXJCfwOFO2NwEFQbPZmbSLlu307wbiNuxndW1AXKT+dP8sKjrYjs9h0bArXOZT9P9XPmbau+9DTA+MvShVq3Nf1793vUwcLJYyMYosd+o6i7N+TrMxJIyUdD3K/ooKvNb8t+/cRvSOcN8WjkQLwAAAABJRU5ErkJggg=="
     }
   ];
-
 
   var data = {
     sdks           : sdks,
