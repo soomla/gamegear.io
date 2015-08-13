@@ -56,7 +56,7 @@
     <![endif]-->
 
 
-    <!-- build:js(client) app/modernizr.js -->
+        <!-- build:js(client) app/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
 
@@ -100,8 +100,8 @@
 
         <nav id="bs-navbar" class="navbar-collapse collapse" aria-expanded="false">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="/">SDKs</a></li>
-            <li><a href="/ad-formats.html">Ad Formats</a></li>
+            <li><a href="/">SDKS</a></li>
+            <li class="active"><a href="/ad-formats.html">Ad Formats</a></li>
           </ul>
         </nav>
       </div>
@@ -160,44 +160,50 @@
         <div class="row bottom30">
           <div class="input-group">
             <span class="input-group-addon">Search</span>
-            <input id="filter" type="text" class="form-control" placeholder="'Flurry',  'video ads',  'platform:unity' ...">
+            <input id="filter" type="text" class="form-control" placeholder="'Unity Ads',  'Admob' ...">
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-4 col-xs-offset-1">
+
+
+
+
+
+
+        <div id="table-header-ad-formats" class="row">
+          <div class="col-xs-offset-4 col-md-offset-3 col-xs-1 text-center">
             <h4>
-              <span class="fa fa-sort sort-column" data-sort="provider"></span>
-              Provider
+              Interstitial
             </h4>
           </div>
-          <div class="col-xs-5 col-md-4">
+          <div class="col-xs-1 text-center">
             <h4>
-              <span class="fa fa-sort sort-column" data-sort="platforms"></span>
-              Supported Platforms
+              Video
             </h4>
           </div>
-          <div class="col-xs-1 hidden-xs hidden-sm text-center">
+          <div class="col-xs-1 text-center">
             <h4>
-              From
+              Native
             </h4>
           </div>
-          <div class="col-xs-2">
+          <div class="col-xs-1 text-center">
             <h4>
-              <span class="fa fa-sort sort-column" data-sort="rank"></span>
-              Indie Rank
-              <a href="#footnotes">
-                <sup>[1]</sup>
-              </a>
+              Offer Wall
+            </h4>
+          </div>
+          <div class="col-xs-1 text-center">
+            <h4>
+              Banner
+            </h4>
+          </div>
+          <div class="col-xs-1 text-center">
+            <h4>
+              Mediation
             </h4>
           </div>
         </div>
       </div>
-      <div id="content-sdks" class="container">
-      </div>
-      <div class="container">
-        <div class="row" id="footnotes">
-          [1] - Ranking data is just a rough estimation that indicates popularity of the different SDKs.  The data is estimated based on a sample of 4000 live games using the SOOMLA open source framework and does not necessarily represent the "true" popularity of an SDK.
-        </div>
+
+      <div id="content-ad-formats" class="container">
       </div>
     </div>
 
@@ -247,64 +253,27 @@
     <!-- [endinjector] -->
     <!-- endbuild -->
 
-    <script id="kit-template" type="text/x-handlebars-template">
-      <div class="row row-kit row-searchable" data-rank="{{r}}" data-provider="{{lowerCase name}}">
+    <script id="ad-network-template" type="text/x-handlebars-template">
+      <div class="row row-kit row-searchable">
         <div class="row row-title">
           <div class="col-xs-1 text-center">
-            <img src="{{favicon}}">
+            <a target="_blank" href="{{adlink}}"><img src="{{favicon}}"></a>
           </div>
-          <div class="col-xs-4">{{name}}</div>
-          <div class="col-xs-5 col-md-4">
-            {{#each platforms}}
-            <img src="{{this.src}}" title="{{this.tooltip}}" class="icon-platform">
-            {{/each}}
-          </div>
-          <div class="col-xs-1 hidden-xs hidden-sm text-center">
-            <span class="flag flag-{{c}} hidden-xs" title="{{country}}"></span>
-          </div>
+
           <div class="col-xs-1 text-center">
-            {{r}}
+            {{name}}
           </div>
+
+          <div class="col-xs-2 col-md-1 text-center"></div>
+
+          {{#each formats}}
           <div class="col-xs-1 text-center">
-            <span class="fa fa-caret-right icon-expand"></span>
-          </div>
-        </div>
-        <div class="row row-details">
-          <div class="col-sm-4 col-sm-offset-1">
-            <div class="description">{{description}}</div>
-            <div class="labels">
-              {{#each tags}}
-              <span class="label label-default">{{this}}</span>
-              {{/each}}
-            </div>
-          </div>
-          <div class="col-sm-5">
-            <div class="hq bottom5 top15">Founded: {{founded}}</div>
-            <div class="hq bottom15">Headquarters: {{hq}}
-            <span class="flag flag-{{c}} hidden-md hidden-lg"></span>
-            </div>
-            <div class="website-data bottom5">
-              <i class="fa fa-home"></i>
-              <a href="{{url}}" target="_blank">Website</a>
-            </div>
-            <div class="github-data bottom5">
-              <i class="fa fa-github"></i>
-              <a href="{{github}}" target="_blank">Github</a>
-            </div>
-            {{#if crunchbase}}
-            <div class="crunchbase-data">
-              <img src="http://www.google.com/s2/favicons?domain=crunchbase.com">
-              <a href="{{crunchbase}}" target="_blank">Crunchbase</a>
-            </div>
+            {{#if this}}
+            <span class="fa fa-check"></span>
             {{/if}}
-            <a class="btn btn-default btn-download top15" href="{{or download url}}" role="button" target="_blank">
-              {{#if downloadtext}}
-              {{downloadtext}}
-              {{else}}
-              Download {{name}} SDKs
-              {{/if}}
-            </a>
           </div>
+          {{/each}}
+
         </div>
       </div>
     </script>
@@ -322,98 +291,57 @@
       });
 
 
-      var source   = $("#kit-template").html();
+      var source   = $("#ad-network-template").html();
       var template = Handlebars.compile(source);
       $(function () {
 
+        // TODO: Add search by "format:banner"
         var search = {};
-        var platformSearch = {};
         var rows = [];
+        var favicons = {};
+        var adlinks = {};
 
         _.each(window.data.sdks, function(kit) {
+          favicons[kit.name] = kit.favicon
+        });
 
-          // Prepare search key based on kit metadata
-          // TODO: Remove all ifs once all SDKs have all properties
-          var key = kit.name;
-          if (kit.tags) key += ' ' + kit.tags.join(' ');
-          if (kit.founded) key += ' ' + kit.founded;
+        _.each(window.data.sdks, function(kit) {
+          adlinks[kit.name] = kit.url;
+        });
 
-          //
-          // Commented search by platform like this because when searching unity for example
-          // it shows all vendors supporting unity instead of showing just unity services
-          //
-/*
-          if (kit.platforms) {
-            key += ' ' + kit.platforms.join(' ');
-            _.each(kit.platforms, function(platform) {
-              var platformAliases = window.data.platformAliases[platform];
-              if (platformAliases) {
-                key += ' ' + platformAliases.join(' ');
-              }
-            });
-          }
-*/
+        _.each(window.data.adNetworks, function(adNetwork) {
+
+          // Add the Favicon
+          adNetwork.favicon = favicons[adNetwork.name];
+
+          // Add link
+          adNetwork.adlink = adlinks[adNetwork.name];
 
 
-          // Save local copy for later
-          var platforms = kit.platforms;
-
-          // Convert platforms to their Base64 image
-          kit.platforms =
-            _.chain(kit.platforms).map(function(el) {
-            return [el, {src: window.data.platforms[el], tooltip: window.data.tooltips[el]}];
-          }).zipObject().value();
-
-          // Add full country name
-          kit.country = window.data.countries[kit.c];
-
-          var item = $(template(kit))[0];
+          var item = $(template(adNetwork))[0];
           rows.push(item);
 
           //
           // Cache the item with the key built above
           // for search purposes later
           //
-          search[key] = item;
-
-          //
-          // Cache the item for all platforms relevant to it
-          // for search purposes later
-          //
-          _.each(platforms, function(platform) {
-            (platformSearch[platform]) || (platformSearch[platform] = []);
-            platformSearch[platform].push(item);
-
-            var platformAliases = window.data.platformAliases[platform];
-            _.each(platformAliases, function(platform) {
-              (platformSearch[platform]) || (platformSearch[platform] = []);
-              platformSearch[platform].push(item);
-            });
-          });
-
+          search[adNetwork.name] = item;
         });
 
-        $.fn.append.apply($('#content-sdks'), rows);
+        console.log(search);
 
-
-
-        // Debounce this function so not to update the URL
-        // after each keyup event
-        var navigateToQuery = _.debounce(function(pattern) {
-          router.navigate('?q=' + pattern);
-        }, 750);
-
+        $.fn.append.apply($('#content-ad-formats'), rows);
 
 
         var $filter = $('#filter');
 
-        var filterSDKs = function(event) {
+        $filter.keyup(function (event) {
 
           // Always clear forced odd/even styles
           $('.row-searchable').removeClass('force-odd force-even');
 
 
-          var pattern = $filter.val();
+          var pattern = $(this).val();
           if (pattern == '') {
             $('.row-searchable').show().removeClass('expanded force-odd force-even');
           } else {
@@ -421,21 +349,12 @@
             var rows;
 
             // First test if it's a platform search
-            var match = pattern.match(/^platform:(.*)/);
-            if (match) {
+            var rex = new RegExp(pattern, 'i');
+            $('.row-searchable').hide();
 
-              rows = platformSearch[match[1]];
-              if (!rows) $('.row-searchable').hide();
-            } else {
-
-              var rex = new RegExp(pattern, 'i');
-              $('.row-searchable').hide();
-
-              rows = _.filter(search, function(value, key) {
-                return rex.test(key);
-              });
-
-            }
+            rows = _.filter(search, function(value, key) {
+              return rex.test(key);
+            });
 
             var $rows = $(rows).each(function(i, row) {
 
@@ -454,13 +373,10 @@
           if (Modernizr.mq('only all and (max-width: 480px)')) {
             if (event.which === 13) $filter.blur();
           }
-
-          navigateToQuery(pattern);
-        };
-        $filter.keyup(filterSDKs);
+        });
 
 
-        $('#content-sdks').on('click', '.row-title', function(event) {
+        $('#content-ad-formats').on('click', '.row-title', function(event) {
           $(this).parent().toggleClass('expanded');
         });
 
@@ -488,13 +404,13 @@
               $('.row-kit').sort(function(a, b) {
                 var comparison = $(b).data('provider') < $(a).data('provider');
                 return (comparison ? 1 : -1) * (sortOrder ? 1 : -1);
-              }).appendTo($('#content-sdks'));
+              }).appendTo($('#content-ad-formats'));
               break;
 
             case 'platforms':
               $('.row-kit').sort(function(a, b) {
                 return ($('.icon-platform', b).length - $('.icon-platform', a).length) * (sortOrder ? 1 : -1);
-              }).appendTo($('#content-sdks'));
+              }).appendTo($('#content-ad-formats'));
               break;
 
             case 'rank':
@@ -502,7 +418,7 @@
               var sortedRows = $('.row-kit:not([data-rank="N/A"])').sort(function(a, b) {
                 return (parseInt($(b).data('rank')) - parseInt($(a).data('rank'))) * (sortOrder ? 1 : -1);
               });
-              $('#content-sdk').append(sortedRows, naRows);
+              $('#content-ad-formats').append(sortedRows, naRows);
               break;
           }
         });
@@ -511,7 +427,7 @@
         var sortedRows = $('.row-kit:not([data-rank="N/A"])').sort(function(a, b) {
           return parseInt($(a).data('rank')) - parseInt($(b).data('rank'));
         });
-        $('#content-sdks').append(sortedRows, naRows);
+        $('#content-ad-formats').append(sortedRows, naRows);
 
 
         // Initialize Bootstrap tooltips
@@ -531,26 +447,6 @@
           $filter.focus();
         }
 
-
-
-        //
-        // Start Routing and History
-        //
-        var Router = Backbone.Router.extend({
-
-          routes: {
-            "?_escaped_fragment_=q=:query": "query",
-            "?q=:query": "query"
-          },
-
-          query: function(val) {
-            $filter.val(val);
-            filterSDKs({});
-          }
-
-        });
-        var router = new Router();
-        Backbone.history.start({pushState: true});
       });
     </script>
   </body>

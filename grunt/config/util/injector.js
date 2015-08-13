@@ -27,6 +27,13 @@ var taskConfig = function(grunt) {
           '!<%= yeogurt.client %>/app/**/*.spec.js',
           '!<%= yeogurt.client %>/app/**/*.mock.js',
           '!<%= yeogurt.client %>/scripts/main.js'
+        ],
+        '<%= yeogurt.client %>/ad-formats.html': [
+          '<%= yeogurt.client %>/app/**/*.js',
+          '!<%= yeogurt.client %>/app/main.js',
+          '!<%= yeogurt.client %>/app/**/*.spec.js',
+          '!<%= yeogurt.client %>/app/**/*.mock.js',
+          '!<%= yeogurt.client %>/scripts/main.js'
         ]
       }
     },
@@ -50,6 +57,23 @@ var taskConfig = function(grunt) {
           '<%= yeogurt.client %>/styles/**/*.less',
           '!<%= yeogurt.client %>/styles/main.less',
           '<%= yeogurt.client %>/app/**/*.less'
+        ]
+      }
+    },
+    analytics: {
+      options :{
+        transform: function(filePath) {
+          return require('fs').readFileSync('.' + filePath);
+        },
+        starttag: '<!-- [injector:analytics] -->',
+        endtag: '<!-- [endinjector] -->'
+      },
+      files: {
+        '<%= yeogurt.dist %>/index.html': [
+          '<%= yeogurt.client %>/analytics.html'
+        ],
+        '<%= yeogurt.dist %>/ad-formats.html': [
+          '<%= yeogurt.client %>/analytics.html'
         ]
       }
     }

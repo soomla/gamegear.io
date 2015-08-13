@@ -99,8 +99,10 @@ body {
     padding: 6px;
   }
 
-  .navbar-right {
-    margin-right: 100px;
+  @media (min-width: @screen-sm-min) {
+    .navbar-right {
+      margin-right: 100px;
+    }
   }
 }
 
@@ -329,7 +331,7 @@ a.whitelink {
 
 ////////////////////////   Single Kit Design   ////////////////////////
 
-#content .row-kit {
+#content-sdks .row-kit, #content-ad-formats .row-kit {
 
   padding: 9px 14px;
   border-bottom: 1px solid @table-border-color;
@@ -430,4 +432,29 @@ a.whitelink {
     .box-shadow(none);
   }
 
+}
+
+
+
+////////////////////////   Single Ad Format Design   ////////////////////////
+
+@media (max-width: @screen-sm-max) {
+  #table-header-ad-formats {
+
+    padding-bottom: 40px;
+
+    h4 {
+      .rotate(90deg);
+      .transform-origin(50%);
+    }
+  }
+}
+
+@media (max-width: @screen-xs-max) {
+  #table-header-ad-formats {
+
+    h4 {
+      font-size: 15px;
+    }
+  }
 }
