@@ -85,7 +85,7 @@
     },
     {
       name: 'AdBuddiz',
-      formats: [1, 0, 0, 0, 0, 0]
+      formats: [1, 0, 0, 0, 0, 1]
     },
     {
       name: 'Batch',
