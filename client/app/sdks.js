@@ -997,6 +997,21 @@
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAABiUlEQVQokZWSPUtbcRTGf+f6v5Gb3nB9ARPRQptapIv4BTo4VNtBF6HQyQ/g0qVDlw7t4OjQbu3kRyhCp1JFBMeCKFh8K1VMIkaSmpur/xtPh9q8QELxTIeH8+PwPOdIYXSc25Rzq2nANFpr9bTE7yrE/wf0vGzGHiU/vUo8HJGUj/5VFVUAx2kFwmri+UzP+0UAG+vFBSKoYoykfECL5w2mMDqep692klPV0us3OcgT5AlyUHwxp6p2a/vkn5gnMIBSdDJprA0X3nbVQzsrJZ4+AezhTye4K5n+RkpCimqE63rzL693ftwA4aX7IAvEm1sku+seHIChwfK7BSD4sNj3fUN/FQDCisneB+LVdfFaAfGT0cel4uR09PVb9fMyvT6qGM8ZzAD2ywqmkf5NJ/09tb2D8uwcvid+kivrPnsMXB8dA4i0O5zr1p1pGLlTE4DdP+CO13y4Dq8RXXVls4Dd3Wt23BmIa246TXQZr6xJ6wbp9K16VKBSkXtDdCeaddN2GpDhgbb6H/IOjHK99SRyAAAAAElFTkSuQmCC"
     },
     {
+      r: "N/A",
+      name: "TilemapKit",
+      description: "TilemapKit is a feature rich tilemap game development framework that natively supports all of Tiled Map Editor’s map types, settings and features. TilemapKit reads and writes TMX files, does all the nitty-gritty math for you, and then offers advanced features such as creating grids for pathfinding, flexible tile animations, normal-mapped lighting support and an optimized, multi-threaded renderer. TilemapKit a source code product compatible with SpriteKit, Cocos2D and custom Objective-C engines, and it will soon be available for Cocos2D-X/C++ engines. Its development is largely user-driven by voting on roadmap items as well as quickly supporting new Tiled/TMX features.",
+      founded: 2015,
+      hq: "Ingelheim am Rhein",
+      c: "de",
+      url: "http://tilemapkit.com",
+      github: "https://github.com/LearnCocos2D",
+      crunchbase: "https://www.crunchbase.com/product/tilemapkit",
+      download: "http://tilemapkit.com/store",
+      platforms: ['ios', 'android', 'osx', 'cocos2d', 'spritekit'],
+      tags: ['tilemap', 'TMX', 'pathfinding', 'hexagonal', 'isometric', 'orthogonal', 'objective-c', 'c++'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAntJREFUOBF1UktME1EUPW/em+lMCy0tLS0fa4FuSoJxa5RgTDSu3fhhY3SHCxYmBt0wrNy5MYalLoxGjSYmbkjYmBgCwV9MSIwudAEWlF/bGYbOtPN8M6WtH3oXM+/dc+959557gdbGBu/38NyLNGc5OtsqTGoFqMfk2dBwEIQA6fHEGRGnHhT7F4GUlj7sB4V7J5KnECCwCQftlqGNKMsHEdC6U0pJ49mZvqvVNjcjD7DHkdF2wkIUznYFhBHQBI2an/eCvMAXRI7dyPMOSb2tq28ycU9SJfCie1m4JCXOPKhhNCDh8HTqhjqq5BN69EQdIMmpmFVaNNWs3odysQqed7A+twN3jyN9PYXymoPSgomNlwUMPeqH9XEXO59M0Ah1laVbD5hQSe260AmEhByCwO2QQMMU6qCM/skSMkEVD5NlZKd7RF1C0RiFveJAizCRwK/4dbJIQwrBR8DCHgbMVQtoH3ZQ/SKEPCT7VXu40Af2RsW/+1Mwly1wV2QI4w6H9dWGsWQiNRYD2edmbc1HWLR59gncCsfuxDpGnrj49XQTwSEV3WNxBHoVGO8sBI9o+Da1ivbvVTjPiyguGv5j3scn8A7GSQXPnE2oOQ2leQNaToUr/F3nonDNik/y4/Yatgo2WKzWjpfXIPAu6kBt2ZTOAIgsBBPG4jKcrVq/1lkN2lHN99c/HsFbT7A/zd62Uc7XdqX03hCiNntuxvE1saTn/Wcyeka1uHHXGwtIrSo+b+G4GcL8aa+RphFO3lDiXlzVt1Y8b63OJi62Mn5JjGRGzDPccHMuZCZ3fpLNm9B9aRrQfwR1JKV3ZDik10Kma+v6xqu6/9//b2NozEnCCLkQAAAAAElFTkSuQmCC"
+    },
+    {
       r: 36,
       name: "Trialpay",
       description: "TrialPay is an alternative e-commerce payment system in which a consumer gets an item for free from a participating merchant in exchange for buying or trying out another product or service from a TrialPay advertiser.",
