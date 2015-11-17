@@ -728,7 +728,7 @@
       github: "https://github.com/mobilecore",
       crunchbase: "https://www.crunchbase.com/product/mobilecore",
       download: "https://www.mobilecore.com/sdk/",
-      platforms: ['unity', 'air'],
+      platforms: ['ios', 'android', 'unity', 'air'],
       tags: ['advertising', 'banner ads', 'interstitial ads', 'video ads', 'offer wall'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAk1JREFUOI2Fk89LVEEAxz/vvXnvbe6mKdtuWiBEYXgoiKKDQSJ68qhtHcRtty4ZERpYFyGhoi516ZrrCh1yyYOHCkUvQfQPmEEH8ZCmuS6t6+6+H/O2w7bKYtr3MjDzne98v9+ZgQMQjYz3xCPJ2YM4yn4LsavJOcM41CGlQ6nk4Xmlx4lU/8h/BeKR8TugvFJVgee5OzQhDFzXWlIUp/v121uL/xSIR5ILujBbHdcGSnvtKiqapuM61vhYKhqrEohHJjxVVRXPk3s2uo7Hds5ByhK6rlJXH0BKeyqRivaICkkXppLN5hBCwXE8TFPDsiSapnDuQhMDQx34/QYb6zmej86ytlIsAqgVgULeYeB+G23tJxl+1MmJ5noejnYRDPm5N9yF328wP7tIMBRgYPAKmfUCAGJXwOVyewtHQ7W0tDZyrLGOxuNH6OzexDA1AEYHZ1i+myabsTnc4KPKQQUfphcA+Pzpezm/u9tJMSc5f7GZ02fC2JasdlAp3TDKp+l6eRRCJbOZp76hhsT0dVrPNuEz17EKstpBMOzn11qO3JbFz5Usmxt5Vn/8Jvvb4unIe5aX0pxqCfPt6yovnswRDJtUXePtvqnSZjqD6VMpFlwMU8O2JIapoQmFwraLlCWEUKmt8yM9593YZH/vToRifqurJiDe6MIICd0ux/lbHkCg1kBRFITwYduF+UQq2lvloIJYJPlMaPqD8vvfLVBoBo5rpz28vmQq9rEyf9Bn+mLovkvSc1EUBVfaLxOTN4b24+8ncu1mZGLmIM4f8izi4ODarBUAAAAASUVORK5CYII="
     },
