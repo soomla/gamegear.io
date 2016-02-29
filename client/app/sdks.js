@@ -530,20 +530,6 @@
     },
     {
       r: "N/A",
-      name: "GameUp",
-      description: "Game Backend as a Service in the cloud for developers. Add achievements, leaderboards, multiplayer, push support, and more to games on any device including virtual reality (VR).",
-      founded: 2014,
-      hq: "London",
-      c: "uk",
-      url: "https://gameup.io/",
-      github: "https://github.com/gameup-io",
-      download: "https://dashboard.gameup.io/#/signup",
-      platforms: ['ios', 'android', 'unity', 'js'],
-      tags: ['game server', 'multiplayer', 'game backend', 'mobile games', 'game development', 'game storage', 'push notifications', 'turn based games', 'user accounts'],
-      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAitJREFUOI1jZCAAZvyfovWF4TPjSYbFV1czXsOQZyJkwOWN97N+XRC9Ynav9E7X44mz0eVZ8Gluvz3j/r8/f7+xy36eyfSPiZWDV5CZJBf8Y/my9e+Pf/xfr3Gmf73FnfT2wvfQqf973Yg2gI2HT03M4I/lX9PrjHzGXxIZeb9e/MPwdRc+PQwMDAwMM//PzKo+3v654/GkvQz/IWLlh5oOTPg/QZGg5rn/F6qnbyl+jS4+9f/0kvpbPefQxTG8cPXQlU4Lb8foBf93ZS75v0cGJp7NmNnD8Pnf85l/5+Uhq8eIBXlT5a/Pb72aw/bxn+zb7x+mLfy/8xgjA+PM/wxMi34zvF50eO7BeAYGhkk4XfDrww/Bdy/eSRSbJjO8/PyW4c7Bq1a3jlxdeP/4jf+/vzGnafspbcXphen/Oxn4xMS/cDCysObtamLgZ+NmkOIWY2i2KWD4xfjn84v7D7gZRX9PxemF3wxswRx/2Hj+/fvLIM4pwsDHxs3AxsTK0HVsFoOCvuLF9z+uvChlrMYdiJfW3HDhYOf48ff/fwYVQTkGZyVrhlMvLjF8+vuNgYnz9xtOPqHt6F5mROZM+T9X9/WFt2sVDDT3fnj+yfrZrWe6nMwcDKLKEjdePr/+vcW4zgjdABQX5DAmX+Y0eKt258oZzu+/Xr0QlmfbL27Av/Xjpxc/ReSFj6JrxnABMpj2n4HhL8M0i/fXP9iIako/+cvQtCKH8S6GOgA3vuK/Ings4gAAAABJRU5ErkJggg=="
-    },
-    {
-      r: "N/A",
       name: "Gondola",
       description: "Gondola provides dynamic pricing for virtual goods and in-app purchases (IAP) in mobile games.",
       founded: 2013,
@@ -570,6 +556,21 @@
       platforms: ['ios', 'android', 'unity'],
       tags: ['analytics'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAfhJREFUOI2Vkz1oU1EUx3/nvXvfS15jqnVwcHHwA4UqdNAWKoomBcGhWNGpk8XFxUEUcRaFqKtTEQyC7urgUBoQtNRNFCsIbSF0qI3WNk1y38d1SJDmQ8S7HDic/4/zP+ceyRfsODAdm+oA//Fcr68CXJF8wa71EtfCVowttQgyGtJK8Nx2iOolXqvDzTFNmAi5QcXeXcL7rxGlzxEvP8Z/ILGpDjid4g0DhYse2oGHbxocv1elXEkQgeJ81NYBQBdgM7Tkj2oWVhJ2eMK+jFAsGU4cUMQ9ZtEFkFYc3u/yy1gcgcWKpR6Bls7qHoCsJ0zPGHLHNOODitWGZXJUc+NpjZ2pboLqTAQaHpcMc99iRg+6fLmc4c7zOnNLMVm/G9DVAUBKCfPLMbdfGwCunvVwXCFKumvlzN1Nuz1RqVkuDWmGD7ksf7cEynJhxCOxcP5BFROCI38BVEO4ntOcPKwYe7RFVgtRYhFXmLkV8Gkp5tqzOv3brLRZqIaWiRGPVx9CAiUEGrK+IAkUZw3pf83Ac2ChnDB52iebgtUty3rDsm4s54Y0T2YNgWqHtFmwFmoJ3J/wOXVEUf5hWfmZECfw4q3h3WJCoDuG2HlM1sKGsdRiUALKaX6utBZ0x85cr6/iAFOt02wSpel7TyDsTgv9vpD1e4uBqd8JecJJIf0F1wAAAABJRU5ErkJggg=="
+    },
+    {
+      r: "N/A",
+      name: "Heroic Labs",
+      description: "API and middleware for game studios to rapidly add multiplayer, social, and competitive features into games and apps. Build beautiful social and multiplayer games which work at massive scale.",
+      founded: 2014,
+      hq: "London",
+      c: "gb",
+      url: "https://heroiclabs.com/",
+      github: "https://github.com/heroiclabs",
+      crunchbase: "https://www.crunchbase.com/organization/heroic-labs",
+      download: "https://dashboard.heroiclabs.com/#/signup",
+      platforms: ['ios', 'android', 'unity', 'js'],
+      tags: ['game server', 'multiplayer', 'game backend', 'mobile games', 'game development', 'game storage', 'push notifications', 'turn based games', 'user accounts'],
+      favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AIVDB8W9wMHRAAAAqBJREFUOMuFlEtoU0EUhufMfSU36eOmuU2kD+0z9hGhCKJgKSVtdVGLoAu34kYQ14VCN4JrNwqCXVhBQXEhLixqpcVqRKRiKaUGS41JE9ImJmnSJje5d2Zc9GFMYntgNsP55p/5zzkD/be9qFyYBHzlTN1aPPtuKcZY2RTEl901KLva1zjUrVLGtjTywRfnOShNw6VbOYMOdNmHexw3JhcnZgOjF1oVi0DLiRfDjCETj28ONU3MBH5GMy/mI6GEdt1zNJsnh8MGpZ4uFQA9+xySeMwB3J/+NdCtOqulUvFiGBD0upSphQ2EACHEc/BlNRlL53tdNkLpIbBiFRrt8pwvzuNdh3gOPq0kTjRUlrD/wgwhRRZ4DiLJHOy5iwH5wmlntWQWuQOVGZIEnMkRQtl+bQHQRipvEjiRxwcrM5PAWSRuuMdxsqmKIWSR+P5Oe+9xG49B4KCoW7gmz7X9IjXWmMdG2hpqzIyxQbea2NY9nfa+jpp2p7XeZq6zmbw/4oWe44LeIOMX2+f9ydeL0SqLoOmko66ixWGJbeWrZf7eW79aIV06dcQooHdhStkxu9xcKz/xhu5MrQZj2fVU/uH74KOPQWel9NgbmpwLvvq2ft5dSwgr7m3CUL3NTCizWUV3g2lm+XcqqyuysLltPJgNVJr4wW4VAJyKRFkJjAGFEprI47GRto1UTifULHCOKjFvsGg6pxNkFnCrw5LKGABQDHMYwglt/Pn3hUBaJ5RQdrpFuXXZtZk1Rp8up7MGBqRYRUUWRB7KGAaA5nzxLc3I6TSbJ2ddtpdfI/5oplmVNZ1oOg0ntKW1NC5V3rs8FI6XJHAij9nftt9ZB87zziuml6Ln3GqFiVuJbBceevhPggEWAqm7b/zhhJbM6Og/8QdPGR4C3Pzl+gAAAABJRU5ErkJggg=="
     },
     {
       r: 25,
