@@ -68,6 +68,16 @@ When you're done implementing the changes and testing (including mobile and tabl
 
 **WARNING: Do not commit anything in the `dist` folder!**
 
+###Deployment (Only for project maintainers)
+
+1. Run `grunt`.  The project is built into the `dist` folder
+2. Commit the changes in the `dist` folder.  In the commit message just write "Deploy"
+3. Push changes: `git push origin master`
+4. Deploy the `gh-pages` as a subtree:
+```
+git subtree push --prefix dist/ origin gh-pages
+```
+
 
 ## SOOMLA, Elsewhere ...
 
