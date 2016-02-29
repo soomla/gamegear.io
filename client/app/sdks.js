@@ -242,7 +242,7 @@
     {
       r: "N/A",
       name: "Batch",
-      description: "The free retention toolkit for indie developers & startups, packed with the features you need to put retention on autopilot and spend more time on code and design.",
+      description: "The notifications infrastructure of successful mobile apps. AI-defined + custom segmentation on top of what may be the world’s fastest push sender. Sync Batch across the enterprise with our set of APIs.",
       founded: 2014,
       hq: "Paris",
       c: "fr",
@@ -250,8 +250,8 @@
       github: "https://github.com/BatchLabs",
       crunchbase: "https://www.crunchbase.com/organization/batch",
       download: "https://batch.com",
-      platforms: ['ios', 'android', 'unity', 'air'],
-      tags: ['push', 'ads', 'analytics','engagement','rewards','retention'],
+      platforms: ['ios', 'android', 'unity', 'air', 'phonegap'],
+      tags: ['push notifications', 'marketing analytics', 'engagement','retention'],
       favicon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAA3NCSVQICAjb4U/gAAAAm0lEQVQokWPUs/ZjIAUwkaSaGhouHtno62ZDmg2y0pKkabC1Nju+a8XFIxuXz+mWEBUkrIGbi6utZ0pNUzc3F1dLTQGaLAumhlXrtmzedYSBgYGfj7e0IIOwDfgBFhvCgnw+fvoMYZw+e4Gwhlev31SV5HBxcV67caumZQKaLCOpSQPFBtXqaVgV3W7Nwq7hzZWTBG0g2UkkBysA1WosbD76iHwAAAAASUVORK5CYII="
     },
     {
